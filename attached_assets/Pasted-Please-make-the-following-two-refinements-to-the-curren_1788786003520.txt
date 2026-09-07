@@ -1,0 +1,95 @@
+Please make the following two refinements to the current portfolio website.
+
+IMPORTANT:
+- Do not redesign the Hero section.
+- Do not change the current overall visual direction.
+- Keep the existing typography, colors, spacing, layout, buttons, animations, and social icons.
+- Only make the specific changes requested below.
+
+## 1. ADJUST THE HERO PORTRAIT POSITION
+
+The current portrait in the Hero section is positioned too low inside the image container.
+
+Please adjust the image cropping/positioning so that my face and head appear slightly higher within the existing portrait card.
+
+Desired result:
+- Move the visible subject upward.
+- Reduce excessive empty white space above my head.
+- Keep the current image/card dimensions.
+- Keep the rounded corners.
+- Keep the lower part of the portrait naturally visible.
+- Do not stretch or distort the image.
+- Do not significantly zoom in unless necessary for proper composition.
+- Do not alter, regenerate, retouch, or synthesize my face.
+- Use the actual uploaded portrait photo.
+
+The goal is simply to improve the crop and visual positioning of the existing portrait.
+
+Please use the appropriate CSS image positioning/cropping technique for the current implementation (such as object-position or equivalent), rather than permanently modifying the original image.
+
+The portrait should feel balanced with the left-side Hero content.
+
+## 2. IMPLEMENT THE DOWNLOAD CV BUTTON
+
+I have uploaded my CV as a PDF to the project.
+
+Use the uploaded CV file as the destination for the existing:
+
+"Download CV"
+
+button.
+
+The CV filename is:
+
+"Ahsan-Mubarak-CV.pdf"
+
+Please place/use it within the project's existing appropriate static/public assets directory according to the current project structure.
+
+IMPORTANT:
+- Do not change the project's framework or architecture.
+- Use the existing asset structure.
+- Make the "Download CV" button actually download the PDF.
+- Preserve the existing button design and styling.
+- Do not open a new page unnecessarily.
+- The downloaded filename should remain:
+  "Ahsan-Mubarak-CV.pdf"
+
+If the project uses a framework-specific routing or static asset structure, implement the download using the correct approach for that existing framework.
+
+## 3. FINAL HERO CHECK
+
+After making these changes, verify that the Hero still contains exactly:
+
+Badge:
+"OPEN TO OPPORTUNITIES"
+
+Main heading:
+"Ahsan Mubarak."
+
+Secondary heading:
+"Data Analyst."
+
+Description:
+"Turning data into clear insights, meaningful decisions, and practical solutions. Building toward Data Science and AI/ML."
+
+Primary CTA:
+"View Portfolio →"
+
+Secondary CTA:
+"Download CV"
+
+Social icons, in this exact order from left to right:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+Keep the existing links unchanged.
+
+Email must remain:
+
+mailto:ahsanmubarak2729@gmail.com
+
+Do not make any other unnecessary changes to the website.

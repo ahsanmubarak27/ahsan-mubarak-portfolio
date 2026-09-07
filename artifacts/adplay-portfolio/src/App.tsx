@@ -8,7 +8,7 @@ import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import formalPortrait from '@assets/PP_formal_1788778556647.png';
 
 type Filter = 'All' | 'Dev' | 'Design';
-const cvHref = '/ahsan-mubarak-cv.pdf';
+const cvHref = '/Ahsan-Mubarak-CV.pdf';
 
 const templates = [
   {
@@ -95,7 +95,7 @@ function App() {
             </p>
             <div className="reveal reveal-delay-3 mt-7 flex flex-wrap items-center gap-3">
               <button onClick={() => scrollToId('work')} className="group inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-5 py-3 text-[12px] font-semibold text-[#17181d] transition-transform hover:-translate-y-0.5" data-testid="button-view-portfolio">View Portfolio <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></button>
-              <a href={cvHref} download className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="link-download-cv">Download CV</a>
+              <a href={cvHref} download="Ahsan-Mubarak-CV.pdf" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="link-download-cv">Download CV</a>
             </div>
             <div className="mt-7 flex items-center gap-5 border-t border-white/[.07] pt-5 text-[#858791]">
               <a href="https://wa.link/f9tvwf" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="WhatsApp" data-testid="link-social-whatsapp"><FaWhatsapp size={17} /></a>
@@ -108,7 +108,7 @@ function App() {
           <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-[455px] lg:mx-0 lg:ml-auto">
             <div className="absolute -inset-5 rounded-[28px] bg-[#5653a8]/10 blur-3xl" />
             <div className="relative aspect-[.92] overflow-hidden rounded-[20px] border border-white/10 bg-[#b6b7bc]">
-              <img src={formalPortrait} alt="Ahsan Mubarak, data analyst" className="h-full w-full object-cover object-top grayscale" data-testid="img-founder-portrait" />
+              <img src={formalPortrait} alt="Ahsan Mubarak, data analyst" className="h-full w-full object-cover grayscale" style={{ objectPosition: 'center 60%' }} data-testid="img-founder-portrait" />
               <div className="absolute inset-x-3 bottom-3 flex items-center justify-between rounded-[13px] border border-white/15 bg-[#5a5b5e]/90 px-4 py-3 backdrop-blur-lg">
                 <div><p className="text-[12px] font-semibold text-white">Ahsan Mubarak</p><p className="font-mono text-[8px] tracking-[.13em] text-white/60">DATA • SCIENCE • ANALYTICS</p></div>
                 <Zap size={17} fill="#f2dc3d" stroke="#f2dc3d" />
