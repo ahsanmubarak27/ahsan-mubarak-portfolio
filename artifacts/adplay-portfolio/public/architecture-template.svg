@@ -1,0 +1,26 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#343946"/>
+      <stop offset="1" stop-color="#171a23"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9BA1AC"/>
+      <stop offset=".45" stop-color="#464D59"/>
+      <stop offset="1" stop-color="#20252F"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <circle cx="150" cy="120" r="130" fill="#77849D" opacity=".18" filter="url(#soft)"/>
+  <path d="M80 620L164 302H244L284 620H80Z" fill="#2A303A"/>
+  <path d="M232 620L298 196H350L404 620H232Z" fill="#666D77"/>
+  <path d="M390 620L439 108H492L535 620H390Z" fill="url(#tower)"/>
+  <path d="M520 620L572 264H663L705 620H520Z" fill="#333944"/>
+  <path d="M692 620L760 364H840L900 620H692Z" fill="#1E232D"/>
+  <g stroke="#CAD0D9" stroke-opacity=".33">
+    <path d="M440 155H492M436 188H496M432 225H500M428 265H503M423 309H508M418 358H512M412 414H518M406 478H524"/>
+    <path d="M572 318H663M567 360H668M561 404H674M555 452H680M548 506H687"/>
+  </g>
+  <path d="M0 580L900 500V620H0V580Z" fill="#11141B" opacity=".68"/>
+</svg>
