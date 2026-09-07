@@ -1,0 +1,168 @@
+Please update the HERO section of my portfolio website based on the following final specifications.
+
+IMPORTANT:
+- Keep the existing overall design, layout, spacing, typography hierarchy, animations, and visual style unless specifically mentioned below.
+- Do not redesign the entire website.
+- Only refine and update the Hero section and its related content.
+- The final result should feel professional, clean, precise, minimalist, modern, and premium.
+- Avoid making it look overly futuristic, cyberpunk, gaming-oriented, or overly decorative.
+
+## 1. HERO CONTENT
+
+Replace the current placeholder hero content with exactly:
+
+Badge:
+"OPEN TO OPPORTUNITIES"
+
+Main heading:
+"Ahsan Mubarak."
+
+Secondary heading:
+"Data Analyst."
+
+Description:
+"Turning data into clear insights, meaningful decisions, and practical solutions. Building toward Data Science and AI/ML."
+
+Primary CTA:
+"View Portfolio →"
+
+Secondary CTA:
+"Download CV"
+
+The "View Portfolio" button should smoothly scroll to the Selected Projects / Portfolio section of the website.
+
+The "Download CV" button should be prepared as a link to my CV file. Keep the implementation easy to update later when I upload the actual CV file.
+
+## 2. SOCIAL / CONTACT ICONS
+
+At the bottom of the Hero section, keep the existing horizontal social/contact icon row.
+
+The exact order from LEFT TO RIGHT must be:
+
+1. WhatsApp
+2. LinkedIn
+3. Email
+4. GitHub
+5. Kaggle
+
+Use appropriate recognizable icons for each platform.
+
+Links:
+
+WhatsApp:
+https://wa.link/f9tvwf
+
+LinkedIn:
+https://www.linkedin.com/in/ahsan-mubarak-854378314/
+
+Email:
+mailto:ahsanmubarak2729@gmail.com
+
+GitHub:
+https://github.com/ahsanmubarak27
+
+Kaggle:
+https://www.kaggle.com/ahsanmubarak
+
+IMPORTANT EMAIL IMPLEMENTATION:
+- Use exactly this mailto link for the Email icon:
+  mailto:ahsanmubarak2729@gmail.com
+- Do NOT replace it with a Gmail web URL.
+- Do NOT use a mailto link generator.
+- Do NOT add a Gmail-specific compose URL.
+- The purpose is to open the visitor's default email application with my email address as the recipient.
+- Do not display my full email address in the icon row unless required by the existing design.
+
+For external website links such as WhatsApp, LinkedIn, GitHub, and Kaggle, open them in a new tab where appropriate.
+
+Keep the icon row visually minimal and consistent with the existing design.
+
+## 3. HERO IMAGE
+
+Replace the current placeholder/person image in the Hero section with the professional portrait photo I will provide/upload.
+
+Use the uploaded portrait as the actual Hero image.
+
+IMPORTANT:
+- Do not generate or synthesize a different person.
+- Do not significantly alter my facial appearance.
+- Keep the photo professional and natural.
+- Crop the image appropriately for the existing Hero composition.
+- Maintain the existing rounded-corner image/card treatment if it fits the design.
+- Make sure the portrait integrates naturally with the dark portfolio theme.
+
+## 4. IMAGE / CARD STYLING
+
+Adapt the image presentation to match the portfolio's existing visual identity.
+
+The overall website identity is:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Detail-oriented
+
+The Hero image should therefore feel like part of a premium professional portfolio rather than a generic template.
+
+Use subtle borders, spacing, and contrast if needed, but avoid excessive glow, gradients, or decorative effects.
+
+## 5. HERO VISUAL BALANCE
+
+Maintain the current two-column Hero composition if it works well:
+
+LEFT:
+- Badge
+- Name
+- Professional title
+- Description
+- CTA buttons
+- Social/contact icons
+
+RIGHT:
+- Professional portrait
+
+Make sure the visual weight between the text and portrait is balanced.
+
+The name "Ahsan Mubarak." should remain the strongest textual element.
+
+"Data Analyst." should act as the secondary emphasis.
+
+The description should remain readable and not become too wide or crowded.
+
+## 6. RESPONSIVE DESIGN
+
+Make sure the updated Hero remains fully responsive.
+
+Desktop:
+- Maintain the two-column composition.
+
+Tablet:
+- Adjust spacing and image size appropriately.
+
+Mobile:
+- Stack the Hero content vertically.
+- Keep the portrait properly cropped.
+- Keep CTA buttons usable.
+- Keep the five social icons in the correct order.
+- Ensure there is no horizontal overflow.
+
+## 7. FINAL DESIGN INTENT
+
+The Hero should communicate this impression within the first few seconds:
+
+"Professional, structured, detail-oriented, and serious about data."
+
+The website should present me primarily as a Data Analyst, while subtly communicating my longer-term direction toward Data Science and AI/ML.
+
+Do not use phrases such as:
+- AI Creator
+- AI-powered web templates
+- Intelligent generation
+- Creative AI
+- Web designer
+
+Those concepts are not part of my professional positioning.
+
+Please implement these changes without unnecessarily changing the rest of the existing website.

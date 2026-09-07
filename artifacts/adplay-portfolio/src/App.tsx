@@ -1,11 +1,14 @@
 import { type ReactNode, useMemo, useState } from 'react';
 import {
   ArrowDownRight, ArrowRight, Check, Code2, ExternalLink,
-  Figma, Globe2, Layers3, Linkedin, Mail, Menu, MessageCircle,
+  Figma, Layers3, Mail, Menu,
   Palette, Play, Sparkles, Target, X, Zap,
 } from 'lucide-react';
+import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
+import formalPortrait from '@assets/PP_formal_1788778556647.png';
 
 type Filter = 'All' | 'Dev' | 'Design';
+const cvHref = '/ahsan-mubarak-cv.pdf';
 
 const templates = [
   {
@@ -81,32 +84,33 @@ function App() {
         <section id="top" className="relative grid min-h-[calc(100dvh-5rem)] items-center gap-12 px-0 pb-20 pt-20 lg:grid-cols-[1.01fr_.99fr] lg:gap-16 lg:pt-16">
           <div className="pointer-events-none absolute -left-28 top-10 h-72 w-72 rounded-full bg-[#1e818b]/[.09] blur-[100px]" />
           <div className="relative z-10">
-            <div className="reveal mb-7 inline-flex items-center gap-2 rounded-full border border-[#6373df]/25 bg-[#313d9d]/10 px-3 py-1.5 text-[11px] font-medium text-[#8994ee]" data-testid="status-availability">
-              <span className="size-1.5 rounded-full bg-[#707fff] shadow-[0_0_10px_#6877ff]" /> Available for new projects
+            <div className="reveal mb-7 inline-flex items-center gap-2 rounded-full border border-[#6373df]/25 bg-[#313d9d]/10 px-3 py-1.5 text-[11px] font-medium tracking-[.03em] text-[#8994ee]" data-testid="status-availability">
+              <span className="size-1.5 rounded-full bg-[#707fff] shadow-[0_0_10px_#6877ff]" /> OPEN TO OPPORTUNITIES
             </div>
             <h1 className="reveal reveal-delay-1 max-w-[580px] font-display text-[clamp(3.7rem,7vw,6.2rem)] font-medium leading-[.91] tracking-[-.075em] text-[#f1f1f3]" data-testid="text-hero-title">
-              Garry Audie,<br /><span className="text-[#76777f]">A.I.</span> Creator.
+              Ahsan Mubarak.<br /><span className="text-[#76777f]">Data Analyst.</span>
             </h1>
             <p className="reveal reveal-delay-2 mt-7 max-w-[475px] text-[15px] leading-[1.52] text-[#91939d]" data-testid="text-hero-description">
-              Engineering AI-powered web templates where design precision meets intelligent generation. Based in Indonesia.
+              Turning data into clear insights, meaningful decisions, and practical solutions. Building toward Data Science and AI/ML.
             </p>
             <div className="reveal reveal-delay-3 mt-7 flex flex-wrap items-center gap-3">
-              <button onClick={() => scrollToId('work')} className="group inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-5 py-3 text-[12px] font-semibold text-[#17181d] transition-transform hover:-translate-y-0.5" data-testid="button-view-templates">View Templates <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></button>
-              <button onClick={() => setDialog('pricing')} className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="button-see-pricing">See Pricing</button>
+              <button onClick={() => scrollToId('work')} className="group inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-5 py-3 text-[12px] font-semibold text-[#17181d] transition-transform hover:-translate-y-0.5" data-testid="button-view-portfolio">View Portfolio <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></button>
+              <a href={cvHref} download className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="link-download-cv">Download CV</a>
             </div>
             <div className="mt-7 flex items-center gap-5 border-t border-white/[.07] pt-5 text-[#858791]">
-              <a href="https://x.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="X" data-testid="link-social-x"><MessageCircle size={17} strokeWidth={1.5} /></a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="Instagram" data-testid="link-social-instagram"><Globe2 size={17} strokeWidth={1.5} /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="LinkedIn" data-testid="link-social-linkedin"><Linkedin size={17} strokeWidth={1.5} /></a>
-              <a href="mailto:hello@adplay.studio" className="transition-colors hover:text-white" aria-label="Email" data-testid="link-social-email"><Mail size={17} strokeWidth={1.5} /></a>
+              <a href="https://wa.link/f9tvwf" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="WhatsApp" data-testid="link-social-whatsapp"><FaWhatsapp size={17} /></a>
+              <a href="https://www.linkedin.com/in/ahsan-mubarak-854378314/" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="LinkedIn" data-testid="link-social-linkedin"><FaLinkedinIn size={16} /></a>
+              <a href="mailto:ahsanmubarak2729@gmail.com" className="transition-colors hover:text-white" aria-label="Email" data-testid="link-social-email"><Mail size={17} strokeWidth={1.5} /></a>
+              <a href="https://github.com/ahsanmubarak27" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="GitHub" data-testid="link-social-github"><FaGithub size={17} /></a>
+              <a href="https://www.kaggle.com/ahsanmubarak" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="Kaggle" data-testid="link-social-kaggle"><FaKaggle size={16} /></a>
             </div>
           </div>
           <div className="reveal reveal-delay-2 relative mx-auto w-full max-w-[455px] lg:mx-0 lg:ml-auto">
             <div className="absolute -inset-5 rounded-[28px] bg-[#5653a8]/10 blur-3xl" />
             <div className="relative aspect-[.92] overflow-hidden rounded-[20px] border border-white/10 bg-[#b6b7bc]">
-              <img src="/adplay-portrait.png" alt="Garry Audie, founder of AdPlay" className="h-full w-full object-cover object-top grayscale" data-testid="img-founder-portrait" />
+              <img src={formalPortrait} alt="Ahsan Mubarak, data analyst" className="h-full w-full object-cover object-top grayscale" data-testid="img-founder-portrait" />
               <div className="absolute inset-x-3 bottom-3 flex items-center justify-between rounded-[13px] border border-white/15 bg-[#5a5b5e]/90 px-4 py-3 backdrop-blur-lg">
-                <div><p className="text-[12px] font-semibold text-white">AdPlay Media</p><p className="font-mono text-[8px] tracking-[.13em] text-white/60">CREATIVE AI &amp; AI STUDIO</p></div>
+                <div><p className="text-[12px] font-semibold text-white">Ahsan Mubarak</p><p className="font-mono text-[8px] tracking-[.13em] text-white/60">DATA • SCIENCE • ANALYTICS</p></div>
                 <Zap size={17} fill="#f2dc3d" stroke="#f2dc3d" />
               </div>
             </div>
