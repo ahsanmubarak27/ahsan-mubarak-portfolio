@@ -1,6 +1,6 @@
 import { type ReactNode, useMemo, useState } from 'react';
 import {
-  ArrowDownRight, ArrowRight, Check, Code2, ExternalLink,
+  ArrowDownRight, ArrowRight, BarChart3, Check, Code2, ExternalLink,
   Figma, Layers3, Mail, Menu,
   Palette, Play, Sparkles, Target, X, Zap,
 } from 'lucide-react';
@@ -120,25 +120,24 @@ function App() {
         <section id="about" className="section-rule scroll-mt-24 py-24 sm:py-28">
           <div className="grid gap-10 lg:grid-cols-[1.35fr_.65fr]">
             <div>
-              <SectionKicker>About AdPlay</SectionKicker>
+              <SectionKicker>About Me</SectionKicker>
               <p className="mt-3 max-w-[650px] text-[15px] leading-[1.55] text-[#a2a3ac]" data-testid="text-about-description">
-                AdPlay is a creative studio specializing in AI-engineered web templates — prompt frameworks designed to give any AI the exact “Design-DNA” it needs to produce polished, production-quality websites. We believe the gap between a generic AI output and a premium hand-crafted site is just a better prompt.
+                I'm a Data Science student interested in turning data into clear insights and practical solutions. My work focuses on data analysis, business performance, and structured problem-solving, with experience across freelance and independent projects.
               </p>
               <div className="mt-7 grid gap-3 sm:grid-cols-2">
-                <InfoCard icon={<Zap size={17} />} title="Our Origin">Built from frustration with generic AI outputs — every template is a refined engineering prompt for creative precision.</InfoCard>
-                <InfoCard icon={<Target size={17} />} title="Current Focus">Expanding our template library across industries — architecture, SaaS, e-commerce, and personal brands.</InfoCard>
+                <InfoCard icon={<Target size={17} />} title="My Approach">I enjoy understanding the story behind the numbers — identifying meaningful patterns, evaluating performance, and translating findings into practical insights.</InfoCard>
+                <InfoCard icon={<BarChart3 size={17} />} title="What I Work On">From sales and marketing to e-commerce and operations, I explore different business problems through data and analytical thinking.</InfoCard>
               </div>
             </div>
             <div className="glass rounded-2xl p-5 sm:p-6">
-              <p className="text-[12px] font-semibold text-[#dddde3]">Our Values</p>
+              <p className="text-[12px] font-semibold text-[#dddde3]">Focus Areas</p>
               <div className="mt-4 flex flex-wrap gap-2">
-                {['Precision', 'Minimalism', 'AI-First'].map((value) => <span key={value} className="rounded-full bg-white/[.08] px-3 py-1.5 text-[11px] text-[#a9abb5]" data-testid={`badge-value-${value.toLowerCase()}`}>{value}</span>)}
+                {['Data Analysis', 'Business Analytics', 'Data Visualization', 'Statistical Analysis'].map((value) => <span key={value} className="rounded-full bg-white/[.08] px-3 py-1.5 text-[11px] text-[#a9abb5]" data-testid={`badge-focus-${value.toLowerCase().replaceAll(' ', '-')}`}>{value}</span>)}
               </div>
-              <p className="mt-16 text-[12px] font-semibold text-[#dddde3]">Specialties</p>
-              <div className="mt-4 space-y-3 text-[12px] text-[#8a8c97]">
-                <p className="flex items-center gap-3"><Sparkles size={14} className="text-[#7b83ff]" /> AI Prompt Engineering</p>
-                <p className="flex items-center gap-3"><Layers3 size={14} className="text-[#8f95a3]" /> Web Design Systems</p>
-                <p className="flex items-center gap-3"><Palette size={14} className="text-[#d390ee]" /> Brand &amp; Visual Identity</p>
+              <p className="mt-16 text-[12px] font-semibold text-[#dddde3]">Currently Building</p>
+              <div className="mt-4">
+                <p className="font-display text-[18px] font-semibold tracking-[-.035em] text-[#e7e7eb]">Data Science → AI/ML</p>
+                <p className="mt-2 text-[12px] leading-[1.55] text-[#8a8c97]">Strengthening my foundation in analytics, statistics, programming, and research.</p>
               </div>
             </div>
           </div>

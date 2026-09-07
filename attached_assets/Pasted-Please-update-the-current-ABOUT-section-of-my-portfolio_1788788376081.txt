@@ -1,0 +1,172 @@
+Please update the current ABOUT section of my portfolio website.
+
+IMPORTANT:
+- Keep the existing About section layout, card structure, spacing, typography hierarchy, animations, and overall visual language.
+- Do NOT redesign this section from scratch.
+- Keep the current 2-column composition:
+  - Large introduction/content area on the left
+  - Two smaller cards below the introduction
+  - One larger information card on the right
+- Replace the existing "AdPlay" content completely with the content below.
+- The section should feel like a professional personal portfolio, NOT a CV.
+- Keep the existing dark, minimalist, premium visual style.
+- Avoid excessive futuristic effects, gradients, glow, decorative elements, or unnecessary animations.
+
+## 1. SECTION TITLE
+
+Replace:
+
+"About AdPlay"
+
+with:
+
+"About Me"
+
+## 2. MAIN INTRODUCTION
+
+Replace the existing AdPlay description with exactly:
+
+"I'm a Data Science student interested in turning data into clear insights and practical solutions. My work focuses on data analysis, business performance, and structured problem-solving, with experience across freelance and independent projects."
+
+Keep this as the primary introduction text.
+
+Do not add GPA, coursework, certifications, or a long list of skills here. This is a portfolio About section, not a CV summary.
+
+## 3. LEFT BOTTOM CARD — MY APPROACH
+
+Replace the current "Our Origin" card with:
+
+Title:
+"My Approach"
+
+Description:
+"I enjoy understanding the story behind the numbers — identifying meaningful patterns, evaluating performance, and translating findings into practical insights."
+
+Use an appropriate minimal icon that represents analytical thinking or data interpretation.
+
+Keep the existing card styling.
+
+## 4. CENTER BOTTOM CARD — WHAT I WORK ON
+
+Replace the current "Current Focus" card with:
+
+Title:
+"What I Work On"
+
+Description:
+"From sales and marketing to e-commerce and operations, I explore different business problems through data and analytical thinking."
+
+Use an appropriate minimal icon related to analytics, business, or data.
+
+Keep the existing card styling.
+
+## 5. RIGHT CARD
+
+Replace the existing "Our Values" card completely.
+
+Use:
+
+Title:
+"Focus Areas"
+
+Under the title, display these four compact tags/pills:
+
+"Data Analysis"
+"Business Analytics"
+"Data Visualization"
+"Statistical Analysis"
+
+Keep these visually clean and consistent with the existing pill/tag design.
+
+Below the focus areas, add a subsection:
+
+Title:
+"Currently Building"
+
+Main emphasis:
+"Data Science → AI/ML"
+
+Supporting text:
+"Strengthening my foundation in analytics, statistics, programming, and research."
+
+The "Data Science → AI/ML" text should have slightly stronger visual emphasis than the supporting text, but should not overpower the main About section heading.
+
+## 6. CONTENT ACCURACY
+
+The content should accurately reflect my professional profile.
+
+My current positioning:
+- Data Analyst
+- Undergraduate Data Science student
+- Interested in data analysis and business performance
+- Building toward Data Science and AI/ML
+
+My project experience includes data analysis across:
+- Sales
+- Marketing
+- E-commerce
+- Customer analytics
+- Supply chain / operations
+- Profitability analysis
+
+Do not claim that I am already an AI/ML specialist or Data Scientist.
+
+Do not introduce technologies, achievements, experiences, or responsibilities that are not supported by my existing portfolio/CV.
+
+## 7. VISUAL DIRECTION
+
+The final About section should communicate:
+
+- Professional
+- Clean
+- Precise
+- Minimalist
+- Modern
+- Detail-oriented
+- Analytical
+
+It should feel like a premium personal Data Analyst portfolio.
+
+Avoid making it feel like:
+- A corporate company "About Us" page
+- A resume/CV section
+- An AI startup landing page
+- A futuristic/cyberpunk website
+
+The visitor should immediately understand that this is a personal portfolio belonging to Ahsan Mubarak.
+
+## 8. RESPONSIVE DESIGN
+
+Ensure the section remains fully responsive.
+
+Desktop:
+- Preserve the existing composition.
+
+Tablet:
+- Adjust card widths and spacing naturally.
+
+Mobile:
+- Stack the content and cards vertically.
+- Maintain readable typography.
+- Keep appropriate spacing between cards.
+- Avoid horizontal overflow.
+
+## 9. IMPORTANT — DO NOT MODIFY OTHER SECTIONS
+
+Only update the About section and its content.
+
+Do NOT modify:
+- Hero section
+- Navigation
+- Selected Projects
+- Skills
+- Experience
+- Contact
+- Footer
+- Existing social links
+- Existing CV functionality
+- Existing project data
+
+Preserve everything else exactly as it currently works.
+
+After implementing the changes, verify that the About section renders correctly on desktop and mobile.
