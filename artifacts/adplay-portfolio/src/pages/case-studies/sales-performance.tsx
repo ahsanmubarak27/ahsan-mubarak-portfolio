@@ -2,6 +2,9 @@ import { useEffect } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ExternalLink, ArrowRight, BarChart3, Database, Lightbulb, ChevronRight, Mail } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
+import datasetFile from '@assets/Charmpernix_SKU_1789049935010.csv?url';
+import notebookFile from '@assets/Charmpernix_1789049935007.ipynb?url';
+import presentationFile from '@assets/Charmpernix_1789049935009.pptx?url';
 
 export default function CaseStudySales() {
   useEffect(() => {
@@ -325,40 +328,33 @@ export default function CaseStudySales() {
             </div>
           </section>
 
-          {/* 07 — PROJECT EVIDENCE */}
+          {/* 07 — PROJECT FILES */}
           <section className="section-rule pt-20 pb-20">
-            <p className="mb-6 font-mono text-[10px] tracking-[.14em] text-[#5f626e]">07 — PROJECT EVIDENCE</p>
-            <div className="grid gap-5 sm:grid-cols-2">
-              <a href="https://datastudio.google.com/reporting/de945f07-6547-4d33-9aa8-464c4283ab93" target="_blank" rel="noreferrer" className="glass group flex flex-col justify-between rounded-2xl p-6 transition-colors hover:border-white/[.15] hover:bg-white/[.03]" data-testid="evidence-dashboard">
+            <p className="mb-6 font-mono text-[10px] tracking-[.14em] text-[#5f626e]">07 — PROJECT FILES</p>
+            <div className="grid gap-5 md:grid-cols-3">
+              <a href={datasetFile} download="Charmpernix_SKU.csv" className="glass group flex flex-col justify-between rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-white/[.15] hover:bg-white/[.03]" data-testid="link-download-dataset">
                 <div>
-                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0] group-hover:text-white">Dashboard <ArrowRight size={14} className="text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" /></h4>
-                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Interactive Looker Studio dashboard.</p>
+                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0] group-hover:text-white">Dataset <ArrowRight size={14} className="text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" /></h4>
+                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Source dataset used for the sales performance analysis.</p>
                 </div>
+                <span className="mt-6 font-mono text-[9px] tracking-[.1em] text-[#7b83ff]">DOWNLOAD CSV</span>
               </a>
-              
-              <div className="glass group flex flex-col justify-between rounded-2xl p-6 opacity-70 transition-colors" data-testid="evidence-github">
-                <div>
-                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0]">GitHub <ArrowRight size={14} className="text-white/30" /></h4>
-                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Code, analysis files, Excel, and project documentation.</p>
-                </div>
-                <div className="mt-4"><span className="inline-flex rounded border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-[#777985]">Pending Source Upload</span></div>
-              </div>
 
-              <div className="glass group flex flex-col justify-between rounded-2xl p-6 opacity-70 transition-colors" data-testid="evidence-presentation">
+              <a href={notebookFile} download="Charmpernix.ipynb" className="glass group flex flex-col justify-between rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-white/[.15] hover:bg-white/[.03]" data-testid="link-download-notebook">
                 <div>
-                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0]">Presentation <ArrowRight size={14} className="text-white/30" /></h4>
-                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Project presentation and analytical findings.</p>
+                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0] group-hover:text-white">Analysis Notebook <ArrowRight size={14} className="text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" /></h4>
+                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Python notebook containing the data cleaning, preprocessing, and analysis workflow.</p>
                 </div>
-                <div className="mt-4"><span className="inline-flex rounded border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-[#777985]">Pending Source Upload</span></div>
-              </div>
+                <span className="mt-6 font-mono text-[9px] tracking-[.1em] text-[#7b83ff]">DOWNLOAD IPYNB</span>
+              </a>
 
-              <div className="glass group flex flex-col justify-between rounded-2xl p-6 opacity-70 transition-colors" data-testid="evidence-kaggle">
+              <a href={presentationFile} download="Charmpernix(2).pptx" className="glass group flex flex-col justify-between rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-white/[.15] hover:bg-white/[.03]" data-testid="link-download-presentation">
                 <div>
-                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0]">Kaggle / Dataset Source <ArrowRight size={14} className="text-white/30" /></h4>
-                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Dataset and/or public analysis source, if applicable.</p>
+                  <h4 className="flex items-center gap-2 font-display text-[16px] font-semibold text-[#ecedf0] group-hover:text-white">Presentation <ArrowRight size={14} className="text-white/50 transition-transform group-hover:translate-x-1 group-hover:text-white" /></h4>
+                  <p className="mt-2 text-[13px] leading-[1.5] text-[#858792]">Project presentation covering the analysis, findings, conclusions, and recommendations.</p>
                 </div>
-                <div className="mt-4"><span className="inline-flex rounded border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-[#777985]">Pending Source Upload</span></div>
-              </div>
+                <span className="mt-6 font-mono text-[9px] tracking-[.1em] text-[#7b83ff]">DOWNLOAD PPTX</span>
+              </a>
             </div>
             
             <div className="mt-16 flex justify-center border-t border-white/[.07] pt-12">
