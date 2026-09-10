@@ -1,0 +1,415 @@
+BUILD / UPDATE PROJECT CASE STUDY — GOOGLE ADS CAMPAIGN PERFORMANCE ANALYSIS
+
+Create the Google Ads project case study page as an internal case study page within the existing portfolio website.
+
+IMPORTANT:
+This case study must follow the exact same visual system as the existing portfolio and the CPX SPORTWEAR case study, but DO NOT force the CPX section structure onto this project.
+
+The Google Ads project does NOT need a "The Data Challenge" section.
+
+==================================================
+PROJECT INFORMATION
+==================================================
+
+Project Title:
+Google Ads Campaign Performance Analysis
+
+Context:
+Independent Project
+
+Tools:
+Python, Looker Studio
+
+Project Focus:
+Analyze Google Ads campaign performance to understand the advertising funnel, identify performance patterns across devices and campaign metrics, and generate practical recommendations for improving campaign performance.
+
+==================================================
+CASE STUDY STRUCTURE
+==================================================
+
+Use exactly this structure:
+
+01 — Overview
+02 — Data Preparation
+03 — Analysis & Key Findings
+04 — Dashboard
+05 — Recommendations
+06 — Project Files
+
+IMPORTANT:
+Do NOT add:
+- The Data Challenge
+- Testimonials
+- Extra template sections
+- Services
+- Pricing
+- Contact forms
+- Unnecessary decorative sections
+
+This project should remain more concise than the CPX SPORTWEAR case study.
+
+==================================================
+01 — OVERVIEW
+==================================================
+
+Title:
+Overview
+
+Description:
+
+This project analyzes Google Ads campaign performance to understand how users move through the advertising funnel, identify performance differences across devices, and uncover opportunities to improve campaign effectiveness.
+
+Key Facts:
+
+- Project Type: Independent Project
+- Tools: Python, Looker Studio
+- Focus: Google Ads campaign performance and conversion funnel
+- Analysis Approach: Data cleaning, exploratory analysis, performance analysis, visualization, and dashboard development
+
+DATA SOURCE
+
+Add a small "Data Source" area within the Overview section.
+
+Label:
+Data Source
+
+Name:
+Kaggle — Google Ads Sales Dataset
+
+Button:
+View Dataset →
+
+Link:
+https://www.kaggle.com/datasets/nayakganesh007/google-ads-sales-dataset
+
+Behavior:
+- Open the Kaggle link in a new browser tab.
+- Use the existing button/link styling from the portfolio.
+- Keep this area compact.
+- Do NOT place Kaggle under Project Files.
+- Do NOT duplicate the Kaggle link elsewhere on the page.
+
+==================================================
+02 — DATA PREPARATION
+==================================================
+
+Title:
+Data Preparation
+
+Explain the preparation process based on the actual project work and available project materials.
+
+Include relevant steps such as:
+
+- Inspecting the dataset structure and variables
+- Checking data quality and consistency
+- Preparing campaign performance metrics for analysis
+- Cleaning and organizing the data using Python
+- Preparing analysis-ready variables and summaries
+- Preparing the data for visualization and dashboard development
+
+Keep this section concise.
+
+Do NOT claim preprocessing steps that are not supported by the actual project materials.
+
+Use the same visual treatment as the other case study pages.
+
+Suggested workflow:
+
+Raw Data → Data Cleaning → Metric Preparation → Analysis → Visualization
+
+==================================================
+03 — ANALYSIS & KEY FINDINGS
+==================================================
+
+Title:
+Analysis & Key Findings
+
+Present the actual Google Ads analysis clearly and visually.
+
+KEY FUNNEL METRICS
+
+Display the following values:
+
+- Impressions: 11.8M
+- Clicks: 361.2K
+- CTR: 3.07%
+- Leads: 52K
+- Lead Conversion from Clicks: 14.4%
+- Conversions: 16.9K
+- Conversion Rate from Leads: 32.51%
+
+Use clean metric cards or a compact visual hierarchy consistent with the existing case study design.
+
+KEY FINDINGS
+
+1. Funnel Performance
+
+The largest drop-off occurs between impressions and clicks, indicating that getting users to engage with the advertisements is the primary challenge in the funnel.
+
+2. Device Performance
+
+Mobile devices show the highest CTR and conversion performance, indicating stronger engagement and conversion potential from mobile users.
+
+3. Campaign Performance
+
+Campaign performance varies across the available campaign and advertising dimensions, creating opportunities to refine targeting and identify stronger-performing segments.
+
+4. Optimization Opportunity
+
+Improving ad engagement at the impression-to-click stage while continuing to scale stronger-performing segments could improve overall campaign efficiency.
+
+IMPORTANT:
+Use the actual project findings.
+
+Do NOT invent:
+- Additional metrics
+- ROI values
+- Revenue figures
+- Campaign names
+- Conversion values
+- Percentages
+- Performance claims
+
+unless they are explicitly supported by the actual project materials.
+
+==================================================
+04 — DASHBOARD
+==================================================
+
+Title:
+Dashboard
+
+Description:
+
+Interactive Looker Studio dashboard presenting the campaign funnel, performance metrics, and key advertising insights.
+
+Primary Button:
+Open Dashboard →
+
+The button must open the actual Looker Studio dashboard in a new browser tab.
+
+IMPORTANT:
+- Do NOT embed a large dashboard iframe.
+- Do NOT create a fake dashboard.
+- Do NOT add a dashboard screenshot unless specifically requested later.
+- Keep this section compact.
+- The dashboard is an external interactive resource.
+- Do NOT place the dashboard link inside Project Files.
+
+Use the same dashboard section style as the existing portfolio case studies.
+
+==================================================
+05 — RECOMMENDATIONS
+==================================================
+
+Title:
+Recommendations
+
+Present practical recommendations directly based on the analysis.
+
+1. Improve Ad Engagement
+
+Test stronger headlines, messaging, and creative variations to improve performance at the impression-to-click stage.
+
+2. Prioritize Mobile Performance
+
+Continue optimizing campaigns for mobile users given their stronger engagement and conversion performance.
+
+3. Refine Targeting
+
+Identify and prioritize stronger-performing audience, campaign, or advertising segments while reviewing weaker-performing segments.
+
+4. Scale High-Performing Opportunities
+
+Allocate more attention and campaign resources toward segments that demonstrate stronger conversion performance.
+
+5. Continuously Test and Optimize
+
+Use ongoing performance monitoring and testing to improve campaign effectiveness over time.
+
+Keep recommendations concise and directly connected to the findings.
+
+==================================================
+06 — PROJECT FILES
+==================================================
+
+Title:
+Project Files
+
+Provide clean resource cards or buttons for the actual project files.
+
+Include the available project resources:
+
+- Dataset
+- Analysis Notebook
+- Presentation
+
+Use the actual uploaded project file names/assets when implementing these links.
+
+IMPORTANT:
+Project Files should contain project working/output files only.
+
+DO NOT include:
+- Kaggle
+- Looker Studio Dashboard
+
+The distinction must remain:
+
+Kaggle = Data Source
+Looker Studio = Interactive Dashboard
+Project Files = Supporting Project Evidence
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+The Google Ads case study must visually feel like the same portfolio website and the same case-study system used for CPX SPORTWEAR.
+
+Reuse the existing:
+
+- Dark background
+- Accent color
+- Typography
+- Font hierarchy
+- Card design
+- Borders
+- Border radius
+- Shadows
+- Spacing system
+- Buttons
+- Hover states
+- Animations
+- Page width
+- Responsive behavior
+- Navigation
+
+Do NOT create a new visual identity.
+
+Do NOT:
+- Add neon colors
+- Add cyberpunk styling
+- Add excessive gradients
+- Add glowing effects
+- Add oversized decorative elements
+- Add unnecessary animations
+- Change the global navbar
+- Change global typography
+- Change the homepage
+- Redesign the CPX case study
+- Add unnecessary sections
+
+The Google Ads page should feel like a natural part of the same portfolio.
+
+==================================================
+CONTENT PRINCIPLE
+==================================================
+
+Follow this hierarchy:
+
+Homepage
+→ Quick project overview
+
+Case Study
+→ Detailed project story and analytical proof
+
+External Resources
+→ Evidence and deeper exploration
+
+For this project:
+
+Kaggle
+→ Data Source
+
+Looker Studio
+→ Interactive Dashboard
+
+Dataset / Notebook / Presentation
+→ Project Files
+
+Do not duplicate the same resource in multiple sections.
+
+==================================================
+NAVIGATION
+==================================================
+
+Ensure the existing Google Ads project card:
+
+View Case Study →
+
+correctly opens this Google Ads case study page.
+
+Ensure the page can return to the main Projects section using the existing navigation system.
+
+Do NOT modify the global navbar.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Make sure the page works properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain the same spacing, typography hierarchy, cards, buttons, and layout behavior used throughout the existing portfolio.
+
+Do not introduce horizontal scrolling.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only implement the Google Ads case study.
+
+Do NOT modify unrelated pages or components.
+
+Do NOT redesign existing sections.
+
+If the existing case-study template already has reusable components, reuse them rather than creating a completely separate design system.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do not redesign the page.
+- Do not restructure unrelated components.
+- Make sure the project compiles successfully before finishing.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before finishing, verify:
+
+1. The Google Ads case study page compiles successfully.
+2. The View Case Study button works.
+3. The page navigation works.
+4. The Kaggle "View Dataset →" link works.
+5. The Kaggle link opens in a new browser tab.
+6. The Looker Studio "Open Dashboard →" link works.
+7. The dashboard opens in a new browser tab.
+8. All project file links point to the correct uploaded files/assets.
+9. Kaggle is NOT duplicated under Project Files.
+10. Dashboard is NOT duplicated under Project Files.
+11. The page does NOT contain a "The Data Challenge" section.
+12. The page uses the same visual system as the existing portfolio.
+13. No existing homepage sections are changed.
+14. No global navbar changes are made.
+15. The page is responsive on desktop and mobile.
+16. No unsupported data, metrics, or claims have been invented.
+
+MOST IMPORTANT:
+
+KEEP THE DESIGN.
+KEEP THE GOOGLE ADS CONTENT STRUCTURE.
+DO NOT ADD "THE DATA CHALLENGE".
+USE THE ACTUAL PROJECT DATA.
+KAGGLE = DATA SOURCE.
+LOOKER STUDIO = DASHBOARD.
+PROJECT FILES = SUPPORTING EVIDENCE.
+ONLY IMPLEMENT THE GOOGLE ADS CASE STUDY.
