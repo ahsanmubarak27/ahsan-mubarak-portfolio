@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'wouter';
 import { ArrowLeft, ArrowRight, BarChart3, ChevronRight, ExternalLink, Lightbulb, Mail, MapPin, Star, Users } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
-import datasetFile from '@assets/ecommerce_customers_1789052490119.csv?url';
+import datasetFile from '@assets/E-commerce_Customer_Behavior_1789053436136.csv?url';
 import notebookFile from '@assets/identifying-and-profiling-high-clv-customers_1789052490117.ipynb?url';
 import presentationFile from '@assets/Identifying_and_Profiling_High-CLV_Customers_in_E-Commerce_1789052490115.pptx?url';
 
@@ -250,7 +250,7 @@ export default function CaseStudyCustomerLifetimeValue() {
             <p className="mb-6 font-mono text-[10px] tracking-[.14em] text-[#5f626e]">06 — PROJECT FILES</p>
             <div className="grid gap-5 md:grid-cols-3">
               {[
-                ['Dataset', 'ecommerce_customers.csv', datasetFile, 'Customer-level e-commerce dataset provided for the project.', 'DOWNLOAD CSV'],
+                ['Dataset', 'E-commerce Customer Behavior.csv', datasetFile, 'Customer-level e-commerce dataset used for the analysis.', 'DOWNLOAD CSV'],
                 ['Analysis Notebook', 'identifying-and-profiling-high-clv-customers.ipynb', notebookFile, 'Python notebook containing the analysis workflow.', 'DOWNLOAD IPYNB'],
                 ['Presentation', 'Identifying and Profiling High-CLV Customers in E-Commerce.pptx', presentationFile, 'Project presentation covering customer profiling, findings, and recommendations.', 'DOWNLOAD PPTX'],
               ].map(([title, filename, href, description, action]) => (

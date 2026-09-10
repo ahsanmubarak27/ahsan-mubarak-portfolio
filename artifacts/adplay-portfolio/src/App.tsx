@@ -13,6 +13,7 @@ import CaseStudySales from './pages/case-studies/sales-performance';
 import CaseStudyGoogleAds from './pages/case-studies/google-ads-campaign-performance';
 import CaseStudyCoffeeShop from './pages/case-studies/coffee-shop-sales-profit';
 import CaseStudyCustomerLifetimeValue from './pages/case-studies/customer-lifetime-value';
+import CaseStudySupplyChainFulfillment from './pages/case-studies/supply-chain-fulfillment';
 import NotFound from './pages/not-found';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
@@ -562,6 +563,7 @@ export default function App() {
       <Route path="/case-studies/google-ads-campaign-performance" component={CaseStudyGoogleAds} />
       <Route path="/case-studies/coffee-shop-sales-profit" component={CaseStudyCoffeeShop} />
       <Route path="/case-studies/customer-lifetime-value" component={CaseStudyCustomerLifetimeValue} />
+      <Route path="/case-studies/supply-chain-fulfillment" component={CaseStudySupplyChainFulfillment} />
       <Route component={NotFound} />
     </Switch>
   );

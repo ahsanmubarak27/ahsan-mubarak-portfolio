@@ -1,0 +1,696 @@
+BUILD / UPDATE PROJECT CASE STUDY — FULFILLMENT RATE ANALYSIS FOR SUPPLY CHAIN OPTIMIZATION
+
+Create the Supply Chain project case study page as an internal case study page within the existing portfolio website.
+
+IMPORTANT:
+This project is a separate case study from the previous projects.
+
+Use the actual project materials as the source of truth:
+- Fulfillment Rate Analysis for Supply Chain Optimization.pptx
+- Fulfillment-Rate-Analysis-for-Supply-Chain-Optimization.ipynb
+- supply_chain_data.csv
+
+Do not invent unsupported analysis steps, metrics, relationships, or business claims.
+
+==================================================
+PROJECT INFORMATION
+==================================================
+
+Project Title:
+Fulfillment Rate Analysis for Supply Chain Optimization
+
+Context:
+Independent Project
+
+Tools:
+Python, Looker Studio
+
+Project Focus:
+Identify potential drivers behind low fulfillment performance by analyzing fulfillment rate in relation to stock levels, lead time, and shipping time.
+
+==================================================
+CASE STUDY STRUCTURE
+==================================================
+
+Use exactly this structure:
+
+01 — Overview
+02 — The Data Challenge
+03 — Data Preparation
+04 — Analysis & Key Findings
+05 — Dashboard
+06 — Recommendations
+07 — Project Files
+
+IMPORTANT:
+This project DOES use a "The Data Challenge" section because the central story is investigating a clear operational problem: low fulfillment performance.
+
+Do NOT add:
+- Testimonials
+- Services
+- Pricing
+- Contact forms
+- Extra template sections
+- Unnecessary decorative sections
+
+==================================================
+01 — OVERVIEW
+==================================================
+
+Title:
+Overview
+
+BUSINESS CONTEXT
+
+Use this content:
+
+Fulfillment Rate is one of the key operational and efficiency KPIs in supply chain management. It measures how successfully a company fulfills customer orders.
+
+In this project, the fulfillment rate is 73.65%, indicating a potential operational performance issue that requires further investigation.
+
+Common potential causes of low fulfillment include low utilization rates, stock issues, shipping delays, and long lead times.
+
+PROJECT OBJECTIVE
+
+Use this content:
+
+This analysis aims to identify the most likely contributing factors behind low fulfillment performance based on the available data.
+
+DATASET
+
+Dataset:
+Supply Chain Data
+
+Description:
+
+This dataset contains supply chain variables related to order quantities, stock levels, availability, lead time, and shipping time.
+
+Key variables include:
+
+- Order quantities
+- Stock levels
+- Availability
+- Lead time
+- Shipping time
+
+DATA SOURCE
+
+Add a compact Data Source area.
+
+Name:
+Kaggle — Supply Chain Data
+
+Button:
+View Dataset →
+
+Link:
+https://www.kaggle.com/datasets/harshsingh2209/supply-chain-analysis
+
+Behavior:
+- Open the Kaggle link in a new browser tab.
+- Use the existing portfolio button/link styling.
+- Keep this area compact.
+- Do NOT place Kaggle under Project Files.
+- Do NOT duplicate the Kaggle link elsewhere on the page.
+
+KEY METRIC
+
+Display prominently:
+
+Fulfillment Rate
+73.65%
+
+DISCLAIMER
+
+Add a concise but clearly visible disclaimer:
+
+Fulfillment Rate in this analysis is calculated using the Availability column as a proxy for actual shipped items, since detailed shipping data is not available.
+
+IMPORTANT:
+Do not remove or hide this disclaimer. It is important for analytical credibility.
+
+==================================================
+02 — THE DATA CHALLENGE
+==================================================
+
+Title:
+The Data Challenge
+
+Primary challenge:
+
+Identifying the potential drivers behind low fulfillment performance.
+
+Content:
+
+The company has a fulfillment rate of 73.65%, creating a need to understand what may be contributing to incomplete order fulfillment.
+
+Several operational factors could potentially influence fulfillment performance, including stock levels, lead time, and shipping time.
+
+The analysis therefore investigates whether these available variables show meaningful relationships with fulfillment performance.
+
+Use a simple investigation framing:
+
+Low Fulfillment
+↓
+Investigate Potential Drivers
+↓
+Stock Levels
+Lead Time
+Shipping Time
+↓
+Test Relationships
+↓
+Identify What the Data Can and Cannot Explain
+
+IMPORTANT:
+Do not state that any of these factors definitely caused the low fulfillment rate.
+
+The purpose of the analysis is to investigate potential relationships, not to prove causation.
+
+==================================================
+03 — DATA PREPARATION
+==================================================
+
+Title:
+Data Preparation
+
+Keep this section concise and technically accurate.
+
+Describe the preparation around the variables used in the analysis:
+
+- Order quantities
+- Stock levels
+- Availability
+- Lead time
+- Shipping time
+- Fulfillment Rate
+
+Explain that the data was prepared for relationship analysis between fulfillment performance and the available operational variables.
+
+Workflow:
+
+Raw Supply Chain Data
+→ Fulfillment Rate Calculation
+→ Variable Preparation
+→ Relationship Analysis
+→ Insights
+
+Create concise analytical cards:
+
+FULFILLMENT
+
+Fulfillment Rate calculation
+
+INVENTORY
+
+Stock level analysis
+
+TIMING
+
+Lead time and shipping time
+
+RELATIONSHIP TESTING
+
+Correlation and visual analysis
+
+IMPORTANT:
+Do NOT invent complex preprocessing steps.
+
+Do NOT claim:
+- Missing-value treatment
+- Duplicate removal
+- Feature engineering
+- Normalization
+- Scaling
+- Outlier treatment
+
+unless explicitly supported by the actual notebook.
+
+==================================================
+04 — ANALYSIS & KEY FINDINGS
+==================================================
+
+Title:
+Analysis & Key Findings
+
+The storytelling should follow this investigation:
+
+Fulfillment Rate
+→ Stock Levels
+→ Lead Time
+→ Shipping Time
+→ What the Data Tells Us
+
+==================================================
+FINDING 1 — NO CLEAR RELATIONSHIP BETWEEN LEAD TIME AND FULFILLMENT
+==================================================
+
+Title:
+No Clear Relationship Between Lead Time and Fulfillment
+
+Insight:
+
+The scatter plot shows no clear trend or direction.
+
+The correlation between Fulfillment Rate and Lead Time is weak and statistically insignificant.
+
+This indicates that lead time is unlikely to be a major factor affecting fulfillment within the available data.
+
+Use an appropriate scatter plot or existing project visualization.
+
+==================================================
+FINDING 2 — HIGH STOCK LEVELS DON'T ENSURE HIGH FULFILLMENT
+==================================================
+
+Title:
+High Stock Levels Don't Ensure High Fulfillment
+
+Insight:
+
+No strong pattern was observed between stock levels and fulfillment rate.
+
+Some high stock levels still result in low fulfillment rates.
+
+Examples:
+
+- Stock level 36 → fulfillment rate of 7.1%
+- Stock level 80 → fulfillment rate of 10.4%
+
+This suggests that having high stock levels alone does not guarantee strong fulfillment performance.
+
+IMPORTANT:
+Do not interpret this as proof that stock levels have no operational impact in general.
+
+The correct conclusion is that the available data does not show a strong pattern between stock levels and fulfillment performance.
+
+==================================================
+FINDING 3 — SHIPPING TIME ALSO FAILS TO PREDICT FULFILLMENT
+==================================================
+
+Title:
+Shipping Time Also Fails to Predict Fulfillment
+
+Insight:
+
+As with lead time, the data points are scattered without a clear trend.
+
+There is no strong correlation between shipping time and fulfillment.
+
+This indicates that shipping delays may not be the primary driver of low fulfillment within the available data.
+
+==================================================
+WHAT WE KNOW SO FAR
+==================================================
+
+Add a final analytical summary block.
+
+Title:
+What We Know So Far
+
+Use:
+
+No strong relationship was found between fulfillment and stock levels, lead time, or shipping time.
+
+Products with high stock levels can still show poor fulfillment performance.
+
+Lead time and shipping time show correlation values below 1%.
+
+A likely contributing factor could be low warehouse or order processing utilization, but this could not be tested due to data limitations.
+
+Further investigation is needed to confirm the underlying operational cause and guide improvements.
+
+IMPORTANT:
+The warehouse/order processing utilization hypothesis must clearly be presented as a hypothesis, NOT a confirmed finding.
+
+==================================================
+VISUAL STORYTELLING PRIORITY
+==================================================
+
+Prioritize:
+
+1. Fulfillment Rate — 73.65%
+2. Fulfillment vs Lead Time
+3. Fulfillment vs Stock Level
+4. Fulfillment vs Shipping Time
+5. What We Know So Far
+
+The visual story should communicate:
+
+PROBLEM
+→ INVESTIGATION
+→ TEST POTENTIAL DRIVERS
+→ NO STRONG RELATIONSHIP FOUND
+→ DATA LIMITATION
+→ NEXT INVESTIGATION
+
+Do not overload the page with unnecessary charts.
+
+==================================================
+05 — DASHBOARD
+==================================================
+
+Title:
+Dashboard
+
+Section heading:
+Interactive Dashboard
+
+Description:
+
+Explore fulfillment performance and its potential relationship with stock levels, lead time, and shipping time.
+
+Primary Button:
+Open Dashboard →
+
+Dashboard Link:
+https://datastudio.google.com/reporting/425dc128-37db-451b-bc27-96a9714d274e
+
+Behavior:
+- Open the dashboard in a new browser tab.
+- Do NOT embed a large dashboard iframe.
+- Do NOT create a fake dashboard.
+- Do NOT add a dashboard screenshot unless specifically requested.
+- Keep this section compact.
+- The dashboard is an external interactive resource.
+- Do NOT place the dashboard link inside Project Files.
+
+==================================================
+06 — RECOMMENDATIONS
+==================================================
+
+Title:
+Recommendations
+
+The recommendations must reflect the analytical limitations.
+
+1. INVESTIGATE INTERNAL FULFILLMENT OPERATIONS
+
+Further investigate warehouse utilization, order processing capacity, and internal operational bottlenecks as potential contributors to low fulfillment.
+
+IMPORTANT:
+Present these as areas for further investigation, not confirmed causes.
+
+2. COLLECT MORE OPERATIONAL DATA
+
+Track additional operational variables such as warehouse processing time, order handling time, inventory allocation, and actual shipment status.
+
+3. MONITOR LOW-FULFILLMENT PRODUCTS
+
+Identify products with consistently poor fulfillment performance and investigate their operational patterns.
+
+4. IMPROVE FULFILLMENT MEASUREMENT
+
+Replace the Availability proxy with actual shipped-order data when detailed shipping information becomes available.
+
+Keep the recommendations practical, evidence-based, and connected to the limitations of the analysis.
+
+==================================================
+07 — PROJECT FILES
+==================================================
+
+Title:
+Project Files
+
+Create clean resource cards/buttons for the actual project files.
+
+Include:
+
+DATASET
+
+File:
+supply_chain_data.csv
+
+Description:
+Supply chain dataset used for the analysis.
+
+ANALYSIS NOTEBOOK
+
+File:
+Fulfillment-Rate-Analysis-for-Supply-Chain-Optimization.ipynb
+
+Description:
+Python notebook containing the analysis workflow.
+
+PRESENTATION
+
+File:
+Fulfillment Rate Analysis for Supply Chain Optimization.pptx
+
+Description:
+Project presentation covering the operational problem, analysis, findings, and recommendations.
+
+IMPORTANT:
+
+Project Files should contain the actual project files only.
+
+DO NOT include:
+- Kaggle
+- Looker Studio Dashboard
+
+The distinction must remain:
+
+Kaggle = Data Source
+Looker Studio = Interactive Dashboard
+Project Files = Supporting Project Evidence
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+The Supply Chain case study must visually feel like the same portfolio website and the same case-study system used for the other projects.
+
+Reuse the existing:
+
+- Dark background
+- Accent color
+- Typography
+- Font hierarchy
+- Card design
+- Borders
+- Border radius
+- Shadows
+- Spacing system
+- Buttons
+- Hover states
+- Animations
+- Page width
+- Responsive behavior
+
+Do NOT create a new visual identity.
+
+Do NOT:
+- Add neon colors
+- Add cyberpunk styling
+- Add excessive gradients
+- Add glowing effects
+- Add oversized decorative elements
+- Add unnecessary animations
+- Change the global navbar
+- Change global typography
+- Change the homepage
+- Redesign other case studies
+- Add unnecessary sections
+
+==================================================
+CONTENT PRINCIPLE
+==================================================
+
+Follow this hierarchy:
+
+Homepage
+→ Quick project overview
+
+Case Study
+→ Detailed project story and analytical proof
+
+External Resources
+→ Evidence and deeper exploration
+
+For this project:
+
+Kaggle
+→ Data Source
+
+Looker Studio
+→ Interactive Dashboard
+
+Dataset / Notebook / Presentation
+→ Project Files
+
+Do not duplicate the same resource in multiple sections.
+
+==================================================
+NAVIGATION
+==================================================
+
+Ensure the Supply Chain project card on the homepage:
+
+View Case Study →
+
+correctly opens this case study page.
+
+Ensure the page can return to the main Projects section using the existing navigation system.
+
+Do NOT modify the global navbar.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Make sure the page works properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain the same spacing, typography hierarchy, cards, buttons, and layout behavior used throughout the existing portfolio.
+
+Do not introduce horizontal scrolling.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only implement the Supply Chain case study and the specific dataset correction described below.
+
+Do NOT modify unrelated pages or components.
+
+If reusable case-study components already exist, reuse them instead of creating a separate visual system.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do NOT redesign the page.
+- Do NOT restructure unrelated components.
+- Make sure the project compiles successfully before finishing.
+
+==================================================
+IMPORTANT — FIX PREVIOUS PROJECT #4 DATASET
+==================================================
+
+There is an existing case study:
+
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+The previous implementation used the wrong dataset/file reference.
+
+Correct this project so that it uses the ACTUAL E-COMMERCE CUSTOMER BEHAVIOR dataset provided for that project.
+
+Correct dataset file:
+E-commerce Customer Behavior.csv
+
+The previous incorrect dataset reference:
+ecommerce_customers.csv
+
+Replace the incorrect dataset reference with:
+
+E-commerce Customer Behavior.csv
+
+IMPORTANT:
+- Do NOT change the actual analysis findings.
+- Do NOT change the project title.
+- Do NOT change the project structure.
+- Do NOT change the dashboard link.
+- Do NOT change the Kaggle source.
+- Do NOT redesign the case study.
+- Only correct the dataset file/reference.
+
+The correct Kaggle source for Project #4 is:
+
+https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset
+
+Project #4 should therefore have:
+
+Kaggle
+→ E-commerce Customer Behavior Dataset
+
+Project File
+→ E-commerce Customer Behavior.csv
+
+Analysis Notebook
+→ identifying-and-profiling-high-clv-customers.ipynb
+
+Presentation
+→ Identifying and Profiling High-CLV Customers in E-Commerce.pptx
+
+IMPORTANT:
+Make sure the dataset file displayed and linked in Project #4 corresponds to the actual uploaded file:
+
+E-commerce Customer Behavior.csv
+
+Do not leave the old "ecommerce_customers.csv" reference anywhere on the Project #4 case study page.
+
+==================================================
+FINAL CHECK — SUPPLY CHAIN
+==================================================
+
+Before finishing, verify:
+
+1. Supply Chain case study compiles successfully.
+2. View Case Study button works.
+3. Page navigation works.
+4. Kaggle "View Dataset →" link works.
+5. Kaggle opens in a new browser tab.
+6. Looker Studio "Open Dashboard →" link works.
+7. Dashboard opens in a new browser tab.
+8. All project file links point to the correct uploaded files/assets.
+9. Kaggle is NOT duplicated under Project Files.
+10. Dashboard is NOT duplicated under Project Files.
+11. The page contains "The Data Challenge".
+12. The 73.65% Fulfillment Rate is displayed correctly.
+13. The Availability proxy disclaimer is displayed.
+14. No unsupported metrics or causal claims have been invented.
+15. Warehouse/order processing utilization is clearly presented as a hypothesis, not a confirmed cause.
+16. The page uses the same visual system as the existing portfolio.
+17. No existing homepage sections are changed.
+18. No global navbar changes are made.
+19. The page is responsive on desktop and mobile.
+
+==================================================
+FINAL CHECK — PROJECT #4 DATASET FIX
+==================================================
+
+After implementing the Supply Chain case study, verify the existing Project #4:
+
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+1. The dataset file is:
+   E-commerce Customer Behavior.csv
+
+2. The old incorrect reference:
+   ecommerce_customers.csv
+
+   is completely removed from the Project #4 case study.
+
+3. The Kaggle source remains:
+   https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset
+
+4. The notebook remains:
+   identifying-and-profiling-high-clv-customers.ipynb
+
+5. The presentation remains:
+   Identifying and Profiling High-CLV Customers in E-Commerce.pptx
+
+6. Do not change the Project #4 analysis, findings, recommendations, layout, or visual design.
+
+7. Verify the Project #4 dataset download/link points to the actual uploaded:
+   E-commerce Customer Behavior.csv
+
+MOST IMPORTANT:
+
+KEEP THE EXISTING DESIGN.
+BUILD THE SUPPLY CHAIN CASE STUDY ONLY.
+SUPPLY CHAIN USES "THE DATA CHALLENGE".
+KAGGLE = DATA SOURCE.
+LOOKER STUDIO = DASHBOARD.
+PROJECT FILES = SUPPORTING EVIDENCE.
+USE THE ACTUAL SUPPLY CHAIN PROJECT DATA.
+PRESERVE THE FULFILLMENT RATE DISCLAIMER.
+DO NOT INVENT CAUSALITY.
+ALSO FIX ONLY THE DATASET REFERENCE IN THE PREVIOUS HIGH-CLV PROJECT.
+DO NOT REDESIGN THE PREVIOUS PROJECT.
