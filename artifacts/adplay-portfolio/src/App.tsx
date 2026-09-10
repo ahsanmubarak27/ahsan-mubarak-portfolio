@@ -139,6 +139,8 @@ const eventMaterials = [
   { title: 'Timekeeper Card', type: 'timekeeper', label: 'TIMEKEEPER', accent: '#7b83ff' },
 ] as const;
 
+const experienceHighlights = ['Leadership', 'Planning', 'Execution'];
+
 function scrollToId(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -255,66 +257,27 @@ function App() {
         </section>
 
         <section id="experience" className="section-rule scroll-mt-24 py-24 sm:py-28">
-          <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
-            <div>
-              <SectionKicker>Experience</SectionKicker>
-              <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A leadership experience grounded in planning, coordination, initiative, and real-time execution.</p>
-            </div>
-            <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">02 / 05</span>
+          <div>
+            <SectionKicker>Experience</SectionKicker>
+            <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A leadership experience grounded in planning, coordination, initiative, and real-time execution.</p>
           </div>
-          <div className="mt-8 overflow-hidden rounded-2xl glass">
-            <div className="grid lg:grid-cols-[.8fr_1.2fr]">
+          <article className="glass mt-8 overflow-hidden rounded-2xl transition-transform hover:-translate-y-1" data-testid="card-experience-event-division-leader">
+            <div className="grid lg:grid-cols-[.84fr_1.16fr]">
               <div className="border-b border-white/[.08] p-7 sm:p-9 lg:border-b-0 lg:border-r">
                 <p className="font-mono text-[10px] tracking-[.12em] text-[#7b83ff]">LEADERSHIP EXPERIENCE</p>
                 <h3 className="mt-5 max-w-[360px] font-display text-[26px] font-semibold leading-[1.04] tracking-[-.05em] text-[#ecedf0]">Event Division Leader</h3>
                 <p className="mt-3 text-[12px] text-[#a0a2ab]">Creative Night · Kampung Inggris</p>
                 <div className="mt-7 inline-flex rounded-full border border-white/[.08] bg-white/[.05] px-3 py-1.5 font-mono text-[10px] tracking-[.06em] text-[#b8bac3]">August 2026</div>
-                <p className="mt-8 max-w-[390px] text-[13px] leading-[1.62] text-[#9597a1]">Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and making real-time decisions to ensure smooth event delivery.</p>
               </div>
-              <div className="p-7 sm:p-9">
-                <div className="space-y-7">
-                  {experiencePillars.map((pillar) => <ExperiencePillar key={pillar.number} pillar={pillar} />)}
+              <div className="flex flex-col items-start justify-center p-7 sm:p-9">
+                <p className="max-w-[560px] text-[13px] leading-[1.62] text-[#9597a1]">Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and taking initiative to support additional operational needs.</p>
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {experienceHighlights.map((highlight) => <span key={highlight} className="rounded-md border border-white/[.08] px-2.5 py-1 font-mono text-[9px] tracking-[.04em] text-[#777985]">{highlight}</span>)}
                 </div>
+                <a href="/experience/event-division-leader" className="mt-7 inline-flex items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid="link-view-experience">View Experience <span aria-hidden="true">→</span></a>
               </div>
             </div>
-          </div>
-          <div className="mt-14">
-            <div className="flex items-end justify-between gap-5">
-              <div>
-                <SectionKicker>Event Materials</SectionKicker>
-                <p className="mt-2 text-[13px] text-[#80828c]">Planning artifacts that supported the event from structure to execution.</p>
-              </div>
-              <span className="hidden font-mono text-[10px] tracking-[.12em] text-[#5f626e] sm:block">04 ITEMS</span>
-            </div>
-            <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {eventMaterials.map((material) => <EventMaterialCard key={material.title} material={material} />)}
-            </div>
-          </div>
-          <div className="mt-14">
-            <div className="flex items-end justify-between gap-5">
-              <div>
-                <p className="font-mono text-[10px] tracking-[.15em] text-[#8589cf]">IN THE FIELD</p>
-                <h3 className="mt-2 font-display text-[20px] font-semibold tracking-[-.04em] text-[#e8e8eb]">Event Photos</h3>
-              </div>
-              <span className="hidden font-mono text-[10px] tracking-[.12em] text-[#5f626e] sm:block">02 PHOTOS</span>
-            </div>
-            <div className="mt-6 grid gap-5 lg:grid-cols-[.92fr_1.08fr]">
-              <EventPhoto
-                src={eventTeamPhoto}
-                alt="Event division team members working together at Creative Night"
-                label="TEAM COORDINATION"
-                caption="Team coordination and shared ownership behind the event."
-                objectPosition="center 48%"
-              />
-              <EventPhoto
-                src={eventExecutionPhoto}
-                alt="Creative Night event in progress on stage"
-                label="EVENT EXECUTION"
-                caption="The event in motion, with the team carrying the plan into execution."
-                objectPosition="center 46%"
-              />
-            </div>
-          </div>
+          </article>
         </section>
 
         <section id="work" className="section-rule scroll-mt-24 py-24 sm:py-28">

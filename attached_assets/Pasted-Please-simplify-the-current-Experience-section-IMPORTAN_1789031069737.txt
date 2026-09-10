@@ -1,0 +1,204 @@
+Please simplify the current Experience section.
+
+IMPORTANT:
+The current implementation is too detailed for the homepage.
+
+I want the homepage Experience section to function as a PREVIEW only, similar to the Selected Projects section.
+
+Do NOT display the detailed Event Materials, documents, or photographs directly on the homepage.
+
+The detailed experience content will be shown later on a separate Experience detail page when the user clicks "View Experience →".
+
+For now, focus ONLY on the homepage presentation.
+
+==================================================
+1. KEEP THE EXISTING DESIGN LANGUAGE
+==================================================
+
+Keep the exact same visual language already established throughout the website.
+
+The Hero, About Me, and Projects sections are the primary visual reference.
+
+Maintain:
+
+- Dark background
+- Minimalist aesthetic
+- Premium feel
+- Clean typography
+- Precise spacing
+- Existing borders
+- Existing border radius
+- Existing card styling
+- Existing typography hierarchy
+- Existing animation and hover behavior
+
+Do not introduce a new visual style.
+
+==================================================
+2. SECTION TITLE
+==================================================
+
+Keep:
+
+"Experience"
+
+Subtitle:
+
+"A leadership experience grounded in planning, coordination, initiative, and real-time execution."
+
+==================================================
+3. DISPLAY ONLY ONE EXPERIENCE
+==================================================
+
+Show only this experience:
+
+Title:
+"Event Division Leader"
+
+Organization:
+"Creative Night · Kampung Inggris"
+
+Date:
+"August 2026"
+
+==================================================
+4. EXPERIENCE DESCRIPTION
+==================================================
+
+Use this concise description:
+
+"Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and taking initiative to support additional operational needs."
+
+Keep this concise.
+
+Do NOT display the longer Leadership & Coordination, Planning & Initiative, or Team & Execution descriptions on the homepage.
+
+Those details will be moved to the future Experience detail page.
+
+==================================================
+5. HIGHLIGHTS
+==================================================
+
+Add three small, subtle highlights:
+
+"Leadership"
+"Planning"
+"Execution"
+
+These should function similarly to technology tags on the Project cards.
+
+Keep them visually minimal.
+
+==================================================
+6. CTA
+==================================================
+
+Add one CTA:
+
+"View Experience →"
+
+For now, use a placeholder route/link.
+
+The CTA will later open a detailed Experience page.
+
+==================================================
+7. REMOVE FROM HOMEPAGE
+==================================================
+
+Remove the following from the current homepage Experience section:
+
+- Event Materials section
+- Event Map & Rules
+- Event Rundown
+- Assessment Format
+- Timekeeper Card
+- Event Photos
+- Detailed Leadership & Coordination content
+- Detailed Planning & Initiative content
+- Detailed Team & Execution content
+
+Do NOT delete these concepts from the project/data structure if they are already implemented.
+
+Simply remove them from the homepage presentation so they can be reused later in the Experience detail page.
+
+==================================================
+8. REMOVE THE ITEM COUNTER
+==================================================
+
+Remove the current:
+
+"02 / 05"
+
+or any carousel/item counter from this section.
+
+There is currently only one featured experience, so an item counter is unnecessary.
+
+==================================================
+9. HOMEPAGE PURPOSE
+==================================================
+
+The homepage Experience section should answer only:
+
+"What relevant experience does Ahsan have?"
+
+It should NOT attempt to answer:
+
+"What exactly did he create?"
+
+"What were all his responsibilities?"
+
+"What documents did he produce?"
+
+"What did the event look like?"
+
+Those details belong to the future Experience detail page.
+
+==================================================
+10. VISUAL STRUCTURE
+==================================================
+
+Create one elegant featured Experience card.
+
+Suggested structure:
+
+LEFT:
+- Small category label
+- Event Division Leader
+- Organization
+- Date
+
+RIGHT:
+- Short description
+- Leadership
+- Planning
+- Execution
+- View Experience →
+
+Keep the layout spacious and editorial.
+
+Do NOT make the section visually crowded.
+
+==================================================
+11. IMPORTANT
+==================================================
+
+Do NOT modify:
+
+- Hero
+- About Me
+- Selected Projects
+- Navigation
+- Contact
+- Footer
+- Global theme
+- CV functionality
+
+Only simplify the homepage Experience section.
+
+The final result should feel like:
+
+"Homepage preview → click for deeper experience"
+
+not:
+
+"Full Experience case study displayed on the homepage."
