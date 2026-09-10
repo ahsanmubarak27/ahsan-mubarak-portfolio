@@ -1,7 +1,7 @@
 import { type ReactNode, useState } from 'react';
 import {
   ArrowDownRight, ArrowRight, BarChart3, Check, ExternalLink,
-  Globe2, Mail, Menu, Play, Sparkles, Target, X, Zap,
+  Globe2, Mail, MapPin, Menu, Play, Sparkles, Target, X, Zap,
 } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import formalPortrait from '@assets/PP_formal_1788778556647.png';
@@ -348,8 +348,22 @@ function App() {
           <div className="mx-auto max-w-[680px]">
             <h2 className="font-display text-[clamp(2.5rem,5vw,4.25rem)] font-medium leading-[1] tracking-[-.065em] text-[#eeeff2]" data-testid="heading-lets-connect">Let's Connect</h2>
             <p className="mx-auto mt-5 max-w-[560px] text-[14px] leading-[1.6] text-[#91939d]" data-testid="text-contact-description">Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.</p>
-            <a href="mailto:ahsanmubarak2729@gmail.com" className="group mt-8 inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-6 py-3.5 text-[12px] font-semibold text-[#191a20] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
-            <p className="mt-5 text-[11px] text-[#6f727d]" data-testid="text-contact-location">Based in Bandung, Indonesia</p>
+            <div className="glass mt-10 rounded-2xl p-6 text-left sm:p-8 lg:p-10" data-testid="card-contact-cta">
+              <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
+                <div>
+                  <p className="font-mono text-[10px] tracking-[.16em] text-[#8589cf]" data-testid="text-contact-status">OPEN TO OPPORTUNITIES</p>
+                  <h3 className="mt-4 font-display text-[clamp(1.8rem,3vw,2.7rem)] font-medium leading-[1.05] tracking-[-.055em] text-[#eeeff2]" data-testid="heading-contact-cta">Let's work with data.</h3>
+                  <p className="mt-3 max-w-[430px] text-[13px] leading-[1.6] text-[#9597a1]" data-testid="text-contact-availability">I'm currently open to data analytics opportunities and meaningful projects.</p>
+                </div>
+                <div className="flex flex-col items-start gap-5 lg:items-end">
+                  <a href="mailto:ahsanmubarak2729@gmail.com" className="group inline-flex items-center gap-2 rounded-full bg-[#f4f5f7] px-6 py-3.5 text-[12px] font-semibold text-[#14151a] shadow-[0_8px_24px_rgba(0,0,0,.18)] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
+                  <div className="space-y-2 text-[11px] text-[#858792] lg:text-right">
+                    <a href="mailto:ahsanmubarak2729@gmail.com" className="flex items-center gap-2 transition-colors hover:text-[#d9dae0] lg:justify-end" data-testid="link-contact-email-detail"><Mail size={13} strokeWidth={1.5} /> ahsanmubarak2729@gmail.com</a>
+                    <p className="flex items-center gap-2 lg:justify-end" data-testid="text-contact-location"><MapPin size={13} strokeWidth={1.5} /> Bandung, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

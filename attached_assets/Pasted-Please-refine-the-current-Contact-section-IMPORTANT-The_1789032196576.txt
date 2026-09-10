@@ -1,0 +1,286 @@
+Please refine the current Contact section.
+
+IMPORTANT:
+The current Contact section is too empty and visually underdeveloped.
+
+It currently consists mainly of:
+- "Let's Connect"
+- A short description
+- One button
+- Location
+
+I want to keep the minimalist approach, but give the section more visual structure, personality, and professional presence.
+
+Do NOT turn it into a traditional contact form.
+
+Do NOT make it overly decorative.
+
+The goal is a premium closing section that feels intentional and complete.
+
+==================================================
+1. KEEP THE MAIN HEADING
+==================================================
+
+Keep:
+
+"Let's Connect"
+
+Keep the existing description:
+
+"Interested in working together or discussing a data analytics opportunity? I'd be happy to connect."
+
+==================================================
+2. CREATE A STRONGER CLOSING CTA
+==================================================
+
+Add a prominent but elegant content block/card underneath the introductory text.
+
+The block should feel like a final professional call-to-action.
+
+Include a small label:
+
+"OPEN TO OPPORTUNITIES"
+
+Then add a short statement:
+
+"Let's work with data."
+
+Below it, add:
+
+"I'm currently open to data analytics opportunities and meaningful projects."
+
+Keep this short and readable.
+
+==================================================
+3. PRIMARY CTA
+==================================================
+
+Keep the primary button:
+
+"Get in Touch →"
+
+Link it to:
+
+mailto:ahsanmubarak2729@gmail.com
+
+The button should open the visitor's default email application.
+
+Make sure the button has strong enough contrast to be clearly readable.
+
+IMPORTANT:
+The current button text is too faint against the background.
+
+Fix the contrast so the CTA is clearly visible while remaining consistent with the existing design system.
+
+==================================================
+4. CONTACT INFORMATION
+==================================================
+
+Within the closing CTA block, add subtle supporting information:
+
+Email:
+ahsanmubarak2729@gmail.com
+
+Location:
+Bandung, Indonesia
+
+The email should be clickable using:
+
+mailto:ahsanmubarak2729@gmail.com
+
+Keep this information visually secondary to the main CTA.
+
+Do not create a large contact-information list.
+
+==================================================
+5. DO NOT DUPLICATE THE HERO SOCIAL ROW
+==================================================
+
+The Hero already contains:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+Do NOT recreate the same five-icon row here.
+
+The Contact section should have a different purpose.
+
+The Hero provides quick-access social links.
+
+The Contact section provides the final conversion point.
+
+==================================================
+6. VISUAL STRUCTURE
+==================================================
+
+The Contact section should feel more substantial than the current implementation.
+
+Use a structure similar to:
+
+Let's Connect
+
+Interested in working together or discussing
+a data analytics opportunity? I'd be happy to connect.
+
+
+┌─────────────────────────────────────────────┐
+│                                             │
+│ OPEN TO OPPORTUNITIES                       │
+│                                             │
+│ Let's work with data.                       │
+│                                             │
+│ I'm currently open to data analytics        │
+│ opportunities and meaningful projects.      │
+│                                             │
+│ [ Get in Touch → ]                          │
+│                                             │
+│ ahsanmubarak2729@gmail.com                  │
+│ Bandung, Indonesia                          │
+│                                             │
+└─────────────────────────────────────────────┘
+
+Do NOT copy this literal layout.
+
+Use it only as a content and hierarchy reference.
+
+Create a polished editorial composition using the website's existing design system.
+
+==================================================
+7. VISUAL WEIGHT
+==================================================
+
+The Contact section should not feel:
+
+- Empty
+- Generic
+- Like a placeholder
+- Like a simple centered text block
+
+It should feel like a deliberate final section of a professional portfolio.
+
+However, maintain restraint.
+
+Do NOT add:
+- Large illustrations
+- Contact forms
+- Excessive icons
+- Large social media rows
+- Neon effects
+- Excessive gradients
+- Huge decorative graphics
+- Cyberpunk elements
+
+==================================================
+8. ICONS
+==================================================
+
+If icons are used, keep them extremely subtle.
+
+A small:
+- Mail icon
+- Location icon
+
+may be used next to the email/location information.
+
+Do NOT add icons to every element.
+
+Use the same icon library and visual language already used throughout the website.
+
+==================================================
+9. DESIGN CONSISTENCY
+==================================================
+
+The Contact section MUST use the existing design language from:
+
+Hero
+About Me
+Projects
+Experience
+Skills
+
+Maintain:
+
+- Existing dark background
+- Typography
+- Font hierarchy
+- Accent color
+- Borders
+- Border radius
+- Spacing
+- Card styling
+- Subtle shadows
+- Existing hover states
+- Existing animation style
+
+Do not introduce a new visual language.
+
+==================================================
+10. PROFESSIONAL POSITIONING
+==================================================
+
+The Contact section should reinforce my positioning as:
+
+"Data Analyst"
+
+It should communicate:
+
+- Professional
+- Approachable
+- Open to opportunities
+- Data-focused
+- Serious about real-world work
+
+Do not describe me as:
+- AI Creator
+- AI Engineer
+- Web Designer
+- Frontend Developer
+- Creative AI Specialist
+
+My primary positioning remains Data Analyst.
+
+==================================================
+11. RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+- Use the available horizontal space intelligently.
+- Maintain a strong but restrained visual composition.
+
+Tablet:
+- Adjust the CTA block naturally.
+
+Mobile:
+- Stack the content vertically.
+- Keep the CTA prominent.
+- Keep email readable.
+- Prevent horizontal overflow.
+- Maintain comfortable spacing.
+
+==================================================
+12. IMPORTANT
+==================================================
+
+Only refine the Contact section.
+
+Do NOT modify:
+
+- Hero
+- About Me
+- Projects
+- Experience
+- Skills
+- Navigation
+- Footer
+- CV functionality
+- Existing social links
+- Global theme
+
+The final Contact section should feel like a strong and intentional ending to the portfolio.
+
+Desired impression:
+
+"I've seen his work, experience, and capabilities — and now there is a clear, professional way to reach him."
