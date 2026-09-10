@@ -11,6 +11,7 @@ import eventExecutionPhoto from '@assets/Cuplikan_layar_2026-09-07_212958_178903
 import mastermindLogo from '@assets/The_Mastermind_Logo_1789035611349.png';
 import CaseStudySales from './pages/case-studies/sales-performance';
 import CaseStudyGoogleAds from './pages/case-studies/google-ads-campaign-performance';
+import CaseStudyCoffeeShop from './pages/case-studies/coffee-shop-sales-profit';
 import NotFound from './pages/not-found';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
@@ -558,6 +559,7 @@ export default function App() {
       <Route path="/" component={Home} />
       <Route path="/case-studies/sales-performance" component={CaseStudySales} />
       <Route path="/case-studies/google-ads-campaign-performance" component={CaseStudyGoogleAds} />
+      <Route path="/case-studies/coffee-shop-sales-profit" component={CaseStudyCoffeeShop} />
       <Route component={NotFound} />
     </Switch>
   );

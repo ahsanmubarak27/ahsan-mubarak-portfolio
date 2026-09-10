@@ -1,0 +1,457 @@
+BUILD / UPDATE PROJECT CASE STUDY — COFFEE SHOP SALES & PROFIT ANALYSIS
+
+Create the Coffee Shop project case study page as an internal case study page within the existing portfolio website.
+
+IMPORTANT:
+This case study must follow the exact same visual system as the existing portfolio and the established case-study pages.
+
+However, DO NOT force the CPX SPORTWEAR structure onto this project.
+
+This project does NOT need a "The Data Challenge" section.
+
+==================================================
+PROJECT INFORMATION
+==================================================
+
+Project Title:
+Coffee Shop Sales & Profit Analysis
+
+Context:
+Independent Project · USA Coffeeshop Dataset
+
+Tools:
+Python, Looker Studio
+
+Project Focus:
+Explore sales and profit performance across products, markets, and states to identify the main drivers of revenue and profitability and support decisions around product strategy, pricing, promotion, and market opportunities.
+
+==================================================
+CASE STUDY STRUCTURE
+==================================================
+
+Use exactly this structure:
+
+01 — Overview
+02 — Data Preparation
+03 — Analysis & Key Findings
+04 — Dashboard
+05 — Recommendations
+06 — Project Files
+
+IMPORTANT:
+Do NOT add:
+- The Data Challenge
+- Testimonials
+- Extra template sections
+- Services
+- Pricing
+- Contact forms
+- Unnecessary decorative sections
+
+This project should remain concise and focused on the relationship between sales and profitability.
+
+==================================================
+01 — OVERVIEW
+==================================================
+
+Title:
+Overview
+
+PROJECT OBJECTIVE
+
+This project explores sales and profit performance across products, markets, and states to identify the main drivers of revenue and profitability. The analysis aims to support decisions around product strategy, pricing, promotion, and market opportunities.
+
+DATASET
+
+The USA Coffeeshop dataset contains sales and profitability information from American coffee shops, including sales, profit, margin, state, market size, product, and related financial variables.
+
+DATA SOURCE
+
+Add a compact Data Source area.
+
+Name:
+Kaggle — USA Coffeeshop
+
+Button:
+View Dataset →
+
+Link:
+https://www.kaggle.com/datasets/dsfelix/us-stores-sales
+
+Behavior:
+- Open the Kaggle link in a new browser tab.
+- Use the existing portfolio button/link styling.
+- Keep this area compact.
+- Do NOT place Kaggle under Project Files.
+- Do NOT duplicate the Kaggle link elsewhere on the page.
+
+DATASET SIZE
+
+4,248 records
+
+Label:
+Based on the uploaded dataset
+
+ANALYSIS PERIOD
+
+2010–2011
+
+KEY METRICS
+
+Display:
+
+Sales · Profit · Profit Margin · Market Performance
+
+Use the existing metric-card styling from the portfolio.
+
+==================================================
+02 — DATA PREPARATION
+==================================================
+
+Title:
+Data Preparation
+
+Do NOT exaggerate or invent a complex preprocessing workflow.
+
+Use the following description:
+
+The dataset was prepared in Python for profitability analysis by working with sales, profit, margin, product, state, and market-level variables. The prepared data was then used to compare profitability across products and markets and examine the relationship between sales and profit.
+
+Workflow:
+
+Raw Data → Data Preparation → Profitability Analysis → Product & Market Comparison → Insights
+
+Create four concise cards:
+
+FINANCIAL METRICS
+
+Sales, Profit, Margin
+
+PRODUCT ANALYSIS
+
+Profit margin by product
+
+MARKET ANALYSIS
+
+State and market-size performance
+
+RELATIONSHIP ANALYSIS
+
+Sales vs Profit
+
+IMPORTANT:
+Do NOT claim specific cleaning, preprocessing, transformation, missing-value handling, duplicate removal, or other technical steps unless supported by the actual project materials.
+
+==================================================
+03 — ANALYSIS & KEY FINDINGS
+==================================================
+
+Title:
+Analysis & Key Findings
+
+Present the following findings clearly and visually.
+
+TOP FINDINGS
+
+1. High-margin products stood out.
+
+Decaf Espresso recorded the highest profit margin at 36.9%, followed by Darjeeling at 35.2% and Columbian at 33.9%.
+
+2. Green Tea was a major profitability concern.
+
+Green Tea recorded a -127.5% profit margin, making it the most significant low-margin product identified in the analysis.
+
+3. Profitability varied across states.
+
+California and Illinois were among the strongest contributors to overall profit, while New Mexico recorded substantially lower profit.
+
+4. Major markets generated higher sales.
+
+Major markets generated approximately $425.1K in sales compared with $394.7K from small markets.
+
+5. Sales and profit were strongly related.
+
+Sales and profit showed a strong positive correlation of 0.80, indicating that higher sales generally coincided with higher profit, although low-margin products could still reduce profitability.
+
+==================================================
+VISUAL ANALYSIS
+==================================================
+
+Use the following visuals:
+
+- Profit by State
+- Top 5 Profit Margin
+- Bottom 5 Profit Margin
+- Sales by Market Size
+- Sales vs Profit correlation
+
+STORYTELLING PRIORITY:
+
+The strongest visual storytelling sequence should emphasize:
+
+1. Top 5 / Bottom 5 Profit Margin
+2. Profit by State
+3. Sales vs Profit
+
+The remaining visuals can support the main story without overwhelming the page.
+
+IMPORTANT:
+Use the actual values provided above.
+
+Do NOT invent additional metrics or values.
+
+==================================================
+04 — DASHBOARD
+==================================================
+
+Title:
+Dashboard
+
+Section heading:
+Interactive Dashboard
+
+Description:
+
+Explore sales and profitability across products, markets, states, and key financial metrics.
+
+Primary Button:
+Open Dashboard →
+
+Dashboard Link:
+https://datastudio.google.com/reporting/ad7529cb-146a-4dc1-8fa1-5f98997be6e5
+
+Behavior:
+- Open the dashboard in a new browser tab.
+- Do NOT embed a large dashboard iframe.
+- Do NOT create a fake dashboard.
+- Do NOT add a dashboard screenshot unless specifically requested.
+- Keep this section compact.
+- Do NOT place the dashboard link inside Project Files.
+
+==================================================
+05 — RECOMMENDATIONS
+==================================================
+
+Title:
+Recommendations
+
+1. FOCUS ON HIGH-PROFIT PRODUCTS
+
+Promote products such as Decaf Espresso and Darjeeling to support profitability.
+
+2. REVIEW LOW-PROFIT PRODUCTS
+
+Investigate Green Tea pricing and cost structure, and consider reducing costs or adjusting pricing if the negative margin persists.
+
+3. PRIORITIZE MAJOR MARKETS
+
+Continue focusing on major markets while using more targeted strategies to capture additional opportunities in smaller markets.
+
+4. GROW SMALL-MARKET PERFORMANCE
+
+Test region-specific promotions, partnerships, and targeted campaigns to improve sales in smaller markets.
+
+Keep the recommendations practical and directly connected to the findings.
+
+Do NOT add unsupported recommendations.
+
+==================================================
+06 — PROJECT FILES
+==================================================
+
+Title:
+Project Files
+
+Create clean resource cards/buttons for the actual project files.
+
+Include:
+
+DATASET
+
+File:
+USA_Coffeeshop.csv
+
+Description:
+Source dataset used for the analysis.
+
+ANALYSIS NOTEBOOK
+
+File:
+coffee-shop-sales-profit-analysis.ipynb
+
+Description:
+Python notebook containing the analysis workflow.
+
+PRESENTATION
+
+File:
+Coffee Shop Sales and Profit Analysis.pptx
+
+Description:
+Project presentation covering findings and recommendations.
+
+IMPORTANT:
+
+Project Files should contain the actual project files only.
+
+DO NOT include:
+- Kaggle
+- Looker Studio Dashboard
+
+The distinction must remain:
+
+Kaggle = Data Source
+Looker Studio = Interactive Dashboard
+Project Files = Supporting Project Evidence
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+The Coffee Shop case study must visually feel like the same portfolio website and the same case-study system used for the other projects.
+
+Reuse the existing:
+
+- Dark background
+- Accent color
+- Typography
+- Font hierarchy
+- Card design
+- Borders
+- Border radius
+- Shadows
+- Spacing system
+- Buttons
+- Hover states
+- Animations
+- Page width
+- Responsive behavior
+
+Do NOT create a new visual identity for this project.
+
+Do NOT:
+- Add neon colors
+- Add cyberpunk styling
+- Add excessive gradients
+- Add glowing effects
+- Add oversized decorative elements
+- Add unnecessary animations
+- Change the global navbar
+- Change global typography
+- Change the homepage
+- Redesign other case studies
+- Add unnecessary sections
+
+The Coffee Shop case study should feel like a natural part of the same portfolio.
+
+==================================================
+CONTENT PRINCIPLE
+==================================================
+
+Follow this hierarchy:
+
+Homepage
+→ Quick project overview
+
+Case Study
+→ Detailed project story and analytical proof
+
+External Resources
+→ Evidence and deeper exploration
+
+For this project:
+
+Kaggle
+→ Data Source
+
+Looker Studio
+→ Interactive Dashboard
+
+Dataset / Notebook / Presentation
+→ Project Files
+
+Do not duplicate the same resource in multiple sections.
+
+==================================================
+NAVIGATION
+==================================================
+
+Ensure the Coffee Shop project card on the homepage:
+
+View Case Study →
+
+correctly opens this Coffee Shop case study page.
+
+Ensure the page can return to the main Projects section using the existing navigation system.
+
+Do NOT modify the global navbar.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Make sure the page works properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain the same spacing, typography hierarchy, cards, buttons, and layout behavior used throughout the existing portfolio.
+
+Do not introduce horizontal scrolling.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only implement the Coffee Shop case study.
+
+Do NOT modify unrelated pages or components.
+
+If reusable case-study components already exist, reuse them instead of creating a separate visual system.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do NOT redesign the page.
+- Do NOT restructure unrelated components.
+- Make sure the project compiles successfully before finishing.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before finishing, verify:
+
+1. The Coffee Shop case study page compiles successfully.
+2. The View Case Study button works.
+3. The page navigation works.
+4. The Kaggle "View Dataset →" link works.
+5. The Kaggle link opens in a new browser tab.
+6. The Looker Studio "Open Dashboard →" link works.
+7. The dashboard opens in a new browser tab.
+8. All project file links point to the correct uploaded files/assets.
+9. Kaggle is NOT duplicated under Project Files.
+10. Dashboard is NOT duplicated under Project Files.
+11. The page does NOT contain a "The Data Challenge" section.
+12. The page uses the same visual system as the existing portfolio.
+13. No existing homepage sections are changed.
+14. No global navbar changes are made.
+15. The page is responsive on desktop and mobile.
+16. No unsupported data, metrics, preprocessing steps, or claims have been invented.
+
+MOST IMPORTANT:
+
+KEEP THE DESIGN.
+KEEP THE STRUCTURE.
+DO NOT ADD "THE DATA CHALLENGE".
+USE THE ACTUAL PROJECT DATA.
+KAGGLE = DATA SOURCE.
+LOOKER STUDIO = DASHBOARD.
+PROJECT FILES = SUPPORTING EVIDENCE.
+ONLY IMPLEMENT THE COFFEE SHOP CASE STUDY.
