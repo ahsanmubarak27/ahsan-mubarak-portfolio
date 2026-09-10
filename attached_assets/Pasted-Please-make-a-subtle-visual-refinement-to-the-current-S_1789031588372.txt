@@ -1,0 +1,240 @@
+Please make a subtle visual refinement to the current Skills section.
+
+IMPORTANT:
+The current Skills section is too plain and text-heavy compared with the original visual language of the website.
+
+I want to add a SMALL amount of visual identity through icons, while keeping the section professional, clean, minimalist, and premium.
+
+Do NOT redesign the section.
+
+==================================================
+1. VISUAL REFINEMENT
+==================================================
+
+Add ONE small, subtle icon to each major Skills category heading.
+
+Use the existing icon library and icon style already used elsewhere in the website.
+
+The icons should match the existing stroke weight, size, and visual language.
+
+Use approximately 16–20px icons.
+
+Do NOT use large decorative icons.
+
+Do NOT use colorful oversized icons.
+
+Do NOT add icons to every individual skill pill.
+
+The goal is:
+
+"Subtle visual character"
+
+not:
+
+"Highly decorative skills dashboard."
+
+==================================================
+2. TECHNICAL SKILLS
+==================================================
+
+Add a small data/code/analytics-related icon next to:
+
+"Technical Skills"
+
+Use an icon that visually suggests:
+- data
+- analytics
+- code
+- technical tools
+
+Keep it subtle.
+
+==================================================
+3. AI-ASSISTED DEVELOPMENT
+==================================================
+
+Add a small AI/sparkle-related icon next to:
+
+"AI-Assisted Development"
+
+Use a subtle icon such as:
+- Sparkles
+- AI
+- Wand/spark
+- Similar existing icon
+
+Do not make this category visually dominant.
+
+AI-assisted development is a supporting skill, not my primary professional identity.
+
+==================================================
+4. LANGUAGES
+==================================================
+
+Add a small globe/language-related icon next to:
+
+"Languages"
+
+Keep the icon minimal.
+
+==================================================
+5. CORE SKILLS
+==================================================
+
+Add a small thinking/target/people-related icon next to:
+
+"Core Skills"
+
+Use the most appropriate existing icon available in the project's icon library.
+
+Keep it subtle.
+
+==================================================
+6. ICON COLOR
+==================================================
+
+Use the existing accent color system already present in the website.
+
+Do NOT introduce new colors.
+
+Icons may use the same subtle accent treatment already used elsewhere in the website.
+
+Do not make every icon a different color.
+
+A consistent accent treatment is preferred.
+
+==================================================
+7. SKILL PILLS
+==================================================
+
+Keep all individual skill pills clean and text-focused.
+
+Do NOT add an icon to every skill.
+
+For example:
+
+[ Python ]
+[ SQL ]
+[ Microsoft Excel ]
+[ Looker Studio ]
+
+should remain text-only.
+
+This is important to prevent visual clutter.
+
+==================================================
+8. OVERALL DESIGN BALANCE
+==================================================
+
+The final section should sit visually between the two existing extremes:
+
+Current version:
+Too plain / monotonous
+
+Original template:
+Too many icons / too much visual decoration
+
+The desired result:
+
+Minimal icons
++
+Clean typography
++
+Subtle accent
++
+Professional spacing
+=
+Premium professional portfolio
+
+==================================================
+9. MAINTAIN EXISTING DESIGN SYSTEM
+==================================================
+
+Use the existing:
+
+- Background
+- Typography
+- Colors
+- Border system
+- Border radius
+- Card styling
+- Spacing
+- Shadows
+- Hover states
+- Animations
+- Transitions
+
+The Skills section must remain visually consistent with:
+
+Hero
+↓
+About Me
+↓
+Projects
+↓
+Experience
+↓
+Skills
+
+Do not introduce a new visual style.
+
+==================================================
+10. DO NOT CHANGE CONTENT
+==================================================
+
+Keep the existing Skills content exactly as currently implemented:
+
+Technical Skills:
+Python
+SQL
+Microsoft Excel
+Looker Studio
+Data Analysis
+Statistical Analysis
+Data Visualization
+Business KPI Analysis
+
+AI-Assisted Development:
+Replit
+AI Coding Workflows
+
+Core Skills:
+Problem Solving
+Critical Thinking
+Communication
+Attention to Detail
+Team Coordination
+Continuous Learning
+
+Languages:
+Indonesian — Native
+English — Advanced
+Arabic — Basic
+
+Only refine the visual presentation.
+
+==================================================
+11. FINAL DESIGN INTENT
+==================================================
+
+The section should feel:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Structured
+Premium
+
+The icons should be a subtle visual accent, not the main focus.
+
+The final impression should be:
+
+"Clean professional portfolio with thoughtful visual details."
+
+NOT:
+
+"Developer skills dashboard."
+
+Do not modify any other section of the website.

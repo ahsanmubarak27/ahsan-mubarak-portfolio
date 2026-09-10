@@ -1,7 +1,7 @@
 import { type ReactNode, useState } from 'react';
 import {
   ArrowDownRight, ArrowRight, BarChart3, Check, ExternalLink,
-  Mail, Menu, Play, Target, X, Zap,
+  Globe2, Mail, Menu, Play, Sparkles, Target, X, Zap,
 } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import formalPortrait from '@assets/PP_formal_1788778556647.png';
@@ -310,18 +310,21 @@ function App() {
           <div className="mt-8 grid gap-5 lg:grid-cols-[1.15fr_.85fr]">
             <article className="glass rounded-2xl p-7 transition-transform hover:-translate-y-1 sm:p-9" data-testid="card-skills-technical">
               <p className="font-mono text-[10px] tracking-[.12em] text-[#7b83ff]">PRIMARY CAPABILITIES</p>
-              <h3 className="mt-4 font-display text-[24px] font-semibold tracking-[-.045em] text-[#ecedf0]">Technical Skills</h3>
+              <div className="mt-4 flex items-center gap-2.5">
+                <BarChart3 size={18} strokeWidth={1.7} className="text-[#8290ff]" />
+                <h3 className="font-display text-[24px] font-semibold tracking-[-.045em] text-[#ecedf0]">Technical Skills</h3>
+              </div>
               <div className="mt-7 flex flex-wrap gap-2.5">
                 {technicalSkills.map((skill) => <span key={skill} className="rounded-md border border-white/[.08] bg-white/[.035] px-3 py-2 text-[11px] text-[#b2b4bd] transition-colors hover:border-white/[.16] hover:text-[#e4e5e9]">{skill}</span>)}
               </div>
             </article>
             <div className="grid gap-5">
-              <SkillGroup title="AI-Assisted Development" items={['Replit', 'AI Coding Workflows']} testId="card-skills-ai-assisted" />
-              <SkillGroup title="Languages" items={languages} testId="card-skills-languages" />
+              <SkillGroup icon={<Sparkles size={17} strokeWidth={1.7} />} title="AI-Assisted Development" items={['Replit', 'AI Coding Workflows']} testId="card-skills-ai-assisted" />
+              <SkillGroup icon={<Globe2 size={17} strokeWidth={1.7} />} title="Languages" items={languages} testId="card-skills-languages" />
             </div>
           </div>
           <div className="mt-5">
-            <SkillGroup title="Core Skills" items={coreSkills} testId="card-skills-core" />
+            <SkillGroup icon={<Target size={17} strokeWidth={1.7} />} title="Core Skills" items={coreSkills} testId="card-skills-core" />
           </div>
         </section>
 
@@ -368,9 +371,12 @@ function InfoCard({ icon, title, children }: { icon: ReactNode; title: string; c
   return <article className="glass rounded-2xl p-5" data-testid={`card-${title.toLowerCase().replaceAll(' ', '-')}`}><div className="mb-5 grid size-7 place-items-center rounded-lg bg-[#29306a]/40 text-[#8290ff]">{icon}</div><h3 className="text-[12px] font-semibold text-[#dedfe4]">{title}</h3><p className="mt-2 text-[11px] leading-[1.5] text-[#858792]">{children}</p></article>;
 }
 
-function SkillGroup({ title, items, testId }: { title: string; items: string[]; testId: string }) {
+function SkillGroup({ icon, title, items, testId }: { icon: ReactNode; title: string; items: string[]; testId: string }) {
   return <article className="glass rounded-2xl p-6 transition-transform hover:-translate-y-1" data-testid={testId}>
-    <h3 className="text-[12px] font-semibold text-[#dedfe4]">{title}</h3>
+    <div className="flex items-center gap-2.5 text-[#8290ff]">
+      {icon}
+      <h3 className="text-[12px] font-semibold text-[#dedfe4]">{title}</h3>
+    </div>
     <div className="mt-4 flex flex-wrap gap-2">
       {items.map((item) => <span key={item} className="rounded-full bg-white/[.07] px-3 py-1.5 text-[10px] text-[#a9abb5] transition-colors hover:bg-white/[.11] hover:text-[#d8d9df]">{item}</span>)}
     </div>
