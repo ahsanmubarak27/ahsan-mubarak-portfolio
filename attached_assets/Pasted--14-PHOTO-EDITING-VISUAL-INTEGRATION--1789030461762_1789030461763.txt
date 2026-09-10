@@ -1,0 +1,86 @@
+==================================================
+14. PHOTO EDITING & VISUAL INTEGRATION
+==================================================
+
+The event photographs must be visually adapted to the existing website theme.
+
+IMPORTANT:
+Do NOT simply place the raw uploaded photographs into the website.
+
+Before displaying them, adjust their presentation so they naturally integrate with the portfolio's existing visual identity.
+
+The website's existing visual identity is the primary reference:
+
+- Dark
+- Clean
+- Minimalist
+- Professional
+- Precise
+- Modern
+- Premium
+- Detail-oriented
+
+PHOTO TREATMENT:
+
+- Use appropriate cropping and positioning.
+- Adjust the aspect ratio to fit the existing layout.
+- Preserve the important subjects and context of the photographs.
+- Use subtle contrast/exposure adjustments if necessary so the photographs work naturally against the dark website background.
+- If appropriate, apply a very subtle dark overlay or tonal treatment to improve visual consistency.
+- Keep the photographs natural and professional.
+- Avoid excessive filters.
+- Avoid artificial cinematic effects.
+- Avoid excessive blur.
+- Avoid heavy gradients.
+- Avoid neon or futuristic effects.
+- Do not make the photographs look heavily edited.
+
+IMPORTANT:
+Do NOT alter, regenerate, replace, or significantly modify the people's faces or physical appearance.
+
+The goal is not to change the photographs themselves, but to make their presentation consistent with the website.
+
+The photographs should look like authentic documentation of the experience while still feeling visually integrated into a premium professional portfolio.
+
+PHOTO HIERARCHY:
+
+Photo 1:
+Team photograph with the event division members.
+
+This should emphasize:
+- Leadership
+- Team coordination
+- Human connection
+
+Photo 2:
+Event execution photograph.
+
+This should emphasize:
+- Execution
+- Event environment
+- Leadership in practice
+
+Use the strongest crop for each photograph.
+
+Do not create a large gallery.
+
+Two photographs are sufficient.
+
+VISUAL CONSISTENCY:
+
+The photographs should use the same:
+
+- Border radius
+- Border treatment
+- Spacing
+- Shadow treatment
+- Hover behavior
+- Animation style
+
+already established elsewhere on the website.
+
+Do not create a separate photography style that conflicts with the Hero, About Me, or Projects sections.
+
+The final result should feel like:
+
+"Real professional experience presented through the same visual identity as the rest of the portfolio."

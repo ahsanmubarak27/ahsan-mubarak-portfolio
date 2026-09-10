@@ -1,13 +1,13 @@
-import { type ReactNode, useMemo, useState } from 'react';
+import { type ReactNode, useState } from 'react';
 import {
-  ArrowDownRight, ArrowRight, BarChart3, Check, Code2, ExternalLink,
-  Figma, Layers3, Mail, Menu,
-  Palette, Play, Sparkles, Target, X, Zap,
+  ArrowDownRight, ArrowRight, BarChart3, Check, ExternalLink,
+  Mail, Menu, Play, Target, X, Zap,
 } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import formalPortrait from '@assets/PP_formal_1788778556647.png';
+import eventTeamPhoto from '@assets/Cuplikan_layar_2026-09-07_212939_1789030482792.png';
+import eventExecutionPhoto from '@assets/Cuplikan_layar_2026-09-07_212958_1789030482790.png';
 
-type Filter = 'All' | 'Dev' | 'Design';
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
 
 const templates = [
@@ -33,11 +33,111 @@ const templates = [
   },
 ];
 
-const expertise = [
-  { name: 'AI Prompt Engineering', type: 'Dev', icon: Sparkles, color: '#7b83ff' },
-  { name: 'UI/UX Design', type: 'Design', icon: Palette, color: '#ee71ac' },
-  { name: 'Frontend Stack', type: 'Dev', icon: Code2, color: '#39c69b' },
+type ProjectVisual = 'sales' | 'ads' | 'coffee' | 'clv' | 'supply-chain';
+
+type Project = {
+  slug: string;
+  number: string;
+  title: string;
+  context: string;
+  description: string;
+  tags: string[];
+  category: string;
+  visual: ProjectVisual;
+  visualLabel: string;
+  accent: string;
+  reverse?: boolean;
+};
+
+const projects: Project[] = [
+  {
+    slug: 'sales-performance',
+    number: '01',
+    title: 'Sales Performance Analysis',
+    context: 'CPX SPORTWEAR · Freelance',
+    description: 'Analyzed 6,744 transactions and 11,307 SKU records to uncover sales patterns, product performance, and purchasing behavior.',
+    tags: ['Python', 'SQL', 'Excel', 'Looker Studio'],
+    category: 'SALES · BUSINESS ANALYTICS',
+    visual: 'sales',
+    visualLabel: 'SALES OVERVIEW',
+    accent: '#7b83ff',
+  },
+  {
+    slug: 'google-ads-campaign-performance',
+    number: '02',
+    title: 'Google Ads Campaign Performance Analysis',
+    context: 'Independent Project',
+    description: 'Evaluated advertising performance across CTR, conversion rate, ROI, and funnel stages to identify conversion bottlenecks and optimization opportunities.',
+    tags: ['Python', 'SQL', 'Excel', 'Looker Studio'],
+    category: 'MARKETING · PERFORMANCE ANALYTICS',
+    visual: 'ads',
+    visualLabel: 'CAMPAIGN FUNNEL',
+    accent: '#6194ff',
+    reverse: true,
+  },
+  {
+    slug: 'coffee-shop-sales-profit',
+    number: '03',
+    title: 'Coffee Shop Sales & Profit Analysis',
+    context: 'Independent Project',
+    description: 'Analyzed sales and profit data to identify high-performing products, profitable markets, and opportunities to improve overall business performance.',
+    tags: ['Python', 'SQL', 'Looker Studio'],
+    category: 'PROFITABILITY · BUSINESS ANALYTICS',
+    visual: 'coffee',
+    visualLabel: 'PROFITABILITY VIEW',
+    accent: '#a264ef',
+  },
+  {
+    slug: 'customer-lifetime-value',
+    number: '04',
+    title: 'Customer Lifetime Value Analysis',
+    context: 'Independent Project',
+    description: 'Identified and profiled high-value customers to uncover opportunities for targeted retention and customer growth strategies.',
+    tags: ['Python', 'SQL', 'Looker Studio'],
+    category: 'CUSTOMER ANALYTICS · RETENTION',
+    visual: 'clv',
+    visualLabel: 'CUSTOMER SEGMENTS',
+    accent: '#7b83ff',
+    reverse: true,
+  },
+  {
+    slug: 'supply-chain-fulfillment',
+    number: '05',
+    title: 'Supply Chain Fulfillment Analysis',
+    context: 'Independent Project',
+    description: 'Investigated fulfillment performance to identify potential operational bottlenecks and understand the factors affecting order fulfillment.',
+    tags: ['Python', 'SQL', 'Looker Studio'],
+    category: 'OPERATIONS · SUPPLY CHAIN ANALYTICS',
+    visual: 'supply-chain',
+    visualLabel: 'FULFILLMENT FLOW',
+    accent: '#6194ff',
+  },
 ];
+
+const experiencePillars = [
+  {
+    number: '01',
+    title: 'Leadership & Coordination',
+    description: 'Structured the team, delegated responsibilities, and coordinated preparation across members and related divisions to ensure responsibilities were clearly understood and completed on time.',
+  },
+  {
+    number: '02',
+    title: 'Planning & Initiative',
+    description: 'Developed the event concept and contributed to the rundown, while taking initiative to handle additional responsibilities outside my initial scope, including the assessment format and timekeeper card design.',
+  },
+  {
+    number: '03',
+    title: 'Team & Execution',
+    description: 'Supported team members throughout preparation, initiated team bonding activities to strengthen collaboration, and made real-time adjustments during the event to keep execution aligned with the planned objectives.',
+  },
+];
+
+const eventMaterials = [
+  { title: 'Event Map & Rules', type: 'map', label: 'MAP / RULES', accent: '#7b83ff' },
+  { title: 'Event Rundown', type: 'rundown', label: 'RUN OF SHOW', accent: '#6194ff' },
+  { title: 'Assessment Format', type: 'assessment', label: 'ASSESSMENT', accent: '#a264ef' },
+  { title: 'Timekeeper Card', type: 'timekeeper', label: 'TIMEKEEPER', accent: '#7b83ff' },
+] as const;
 
 function scrollToId(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -45,9 +145,7 @@ function scrollToId(id: string) {
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [filter, setFilter] = useState<Filter>('All');
   const [dialog, setDialog] = useState<'project' | 'pricing' | 'preview' | null>(null);
-  const visibleExpertise = useMemo(() => filter === 'All' ? expertise : expertise.filter((item) => item.type === filter), [filter]);
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -145,13 +243,77 @@ function App() {
 
         <section id="expertise" className="section-rule scroll-mt-24 py-24 sm:py-28">
           <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
-            <div><SectionKicker>Expertise &amp; Stack</SectionKicker><p className="mt-2 text-[13px] text-[#80828c]">The tools and disciplines behind every AdPlay template.</p></div>
-            <div className="flex items-center gap-2" role="group" aria-label="Filter expertise">
-              {(['All', 'Dev', 'Design'] as Filter[]).map((item) => <button key={item} onClick={() => setFilter(item)} className={`rounded-full px-4 py-2 text-[11px] font-semibold transition-colors ${filter === item ? 'bg-[#f1f2f4] text-[#191a20]' : 'bg-white/[.06] text-[#8d8f99] hover:bg-white/[.1]'}`} data-testid={`button-filter-${item.toLowerCase()}`}>{item}</button>)}
+            <div>
+              <SectionKicker>Selected Projects</SectionKicker>
+              <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A selection of end-to-end data analytics projects, from data preparation and analysis to dashboards, insights, and recommendations.</p>
+            </div>
+            <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">01 / 05</span>
+          </div>
+          <div className="mt-8 space-y-5">
+            {projects.map((project, index) => <ProjectCard key={project.slug} project={project} featured={index === 0} />)}
+          </div>
+        </section>
+
+        <section id="experience" className="section-rule scroll-mt-24 py-24 sm:py-28">
+          <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+            <div>
+              <SectionKicker>Experience</SectionKicker>
+              <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A leadership experience grounded in planning, coordination, initiative, and real-time execution.</p>
+            </div>
+            <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">02 / 05</span>
+          </div>
+          <div className="mt-8 overflow-hidden rounded-2xl glass">
+            <div className="grid lg:grid-cols-[.8fr_1.2fr]">
+              <div className="border-b border-white/[.08] p-7 sm:p-9 lg:border-b-0 lg:border-r">
+                <p className="font-mono text-[10px] tracking-[.12em] text-[#7b83ff]">LEADERSHIP EXPERIENCE</p>
+                <h3 className="mt-5 max-w-[360px] font-display text-[26px] font-semibold leading-[1.04] tracking-[-.05em] text-[#ecedf0]">Event Division Leader</h3>
+                <p className="mt-3 text-[12px] text-[#a0a2ab]">Creative Night · Kampung Inggris</p>
+                <div className="mt-7 inline-flex rounded-full border border-white/[.08] bg-white/[.05] px-3 py-1.5 font-mono text-[10px] tracking-[.06em] text-[#b8bac3]">August 2026</div>
+                <p className="mt-8 max-w-[390px] text-[13px] leading-[1.62] text-[#9597a1]">Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and making real-time decisions to ensure smooth event delivery.</p>
+              </div>
+              <div className="p-7 sm:p-9">
+                <div className="space-y-7">
+                  {experiencePillars.map((pillar) => <ExperiencePillar key={pillar.number} pillar={pillar} />)}
+                </div>
+              </div>
             </div>
           </div>
-          <div className="mt-8 grid gap-3 lg:grid-cols-3">
-            {visibleExpertise.map((item) => <ExpertiseCard key={item.name} item={item} />)}
+          <div className="mt-14">
+            <div className="flex items-end justify-between gap-5">
+              <div>
+                <SectionKicker>Event Materials</SectionKicker>
+                <p className="mt-2 text-[13px] text-[#80828c]">Planning artifacts that supported the event from structure to execution.</p>
+              </div>
+              <span className="hidden font-mono text-[10px] tracking-[.12em] text-[#5f626e] sm:block">04 ITEMS</span>
+            </div>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {eventMaterials.map((material) => <EventMaterialCard key={material.title} material={material} />)}
+            </div>
+          </div>
+          <div className="mt-14">
+            <div className="flex items-end justify-between gap-5">
+              <div>
+                <p className="font-mono text-[10px] tracking-[.15em] text-[#8589cf]">IN THE FIELD</p>
+                <h3 className="mt-2 font-display text-[20px] font-semibold tracking-[-.04em] text-[#e8e8eb]">Event Photos</h3>
+              </div>
+              <span className="hidden font-mono text-[10px] tracking-[.12em] text-[#5f626e] sm:block">02 PHOTOS</span>
+            </div>
+            <div className="mt-6 grid gap-5 lg:grid-cols-[.92fr_1.08fr]">
+              <EventPhoto
+                src={eventTeamPhoto}
+                alt="Event division team members working together at Creative Night"
+                label="TEAM COORDINATION"
+                caption="Team coordination and shared ownership behind the event."
+                objectPosition="center 48%"
+              />
+              <EventPhoto
+                src={eventExecutionPhoto}
+                alt="Creative Night event in progress on stage"
+                label="EVENT EXECUTION"
+                caption="The event in motion, with the team carrying the plan into execution."
+                objectPosition="center 46%"
+              />
+            </div>
           </div>
         </section>
 
@@ -198,14 +360,134 @@ function InfoCard({ icon, title, children }: { icon: ReactNode; title: string; c
   return <article className="glass rounded-2xl p-5" data-testid={`card-${title.toLowerCase().replaceAll(' ', '-')}`}><div className="mb-5 grid size-7 place-items-center rounded-lg bg-[#29306a]/40 text-[#8290ff]">{icon}</div><h3 className="text-[12px] font-semibold text-[#dedfe4]">{title}</h3><p className="mt-2 text-[11px] leading-[1.5] text-[#858792]">{children}</p></article>;
 }
 
-function ExpertiseCard({ item }: { item: (typeof expertise)[number] }) {
-  const Icon = item.icon;
-  return <article className="glass min-h-[172px] rounded-2xl p-5 transition-transform hover:-translate-y-1" data-testid={`card-expertise-${item.name.toLowerCase().replaceAll(' ', '-')}`}>
-    <div className="flex items-center gap-3 text-[12px] font-semibold text-[#e0e0e5]"><Icon size={18} color={item.color} /> {item.name}</div>
-    {item.name === 'AI Prompt Engineering' && <div className="mt-6 space-y-3">{[['Claude / ChatGPT / Gemini', '97%'], ['Design System Prompting', '94%'], ['Code Generation & QA', '90%']].map(([label, value]) => <div key={label}><div className="mb-1 flex justify-between text-[10px] text-[#a4a6ae]"><span>{label}</span><span>{value}</span></div><div className="h-1 rounded-full bg-white/10"><div className="h-full rounded-full bg-[#dfe0e3]" style={{ width: value }} /></div></div>)}</div>}
-    {item.name === 'UI/UX Design' && <div className="mt-6 flex gap-2">{[['Figma', Figma], ['Framer', Layers3], ['Systems', Layers3]].map(([label, IconComponent]) => { const I = IconComponent as typeof Layers3; return <div key={label as string} className="grid h-16 flex-1 place-items-center gap-1 rounded-lg bg-white/[.045] text-[9px] text-[#868892]"><I size={20} strokeWidth={1.4} /><span>{label as string}</span></div>; })}</div>}
-    {item.name === 'Frontend Stack' && <div className="mt-6 flex flex-wrap gap-2">{['Next.js', 'Tailwind', 'Vercel', 'Git', 'TypeScript'].map((tag) => <span key={tag} className="rounded-md border border-white/10 px-2.5 py-1 text-[10px] text-[#a0a2ab]">{tag}</span>)}</div>}
+function ExperiencePillar({ pillar }: { pillar: (typeof experiencePillars)[number] }) {
+  return <article className="border-t border-white/[.08] pt-5 first:border-t-0 first:pt-0">
+    <div className="flex items-center gap-3">
+      <span className="font-mono text-[10px] tracking-[.12em] text-[#7b83ff]">{pillar.number}</span>
+      <h4 className="text-[12px] font-semibold text-[#dedfe4]">{pillar.title}</h4>
+    </div>
+    <p className="mt-2 max-w-[560px] text-[12px] leading-[1.6] text-[#858792]">{pillar.description}</p>
   </article>;
+}
+
+function EventMaterialCard({ material }: { material: (typeof eventMaterials)[number] }) {
+  return <article className="glass group rounded-2xl p-3 transition-transform hover:-translate-y-1" data-testid={`card-event-material-${material.type}`}>
+    <div className="relative aspect-[1.18] overflow-hidden rounded-xl border border-white/[.08] bg-[#151721] p-4">
+      <div className="flex items-center justify-between">
+        <span className="font-mono text-[8px] tracking-[.12em]" style={{ color: material.accent }}>{material.label}</span>
+        <span className="size-1.5 rounded-full" style={{ backgroundColor: material.accent }} />
+      </div>
+      <MaterialGraphic type={material.type} accent={material.accent} />
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-[#151721] to-transparent" />
+    </div>
+    <div className="px-1 pb-1 pt-4">
+      <p className="text-[11px] font-semibold text-[#dedfe4]">{material.title}</p>
+      <p className="mt-1 text-[10px] text-[#777985]">Preview placeholder</p>
+    </div>
+  </article>;
+}
+
+function MaterialGraphic({ type, accent }: { type: (typeof eventMaterials)[number]['type']; accent: string }) {
+  if (type === 'map') {
+    return <div className="relative mt-6 h-28 rounded-lg border border-white/[.07] bg-white/[.025]">
+      <span className="absolute left-[18%] top-[28%] size-2 rounded-full" style={{ backgroundColor: accent }} />
+      <span className="absolute left-[48%] top-[52%] size-2 rounded-full" style={{ backgroundColor: accent }} />
+      <span className="absolute right-[18%] top-[22%] size-2 rounded-full" style={{ backgroundColor: accent }} />
+      <span className="absolute left-[20%] top-[32%] h-px w-[32%] rotate-[22deg] bg-white/20" />
+      <span className="absolute left-[50%] top-[50%] h-px w-[29%] -rotate-[28deg] bg-white/20" />
+      <span className="absolute left-[16%] right-[16%] top-[74%] h-px bg-white/[.08]" />
+    </div>;
+  }
+  if (type === 'rundown') {
+    return <div className="mt-6 space-y-2.5">
+      {[['18:00', 'Opening'], ['18:30', 'Main program'], ['19:15', 'Assessment'], ['20:00', 'Closing']].map(([time, label], index) => <div key={time} className="flex items-center gap-2.5 rounded-md border border-white/[.07] bg-white/[.025] px-2.5 py-2"><span className="font-mono text-[8px]" style={{ color: index === 1 ? accent : '#777985' }}>{time}</span><span className="h-px flex-1 bg-white/[.1]" /><span className="text-[8px] text-[#858792]">{label}</span></div>)}
+    </div>;
+  }
+  if (type === 'assessment') {
+    return <div className="mt-6 grid grid-cols-3 gap-2">
+      {Array.from({ length: 12 }, (_, index) => <span key={index} className={`aspect-square rounded-[3px] border border-white/[.07] ${index === 4 || index === 8 ? 'bg-white/[.18]' : 'bg-white/[.035]'}`} style={index === 4 || index === 8 ? { borderColor: `${accent}80` } : undefined} />)}
+    </div>;
+  }
+  return <div className="mt-6 grid place-items-center py-3">
+    <div className="grid size-24 place-items-center rounded-full border border-white/[.1]" style={{ boxShadow: `inset 0 0 0 10px ${accent}18` }}>
+      <div className="grid size-16 place-items-center rounded-full border border-white/[.08] bg-[#11131a]"><span className="font-mono text-[14px] text-[#d6d7dc]">00:30</span></div>
+    </div>
+  </div>;
+}
+
+function EventPhoto({ src, alt, label, caption, objectPosition }: { src: string; alt: string; label: string; caption: string; objectPosition: string }) {
+  return <figure className="glass group overflow-hidden rounded-2xl p-3" data-testid={`photo-event-${label.toLowerCase().replaceAll(' ', '-')}`}>
+    <div className="relative aspect-[1.38] overflow-hidden rounded-xl border border-white/[.08] bg-[#151721]">
+      <img src={src} alt={alt} className="h-full w-full object-cover brightness-90 contrast-105 saturate-75 transition-transform duration-500 group-hover:scale-[1.02]" style={{ objectPosition }} />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0d0f15]/55 via-transparent to-transparent" />
+      <span className="absolute bottom-4 left-4 font-mono text-[9px] tracking-[.13em] text-white/75">{label}</span>
+    </div>
+    <figcaption className="px-1 pb-1 pt-4 text-[11px] leading-[1.5] text-[#858792]">{caption}</figcaption>
+  </figure>;
+}
+
+function ProjectCard({ project, featured }: { project: Project; featured: boolean }) {
+  return <article className={`glass grid overflow-hidden rounded-2xl transition-transform hover:-translate-y-1 ${featured ? 'lg:grid-cols-[1.04fr_.96fr]' : 'lg:grid-cols-[.94fr_1.06fr]'}`} data-testid={`card-project-${project.slug}`}>
+    <ProjectVisual project={project} featured={featured} />
+    <div className={`flex flex-col justify-center p-7 sm:p-9 ${project.reverse ? 'lg:order-first' : ''}`}>
+      <div className="flex items-center justify-between gap-4">
+        <p className="font-mono text-[10px] tracking-[.1em]" style={{ color: project.accent }}>{project.category}</p>
+        <span className="font-mono text-[10px] tracking-[.14em] text-[#5f626e]">{project.number}</span>
+      </div>
+      <p className="mt-5 text-[11px] text-[#787a85]">{project.context}</p>
+      <h3 className={`${featured ? 'text-[24px] sm:text-[28px]' : 'text-[20px]'} mt-2 max-w-[460px] font-display font-semibold leading-[1.05] tracking-[-.045em] text-[#ecedf0]`}>{project.title}</h3>
+      <p className="mt-4 max-w-[470px] text-[12px] leading-[1.62] text-[#9597a1]">{project.description}</p>
+      <div className="mt-5 flex flex-wrap gap-2">
+        {project.tags.map((tag) => <span key={tag} className="rounded-md border border-white/[.08] px-2 py-1 font-mono text-[9px] tracking-[.04em] text-[#777985]">{tag}</span>)}
+      </div>
+      <a href={`/case-studies/${project.slug}`} className="mt-7 inline-flex w-fit items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid={`link-case-study-${project.slug}`}>
+        View Case Study <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </article>;
+}
+
+function ProjectVisual({ project, featured }: { project: Project; featured: boolean }) {
+  const chartBars = [38, 56, 44, 72, 61, 86, 67, 94];
+  return <div className={`relative overflow-hidden border-b border-white/[.08] bg-[#171a27] p-6 sm:p-8 lg:border-b-0 ${project.reverse ? 'lg:order-last lg:border-l' : 'lg:border-r'} ${featured ? 'min-h-[330px]' : 'min-h-[245px]'}`}>
+    <div className="absolute -right-16 -top-20 size-56 rounded-full blur-3xl" style={{ backgroundColor: `${project.accent}18` }} />
+    <div className="relative flex items-center justify-between">
+      <p className="font-mono text-[9px] tracking-[.14em]" style={{ color: project.accent }}>{project.visualLabel}</p>
+      <span className="font-mono text-[8px] tracking-[.12em] text-[#5f626e]">ANALYTICS VIEW</span>
+    </div>
+    <div className="relative mt-6 rounded-[14px] border border-white/[.08] bg-[#11131a]/75 p-4 shadow-[0_18px_45px_rgba(0,0,0,.18)]">
+      {project.visual === 'sales' && <div className="h-[185px]">
+        <div className="flex items-end justify-between gap-2 border-b border-white/[.08] pb-3">
+          {chartBars.map((height, index) => <span key={index} className="w-full rounded-t-[3px] opacity-80" style={{ height: `${height}px`, backgroundColor: project.accent }} />)}
+        </div>
+        <div className="mt-4 flex items-center justify-between text-[9px] text-[#777985]"><span>Monthly revenue</span><span className="font-mono text-[#a7a9b3]">+24.8%</span></div>
+      </div>}
+      {project.visual === 'ads' && <div className="space-y-3 py-4">
+        {[
+          ['Impressions', '100%', 'bg-white/20'],
+          ['Clicks', '68%', 'bg-[#6194ff]'],
+          ['Conversions', '34%', 'bg-[#7b83ff]'],
+          ['Revenue', '18%', 'bg-white/60'],
+        ].map(([label, width, color]) => <div key={label}><div className="mb-1 flex justify-between text-[9px] text-[#858792]"><span>{label}</span><span className="font-mono">{width}</span></div><div className="h-2 rounded-full bg-white/[.06]"><div className={`h-full rounded-full ${color}`} style={{ width }} /></div></div>)}
+      </div>}
+      {project.visual === 'coffee' && <div className="h-[185px]">
+        <div className="grid h-[145px] grid-cols-7 items-end gap-2 border-b border-white/[.08]">
+          {[48, 72, 57, 92, 65, 78, 52].map((height, index) => <span key={index} className="rounded-t-[3px] bg-[#a264ef]/75" style={{ height: `${height}%` }} />)}
+        </div>
+        <div className="mt-4 flex items-center justify-between text-[9px] text-[#777985]"><span>Product margin</span><span className="font-mono text-[#a7a9b3]">Top 12%</span></div>
+      </div>}
+      {project.visual === 'clv' && <div className="space-y-3 py-2">
+        {[
+          ['High value', '84%', '#7b83ff'],
+          ['Growing', '61%', '#6194ff'],
+          ['At risk', '29%', '#a264ef'],
+        ].map(([label, width, color]) => <div key={label} className="flex items-center gap-3 rounded-lg border border-white/[.06] bg-white/[.025] px-3 py-2.5"><span className="size-2 rounded-full" style={{ backgroundColor: color }} /><span className="flex-1 text-[10px] text-[#9b9da7]">{label}</span><span className="font-mono text-[10px] text-[#c2c3c9]">{width}</span></div>)}
+      </div>}
+      {project.visual === 'supply-chain' && <div className="flex items-center justify-between gap-2 py-10">
+        {['Orders', 'Pick', 'Ship', 'Delivered'].map((label, index, items) => <div key={label} className="flex min-w-0 flex-1 items-center gap-2"><div className="min-w-0"><span className="mx-auto block size-3 rounded-full border-2" style={{ borderColor: project.accent }} /><p className="mt-3 truncate text-center text-[9px] text-[#858792]">{label}</p></div>{index < items.length - 1 && <span className="h-px flex-1 bg-white/[.12]" />}</div>)}
+      </div>}
+    </div>
+  </div>;
 }
 
 function TemplateCard({ template, onGet, onPreview }: { template: typeof templates[number]; onGet: () => void; onPreview: () => void }) {

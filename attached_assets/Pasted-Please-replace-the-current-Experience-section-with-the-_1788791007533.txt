@@ -1,0 +1,276 @@
+Please replace the current Experience section with the following final content and structure.
+
+IMPORTANT:
+- Keep the existing website's visual identity exactly consistent with the Hero, About Me, and Selected Projects sections.
+- The Experience section must feel like a natural continuation of the existing portfolio.
+- Do not redesign the overall website.
+- Do not introduce a new visual language.
+- Reuse the existing typography, spacing, colors, borders, cards, buttons, animations, and visual treatment.
+- Keep the design professional, clean, precise, minimalist, modern, structured, and premium.
+- Do not make this section look like a traditional CV.
+- This should feel like a portfolio case study showing leadership experience and real work evidence.
+
+==================================================
+1. SECTION TITLE
+==================================================
+
+Section title:
+
+"Experience"
+
+Do NOT use:
+- "Selected Experience"
+- "Professional Experience"
+- "Leadership Experience"
+
+Keep it simple:
+
+"Experience"
+
+==================================================
+2. EXPERIENCE
+==================================================
+
+Title:
+
+"Event Division Leader"
+
+Organization:
+
+"Creative Night · Kampung Inggris"
+
+Date:
+
+"August 2026"
+
+Overview:
+
+"Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and making real-time decisions to ensure smooth event delivery."
+
+==================================================
+3. LEADERSHIP & COORDINATION
+==================================================
+
+Heading:
+
+"Leadership & Coordination"
+
+Content:
+
+"Structured the team, delegated responsibilities, and coordinated preparation across members and related divisions to ensure responsibilities were clearly understood and completed on time."
+
+==================================================
+4. PLANNING & INITIATIVE
+==================================================
+
+Heading:
+
+"Planning & Initiative"
+
+Content:
+
+"Developed the event concept and contributed to the rundown, while taking initiative to handle additional responsibilities outside my initial scope, including the assessment format and timekeeper card design."
+
+==================================================
+5. TEAM & EXECUTION
+==================================================
+
+Heading:
+
+"Team & Execution"
+
+Content:
+
+"Supported team members throughout preparation, initiated team bonding activities to strengthen collaboration, and made real-time adjustments during the event to keep execution aligned with the planned objectives."
+
+==================================================
+6. EVENT MATERIALS
+==================================================
+
+Add a subsection titled:
+
+"Event Materials"
+
+Do NOT call this:
+- Selected Deliverables
+- Selected Materials
+- Project Deliverables
+
+Use exactly:
+
+"Event Materials"
+
+Display four visual items:
+
+1. Event Map & Rules
+2. Event Rundown
+3. Assessment Format
+4. Timekeeper Card
+
+These should be presented as clean visual previews/thumbnails.
+
+Use the existing card and image styling from the website.
+
+The materials should feel like real work evidence, not decorative graphics.
+
+For now, use placeholders if the actual files/images are not yet connected.
+
+Make the structure easy to replace with the actual images/files later.
+
+==================================================
+7. EVENT PHOTOS
+==================================================
+
+Include space for two event photographs.
+
+Photo 1:
+A team photograph showing me together with members of the event division.
+
+Photo 2:
+A strong photograph showing the event during execution.
+
+The photos should support the story of leadership and execution.
+
+Do not create a large photo gallery.
+
+Two photographs are sufficient.
+
+Use the existing image/card treatment from the website.
+
+Keep the photographs visually balanced with the Event Materials section.
+
+==================================================
+8. VISUAL STORYTELLING
+==================================================
+
+The section should communicate:
+
+Planning
+→ Leadership
+→ Initiative
+→ Coordination
+→ Execution
+
+However, do not display this as a large process diagram.
+
+Let the content and visual hierarchy communicate the story naturally.
+
+The Event Materials and photographs should act as evidence supporting the experience.
+
+==================================================
+9. LAYOUT
+==================================================
+
+Create a polished editorial layout that remains consistent with the existing portfolio.
+
+Recommended hierarchy:
+
+Experience
+↓
+Event Division Leader
+↓
+Overview
+↓
+Leadership & Coordination
+Planning & Initiative
+Team & Execution
+↓
+Event Materials
+↓
+Two Event Photos
+
+Do not make every element into a separate oversized card.
+
+Use whitespace and hierarchy to keep the section elegant and easy to scan.
+
+==================================================
+10. PROFESSIONAL POSITIONING
+==================================================
+
+This section should demonstrate qualities that complement my Data Analyst positioning:
+
+- Leadership
+- Planning
+- Coordination
+- Initiative
+- Attention to detail
+- Problem solving
+- Execution
+- Team collaboration
+
+Do not overemphasize generic organizational experience.
+
+The purpose of this section is to show that I can take ownership, coordinate people, handle additional responsibilities, and execute a project.
+
+==================================================
+11. DESIGN CONSISTENCY
+==================================================
+
+The current Hero, About Me, and Projects sections are the primary visual reference.
+
+The Experience section MUST look like it belongs to the same website.
+
+Reuse the existing:
+
+- Color palette
+- Typography
+- Font hierarchy
+- Border radius
+- Card styling
+- Button styling
+- Spacing system
+- Background treatment
+- Hover effects
+- Animation style
+- Responsive behavior
+
+Do not introduce:
+- Neon colors
+- Cyberpunk styling
+- Excessive gradients
+- Excessive glow
+- Unnecessary glassmorphism
+- Decorative elements unrelated to the existing design
+
+The result should feel:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Structured
+Detail-oriented
+Premium
+
+==================================================
+12. RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+- Maintain a balanced editorial composition.
+- Keep text and visual evidence well proportioned.
+
+Tablet:
+- Adjust spacing and image proportions naturally.
+
+Mobile:
+- Stack the content vertically.
+- Keep all text readable.
+- Keep Event Materials easy to browse.
+- Keep both photographs properly cropped.
+- Prevent horizontal overflow.
+
+==================================================
+13. IMPORTANT IMPLEMENTATION NOTE
+==================================================
+
+Do not connect external URLs yet.
+
+Do not add GitHub, LinkedIn, Google Drive, or other external links to this section yet.
+
+For now, focus entirely on the visual design and content structure.
+
+I will provide the actual Event Materials and photographs later.
+
+Do not modify the Hero, About Me, Selected Projects, Contact, Footer, navigation, CV functionality, or global theme.

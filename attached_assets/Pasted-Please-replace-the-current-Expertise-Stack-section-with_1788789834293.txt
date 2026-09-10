@@ -1,0 +1,430 @@
+Please replace the current "Expertise & Stack" section with a new "Selected Projects" section.
+
+IMPORTANT:
+- This is a personal Data Analyst portfolio, not a company website or agency website.
+- Keep the existing overall visual identity of the website:
+  dark theme, clean, minimalist, premium, precise, modern, and professional.
+- Do not redesign the entire website.
+- Do not modify the Hero or About Me sections.
+- Do not modify the existing Experience, Contact, Footer, navigation, or other sections.
+- Only replace the current "Expertise & Stack" section with the new Selected Projects section.
+- Focus on visual structure and presentation for now.
+- Do NOT worry about real external URLs yet. Use placeholder links where necessary so they can be replaced later.
+
+==================================================
+1. SECTION TITLE
+==================================================
+
+Replace:
+
+"Expertise & Stack"
+
+with:
+
+"Selected Projects"
+
+Replace the current subtitle with:
+
+"A selection of end-to-end data analytics projects, from data preparation and analysis to dashboards, insights, and recommendations."
+
+The subtitle should remain subtle and secondary to the section title.
+
+==================================================
+2. PROJECT COUNT
+==================================================
+
+Display 5 featured projects in this section.
+
+The projects should appear in this order:
+
+01. Sales Performance Analysis
+02. Google Ads Campaign Performance Analysis
+03. Coffee Shop Sales & Profit Analysis
+04. Customer Lifetime Value Analysis
+05. Supply Chain Fulfillment Analysis
+
+Do not include the Walmart E-commerce project in the main featured list for now.
+
+Keep the data structure easy to extend later if I decide to add another project.
+
+==================================================
+3. PROJECT #01
+==================================================
+
+Title:
+
+"Sales Performance Analysis"
+
+Context:
+
+"CPX SPORTWEAR · Freelance"
+
+Description:
+
+"Analyzed 6,744 transactions and 11,307 SKU records to uncover sales patterns, product performance, and purchasing behavior."
+
+Tags:
+
+"Python"
+"SQL"
+"Excel"
+"Looker Studio"
+
+Category / Label:
+
+"SALES · BUSINESS ANALYTICS"
+
+CTA:
+
+"View Case Study →"
+
+This should be the first and most visually prominent project because it represents my freelance Data Analyst experience.
+
+==================================================
+4. PROJECT #02
+==================================================
+
+Title:
+
+"Google Ads Campaign Performance Analysis"
+
+Context:
+
+"Independent Project"
+
+Description:
+
+"Evaluated advertising performance across CTR, conversion rate, ROI, and funnel stages to identify conversion bottlenecks and optimization opportunities."
+
+Tags:
+
+"Python"
+"SQL"
+"Excel"
+"Looker Studio"
+
+Category / Label:
+
+"MARKETING · PERFORMANCE ANALYTICS"
+
+CTA:
+
+"View Case Study →"
+
+==================================================
+5. PROJECT #03
+==================================================
+
+Title:
+
+"Coffee Shop Sales & Profit Analysis"
+
+Context:
+
+"Independent Project"
+
+Description:
+
+"Analyzed sales and profit data to identify high-performing products, profitable markets, and opportunities to improve overall business performance."
+
+Tags:
+
+"Python"
+"SQL"
+"Looker Studio"
+
+Category / Label:
+
+"PROFITABILITY · BUSINESS ANALYTICS"
+
+CTA:
+
+"View Case Study →"
+
+==================================================
+6. PROJECT #04
+==================================================
+
+Title:
+
+"Customer Lifetime Value Analysis"
+
+Context:
+
+"Independent Project"
+
+Description:
+
+"Identified and profiled high-value customers to uncover opportunities for targeted retention and customer growth strategies."
+
+Tags:
+
+"Python"
+"SQL"
+"Looker Studio"
+
+Category / Label:
+
+"CUSTOMER ANALYTICS · RETENTION"
+
+CTA:
+
+"View Case Study →"
+
+==================================================
+7. PROJECT #05
+==================================================
+
+Title:
+
+"Supply Chain Fulfillment Analysis"
+
+Context:
+
+"Independent Project"
+
+Description:
+
+"Investigated fulfillment performance to identify potential operational bottlenecks and understand the factors affecting order fulfillment."
+
+Tags:
+
+"Python"
+"SQL"
+"Looker Studio"
+
+Category / Label:
+
+"OPERATIONS · SUPPLY CHAIN ANALYTICS"
+
+CTA:
+
+"View Case Study →"
+
+==================================================
+8. VISUAL STRUCTURE
+==================================================
+
+Do NOT simply create five identical small cards in a generic grid.
+
+The section should feel like a premium project showcase.
+
+Use the existing visual language of the current website as inspiration, but adapt it from "templates" to "data analytics projects."
+
+Recommended structure:
+
+- Project #01 should be the featured project.
+- Give it slightly more visual emphasis than the other projects.
+- Projects #02–#05 can use a consistent alternating or editorial card layout.
+- Each project should have enough whitespace.
+- Maintain strong typography hierarchy.
+- Project title should be prominent.
+- Context should be smaller and secondary.
+- Description should be readable but concise.
+- Tags should be compact and subtle.
+- CTA should be clearly visible but not oversized.
+
+Avoid excessive visual decoration.
+
+==================================================
+9. PROJECT VISUALS
+==================================================
+
+For now, use clean placeholder visual areas for each project.
+
+IMPORTANT:
+
+Do not use random generic AI-generated images that have nothing to do with the project.
+
+The visual areas should be designed so that I can later replace them with:
+
+- Dashboard screenshots
+- Data visualization screenshots
+- Project presentation screenshots
+- Relevant analytical visuals
+
+The visual should support the project rather than dominate the content.
+
+For example:
+
+Sales Performance Analysis:
+Use a clean placeholder representing sales analytics / dashboard visualization.
+
+Google Ads:
+Use a placeholder representing marketing performance / funnel analytics.
+
+Coffee Shop:
+Use a placeholder representing sales and profitability analytics.
+
+Customer Lifetime Value:
+Use a placeholder representing customer analytics / segmentation.
+
+Supply Chain:
+Use a placeholder representing operational / fulfillment analytics.
+
+Keep the visual treatment consistent across all projects.
+
+==================================================
+10. CASE STUDY CTA
+==================================================
+
+Every project should have:
+
+"View Case Study →"
+
+For now, use placeholder routes/links.
+
+Do NOT create the full case-study pages yet unless the existing project architecture already requires a route.
+
+The implementation should make it easy to connect each project to a detailed case-study page later.
+
+==================================================
+11. HOMEPAGE CONTENT LIMITATION
+==================================================
+
+Do not put the full project analysis into the project cards.
+
+Do NOT display:
+
+- Full dataset information
+- Full key insights
+- Full recommendations
+- Full code
+- Full SQL queries
+- Full dashboard
+- Full presentation
+- Long methodology descriptions
+
+The Selected Projects section is a showcase.
+
+Detailed information will be presented later inside individual Case Study pages.
+
+The homepage should answer:
+
+"What projects has Ahsan worked on?"
+
+The Case Study page will later answer:
+
+"How did he actually do the work?"
+
+==================================================
+12. END-TO-END ANALYTICS IDENTITY
+==================================================
+
+The project section should subtly communicate that these are end-to-end data analytics projects.
+
+The overall storytelling should suggest:
+
+DATA
+↓
+PREPARATION
+↓
+ANALYSIS
+↓
+VISUALIZATION
+↓
+INSIGHTS
+↓
+RECOMMENDATIONS
+
+Do not display this entire process prominently inside every card.
+
+Instead, use the project descriptions and overall section design to communicate this identity naturally.
+
+==================================================
+13. PROFESSIONAL POSITIONING
+==================================================
+
+The portfolio should position me primarily as:
+
+"Data Analyst"
+
+with a longer-term direction toward:
+
+"Data Science and AI/ML"
+
+Do not describe me as:
+
+- AI Creator
+- AI Engineer
+- Web Designer
+- Frontend Developer
+- AI-powered website creator
+- Creative AI specialist
+
+unless explicitly relevant to a future section.
+
+The projects should emphasize:
+
+- Analytical thinking
+- Business problem solving
+- Data interpretation
+- Data visualization
+- Practical recommendations
+
+==================================================
+14. RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+- Use a strong editorial/project showcase layout.
+- Maintain generous spacing.
+- Keep project visuals and text balanced.
+
+Tablet:
+- Adjust project proportions naturally.
+
+Mobile:
+- Stack project content vertically.
+- Keep project titles readable.
+- Keep descriptions concise.
+- Keep tags from overflowing.
+- Keep CTA buttons accessible.
+- Prevent horizontal scrolling.
+
+==================================================
+15. DESIGN QUALITY
+==================================================
+
+The final section should feel:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Structured
+Detail-oriented
+Premium
+
+It should NOT feel like:
+
+- A CV
+- A generic project gallery
+- A template marketplace
+- An agency landing page
+- A futuristic/cyberpunk portfolio
+
+The project section should feel like a serious Data Analyst portfolio.
+
+==================================================
+16. DO NOT CHANGE OTHER SECTIONS
+==================================================
+
+Only replace the current "Expertise & Stack" section.
+
+Do NOT modify:
+
+- Hero
+- About Me
+- Experience
+- Contact
+- Footer
+- Navigation
+- Social links
+- CV functionality
+- Existing global theme
+- Existing typography system
+- Existing animations
+
+After implementation, verify the section on desktop and mobile and ensure there is no horizontal overflow.
