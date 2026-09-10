@@ -1,0 +1,322 @@
+Please replace the current "Expertise & Stack" section with a new "Skills" section.
+
+IMPORTANT:
+- Keep the existing website's visual identity exactly consistent with the Hero, About Me, Projects, and Experience sections.
+- Do NOT redesign the website.
+- Do NOT introduce a new visual language.
+- Reuse the existing dark, minimalist, premium, precise, and professional design system.
+- The Skills section should feel like a natural continuation of the existing portfolio.
+- This is a personal Data Analyst portfolio, NOT an agency or developer portfolio.
+
+==================================================
+1. SECTION TITLE
+==================================================
+
+Replace:
+
+"Expertise & Stack"
+
+with:
+
+"Skills"
+
+Replace the existing subtitle with:
+
+"Tools and capabilities I use to turn data into practical insights."
+
+Keep the subtitle subtle and secondary.
+
+==================================================
+2. REMOVE THE CURRENT CONTENT
+==================================================
+
+Remove the existing:
+
+- AI Prompt Engineering
+- UI/UX Design
+- Frontend Stack
+- Claude / ChatGPT / Gemini percentages
+- Design System Prompting
+- Code Generation & QA
+- Figma
+- Framer
+- Next.js
+- Tailwind
+- Vercel
+- Git
+- TypeScript
+- Dev / Design filters
+
+These belong to the original template and do not represent my professional positioning.
+
+Do not retain the "All / Dev / Design" filter.
+
+==================================================
+3. PRIMARY CATEGORY — TECHNICAL SKILLS
+==================================================
+
+Create the main category:
+
+"Technical Skills"
+
+Display the following:
+
+Python
+SQL
+Microsoft Excel
+Looker Studio
+Data Analysis
+Statistical Analysis
+Data Visualization
+Business KPI Analysis
+
+Do not use percentage-based skill bars.
+
+Do NOT display:
+
+Python — 95%
+SQL — 90%
+
+Skill percentages are subjective and should not be used.
+
+Instead, present the skills using clean labels, tags, or compact cards.
+
+==================================================
+4. AI-ASSISTED DEVELOPMENT
+==================================================
+
+Add a smaller technical category:
+
+"AI-Assisted Development"
+
+Use:
+
+"Replit"
+"AI Coding Workflows"
+
+This represents my experience using AI-assisted development workflows to build and refine digital projects.
+
+IMPORTANT:
+
+Do NOT describe me as:
+- AI Engineer
+- AI Developer
+- AI Specialist
+- Software Engineer
+- Frontend Developer
+
+My primary professional positioning remains:
+
+"Data Analyst"
+
+AI-assisted development is a supporting capability, not my primary professional identity.
+
+Do NOT use the informal phrase "Vibe Coding" as the skill name.
+
+==================================================
+5. CORE SKILLS
+==================================================
+
+Add a compact category:
+
+"Core Skills"
+
+Use:
+
+"Problem Solving"
+"Critical Thinking"
+"Communication"
+"Attention to Detail"
+"Team Coordination"
+"Continuous Learning"
+
+Present these as subtle tags/pills rather than large cards.
+
+Do not add long descriptions for each skill.
+
+==================================================
+6. LANGUAGES
+==================================================
+
+Add a compact category:
+
+"Languages"
+
+Display:
+
+"Indonesian — Native"
+"English — Advanced"
+"Arabic — Basic"
+
+Keep this section visually smaller than Technical Skills.
+
+Do not use percentage progress bars.
+
+Do not invent CEFR levels beyond the information provided.
+
+==================================================
+7. CONTENT HIERARCHY
+==================================================
+
+Technical Skills should have the strongest visual emphasis.
+
+Recommended hierarchy:
+
+Skills
+
+Technical Skills
+Python · SQL · Excel · Looker Studio
+Data Analysis · Statistical Analysis
+Data Visualization · Business KPI Analysis
+
+AI-Assisted Development
+Replit · AI Coding Workflows
+
+Core Skills
+Problem Solving · Critical Thinking · Communication
+Attention to Detail · Team Coordination · Continuous Learning
+
+Languages
+Indonesian — Native
+English — Advanced
+Arabic — Basic
+
+==================================================
+8. VISUAL DESIGN
+==================================================
+
+The section should remain visually consistent with the existing website.
+
+Use the existing:
+
+- Dark background
+- Typography
+- Font weights
+- Card system
+- Border treatment
+- Border radius
+- Spacing
+- Pill/tag styling
+- Subtle hover effects
+- Existing animations
+- Existing transitions
+
+Do NOT introduce:
+- Neon colors
+- Cyberpunk effects
+- Excessive gradients
+- Excessive glow
+- Large progress bars
+- Skill percentage meters
+- Futuristic UI elements
+- Unnecessary decorative graphics
+
+The section should feel:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Structured
+Premium
+
+==================================================
+9. DO NOT OVERLOAD THE SECTION
+==================================================
+
+The Skills section should be a concise summary, not a complete technical inventory.
+
+Do NOT add every Python library, database system, framework, or tool I have ever used.
+
+For example, do not create a long list such as:
+
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+MySQL
+PostgreSQL
+etc.
+
+Those specific technologies can be shown naturally inside individual projects where relevant.
+
+The Skills section should communicate my primary capabilities at a glance.
+
+==================================================
+10. RELATIONSHIP WITH PROJECTS
+==================================================
+
+The Projects section is the primary evidence of my technical skills.
+
+The Skills section should therefore function as a concise overview.
+
+For example:
+
+Python
+→ demonstrated through multiple data analysis projects
+
+SQL
+→ demonstrated through data querying and analysis
+
+Excel
+→ demonstrated through practical data preparation and analysis
+
+Looker Studio
+→ demonstrated through dashboards and data visualization
+
+Do not add these explanations to the homepage.
+
+==================================================
+11. RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+- Maintain a balanced multi-column composition if appropriate.
+- Technical Skills should receive the most visual space.
+
+Tablet:
+- Adjust the columns naturally.
+
+Mobile:
+- Stack the categories vertically.
+- Keep tags readable.
+- Prevent horizontal overflow.
+- Maintain comfortable spacing.
+
+==================================================
+12. IMPORTANT — PRESERVE OTHER SECTIONS
+==================================================
+
+Do NOT modify:
+
+- Hero
+- About Me
+- Projects
+- Experience
+- Contact
+- Footer
+- Navigation
+- CV functionality
+- Global theme
+
+Only replace the current "Expertise & Stack" section with the new "Skills" section.
+
+The final homepage structure should remain:
+
+Hero
+↓
+About Me
+↓
+Projects
+↓
+Experience
+↓
+Skills
+↓
+Contact
+↓
+Footer
+
+The Skills section should feel like it was always part of the same website.
