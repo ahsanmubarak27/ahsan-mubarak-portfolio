@@ -1,0 +1,517 @@
+BUILD / UPDATE EXPERIENCE DETAIL PAGE — EVENT DIVISION LEADER
+
+Create an internal Experience detail page for the existing Experience section on the portfolio homepage.
+
+IMPORTANT:
+This is an EXPERIENCE CASE STUDY, not a job experience page.
+
+The purpose is to demonstrate:
+- Leadership
+- Planning
+- Coordination
+- Initiative
+- Execution
+- Ownership
+- Real-world event experience
+
+Keep the page professional, concise, and evidence-based.
+
+==================================================
+EXPERIENCE INFORMATION
+==================================================
+
+Title:
+Event Division Leader
+
+Organization:
+Creative Night · Kampung Inggris
+
+Date:
+August 2026
+
+Category:
+Leadership Experience
+
+Homepage Description:
+Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and taking initiative to support additional operational needs.
+
+Homepage Tags:
+Leadership
+Planning
+Execution
+
+The homepage Experience card already exists.
+
+Do NOT redesign or replace the homepage Experience card.
+
+Only make sure its:
+
+View Experience →
+
+CTA correctly opens this internal Experience detail page.
+
+==================================================
+PAGE STRUCTURE
+==================================================
+
+Use exactly this structure:
+
+01 — Experience Overview
+02 — Role & Responsibility
+03 — Planning & Event Structure
+04 — Taking Initiative Beyond My Role
+05 — Event Execution
+06 — Supporting Materials
+07 — What I Learned
+
+Do NOT add:
+- Testimonials
+- Skills section
+- Contact form
+- Services
+- Pricing
+- Extra career sections
+- Unnecessary decorative sections
+
+==================================================
+01 — EXPERIENCE OVERVIEW
+==================================================
+
+Title:
+Experience Overview
+
+Display:
+
+Event Division Leader
+Creative Night · Kampung Inggris
+August 2026
+
+Use this introduction:
+
+Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and taking initiative to support additional operational needs.
+
+Add a compact highlight area:
+
+LEADERSHIP
+Coordinating the event division and team responsibilities.
+
+PLANNING
+Structuring the event flow and preparation.
+
+EXECUTION
+Supporting real-time event execution and operational needs.
+
+Do not use numerical statistics unless they are explicitly provided.
+
+Do not invent team size, participant count, event duration, or other numbers.
+
+==================================================
+02 — ROLE & RESPONSIBILITY
+==================================================
+
+Title:
+Role & Responsibility
+
+Description:
+
+As the Event Division Leader, I was responsible for coordinating the event division throughout the preparation and execution process, keeping responsibilities organized, and helping ensure that the event structure could be carried out effectively.
+
+Present the responsibilities as concise points:
+
+- Coordinating event division responsibilities
+- Structuring the event flow
+- Communicating with team members
+- Monitoring preparation progress
+- Supporting event execution
+- Responding to operational needs during preparation and execution
+
+Keep this section focused on responsibilities that were actually part of the role.
+
+==================================================
+03 — PLANNING & EVENT STRUCTURE
+==================================================
+
+Title:
+Planning & Event Structure
+
+Description:
+
+Developed and organized the event structure to provide a clear sequence and timeline for the activities.
+
+Add an evidence item:
+
+EVENT RUNDOWN
+
+Description:
+
+The event rundown provided a shared reference for activity sequence, timing, and transitions during the event.
+
+If the actual rundown file/asset is available in the project, display a clean preview or document card.
+
+If the actual file is NOT available, do NOT create a fake document or placeholder screenshot.
+
+Use a CTA only if an actual file exists:
+
+View Rundown →
+
+Do not invent the contents of the rundown.
+
+==================================================
+04 — TAKING INITIATIVE BEYOND MY ROLE
+==================================================
+
+Title:
+Taking Initiative Beyond My Role
+
+This is one of the most important sections of the page.
+
+Use this introduction:
+
+Beyond my primary responsibilities within the event division, I took initiative to support several operational needs that were important to the overall execution of the event.
+
+IMPORTANT:
+Do NOT frame this negatively as "doing someone else's job" or complain about responsibilities.
+
+The emphasis should be:
+initiative → ownership → supporting the overall event objective.
+
+Create three evidence cards:
+
+--------------------------------------------------
+ASSESSMENT FORMAT
+--------------------------------------------------
+
+Title:
+Assessment Format
+
+Description:
+
+Developed the assessment format to provide a clearer and more structured way of evaluating participants.
+
+--------------------------------------------------
+EVENT MAP & RULES
+--------------------------------------------------
+
+Title:
+Event Map & Rules
+
+Description:
+
+Prepared the event map and rules to help participants and the organizing team understand the event structure and operational guidelines.
+
+--------------------------------------------------
+TIMEKEEPER PAPER
+--------------------------------------------------
+
+Title:
+Timekeeper Paper
+
+Description:
+
+Prepared a timekeeper reference sheet to support more consistent time management during event execution.
+
+IMPORTANT:
+These three items should be presented as examples of initiative and ownership.
+
+Do not claim that these tasks were officially assigned to the Event Division Leader unless the source material explicitly confirms that.
+
+==================================================
+05 — EVENT EXECUTION
+==================================================
+
+Title:
+Event Execution
+
+Use this description:
+
+During the event, I helped ensure that the planned structure was translated into actual execution while responding to situations that required coordination, adaptability, and quick decision-making.
+
+IMPORTANT:
+DO NOT include event photographs in this section.
+
+Instead, add a compact external evidence CTA:
+
+View Event on LinkedIn →
+
+Use the following placeholder for the link:
+
+[LINKEDIN EXPERIENCE URL]
+
+IMPORTANT:
+Do NOT invent a LinkedIn URL.
+
+The final LinkedIn URL will be provided later.
+
+When the URL is available:
+- Open it in a new browser tab.
+- Use the existing portfolio button style.
+- Label it "View Event on LinkedIn →".
+- Do not create a duplicate social-media section.
+
+If the LinkedIn URL is not yet available, keep the CTA prepared but do not use a fake URL.
+
+==================================================
+06 — SUPPORTING MATERIALS
+==================================================
+
+Title:
+Supporting Materials
+
+Create a clean evidence grid containing the actual materials associated with the experience.
+
+Potential materials:
+
+1. Event Rundown
+2. Assessment Format
+3. Event Map & Rules
+4. Timekeeper Paper
+
+For each item:
+
+- Use the actual uploaded asset if available.
+- Use a clean document/card preview.
+- Provide a short description.
+- Provide an appropriate view/open action if the actual file exists.
+
+IMPORTANT:
+Do NOT generate fake document screenshots.
+
+Do NOT invent document contents.
+
+Do NOT include materials that were not actually created or used.
+
+If a material is already presented in Section 03 or Section 04, avoid unnecessary duplication.
+
+The Supporting Materials section can instead provide a compact overview of the evidence with links/previews.
+
+==================================================
+07 — WHAT I LEARNED
+==================================================
+
+Title:
+What I Learned
+
+Present three concise learning points:
+
+COMMUNICATION
+
+Clear communication is important when coordinating responsibilities and keeping the team aligned.
+
+ADAPTABILITY
+
+Event execution does not always follow the original plan, so being able to adapt quickly is essential.
+
+OWNERSHIP
+
+Leadership is not only about assigning responsibilities, but also taking responsibility for the outcome and stepping in when additional support is needed.
+
+Keep this section reflective but professional.
+
+Do not make it overly inspirational or generic.
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+This Experience page must use the exact same visual system as the existing portfolio and project case-study pages.
+
+Reuse:
+
+- Existing dark background
+- Existing accent color
+- Existing typography
+- Existing font hierarchy
+- Existing cards
+- Existing borders
+- Existing border radius
+- Existing shadows
+- Existing spacing
+- Existing buttons
+- Existing hover states
+- Existing animations
+- Existing page width
+- Existing responsive behavior
+
+Do NOT create a separate design identity for Experience.
+
+Do NOT:
+- Add neon colors
+- Add cyberpunk styling
+- Add excessive gradients
+- Add glowing effects
+- Add oversized decorative elements
+- Add unnecessary animations
+- Change the global navbar
+- Change global typography
+- Change the homepage design
+- Redesign the Projects section
+- Add a new navigation system
+
+The Experience page should feel like a natural part of the same portfolio.
+
+==================================================
+VISUAL STYLE
+==================================================
+
+The visual storytelling should communicate:
+
+RESPONSIBILITY
+→ PLANNING
+→ INITIATIVE
+→ EXECUTION
+→ REFLECTION
+
+Use subtle visual hierarchy rather than large decorative graphics.
+
+The actual documents/evidence should be the visual proof.
+
+Do not turn the page into a photo gallery.
+
+==================================================
+EVIDENCE PRINCIPLE
+==================================================
+
+Use this hierarchy:
+
+Experience Homepage
+→ Quick overview
+
+Experience Detail Page
+→ Leadership story and responsibilities
+
+Supporting Materials
+→ Actual evidence of work
+
+LinkedIn
+→ External event documentation
+
+Do not duplicate evidence unnecessarily.
+
+==================================================
+NAVIGATION
+==================================================
+
+Ensure:
+
+Homepage Experience Card
+→ View Experience →
+
+opens this internal Experience detail page.
+
+Ensure the page has a clear way to return to the homepage/Experience section using the existing navigation system.
+
+Do NOT modify the global navbar.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Make sure the page works properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain the existing portfolio spacing and responsive behavior.
+
+Do not introduce horizontal scrolling.
+
+Document previews and evidence cards must scale properly on smaller screens.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only implement this Experience detail page.
+
+Do NOT modify unrelated pages.
+
+Do NOT redesign the homepage.
+
+Do NOT redesign the Projects section.
+
+Do NOT change the global navbar.
+
+Reuse existing case-study and content components whenever possible.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do NOT redesign the page.
+- Do NOT restructure unrelated components.
+- Make sure the project compiles successfully.
+
+==================================================
+LINKEDIN
+==================================================
+
+Prepare the Experience page for one external LinkedIn link.
+
+Label:
+
+View Event on LinkedIn →
+
+Behavior:
+
+Open in a new browser tab.
+
+Do NOT invent the URL.
+
+The final LinkedIn URL will be inserted once provided.
+
+Do NOT add another social media section.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before finishing, verify:
+
+1. View Experience → from the homepage works.
+2. Experience detail page compiles successfully.
+3. Event Division Leader information is correct.
+4. Organization is:
+   Creative Night · Kampung Inggris
+5. Date is:
+   August 2026
+6. Role is presented as Event Division Leader.
+7. Responsibilities are clearly separated from additional initiative.
+8. Assessment Format is included.
+9. Event Map & Rules is included.
+10. Timekeeper Paper is included.
+11. Event Rundown is included if the actual asset is available.
+12. No fake document previews are created.
+13. No event photos are included.
+14. LinkedIn CTA is prepared without inventing a URL.
+15. No unsupported claims are added.
+16. The page uses the existing portfolio design system.
+17. The global navbar is unchanged.
+18. The homepage is unchanged except for the existing View Experience navigation if needed.
+19. The page is responsive on desktop and mobile.
+20. The page does not feel like a generic resume template.
+
+MOST IMPORTANT:
+
+KEEP THE EXISTING DESIGN.
+
+THIS IS AN EXPERIENCE CASE STUDY, NOT A JOB DESCRIPTION.
+
+SHOW:
+LEADERSHIP → PLANNING → INITIATIVE → EXECUTION → REFLECTION.
+
+PRESENT THE ASSESSMENT FORMAT, EVENT MAP & RULES, TIMEKEEPER PAPER, AND RUNDOWN AS REAL EVIDENCE OF WORK.
+
+DO NOT INCLUDE EVENT PHOTOS.
+
+USE LINKEDIN AS THE EXTERNAL EVENT EVIDENCE.
+
+DO NOT INVENT THE LINKEDIN URL.
+
+DO NOT INVENT DOCUMENT CONTENT.
+
+KEEP THE PAGE CLEAN, PROFESSIONAL, AND EVIDENCE-BASED.

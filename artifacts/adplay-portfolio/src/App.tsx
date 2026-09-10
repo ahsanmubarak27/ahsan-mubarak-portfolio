@@ -15,6 +15,7 @@ import CaseStudyCoffeeShop from './pages/case-studies/coffee-shop-sales-profit';
 import CaseStudyCustomerLifetimeValue from './pages/case-studies/customer-lifetime-value';
 import CaseStudySupplyChainFulfillment from './pages/case-studies/supply-chain-fulfillment';
 import CaseStudyAdHocSales from './pages/case-studies/ad-hoc-sales-profitability';
+import ExperienceEventDivisionLeader from './pages/experience/event-division-leader';
 import NotFound from './pages/not-found';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
@@ -302,7 +303,7 @@ function Home() {
                 <div className="mt-6 flex flex-wrap gap-2">
                   {experienceHighlights.map((highlight) => <span key={highlight} className="rounded-md border border-white/[.08] px-2.5 py-1 font-mono text-[9px] tracking-[.04em] text-[#777985]">{highlight}</span>)}
                 </div>
-                <a href="/experience/event-division-leader" className="mt-7 inline-flex items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid="link-view-experience">View Experience <span aria-hidden="true">→</span></a>
+                <Link href="/experience/event-division-leader" className="mt-7 inline-flex items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid="link-view-experience">View Experience <span aria-hidden="true">→</span></Link>
               </div>
             </div>
           </article>
@@ -596,6 +597,7 @@ export default function App() {
       <Route path="/case-studies/customer-lifetime-value" component={CaseStudyCustomerLifetimeValue} />
       <Route path="/case-studies/supply-chain-fulfillment" component={CaseStudySupplyChainFulfillment} />
       <Route path="/case-studies/ad-hoc-sales-profitability" component={CaseStudyAdHocSales} />
+      <Route path="/experience/event-division-leader" component={ExperienceEventDivisionLeader} />
       <Route component={NotFound} />
     </Switch>
   );
