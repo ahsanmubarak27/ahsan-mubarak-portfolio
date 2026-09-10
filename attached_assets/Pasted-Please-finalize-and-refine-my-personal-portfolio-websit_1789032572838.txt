@@ -1,0 +1,1041 @@
+Please finalize and refine my personal portfolio website based on the following complete specifications.
+
+IMPORTANT:
+This is a PERSONAL DATA ANALYST PORTFOLIO, not an agency, template marketplace, AI studio, design studio, or developer portfolio.
+
+The existing website already has a strong dark, minimalist, professional, precise, modern, and premium visual identity.
+
+DO NOT redesign the entire website.
+
+The existing Hero section is already finalized and should be treated as the primary visual reference.
+
+Only make the specific changes described below.
+
+==================================================
+1. OVERALL WEBSITE IDENTITY
+==================================================
+
+The website represents:
+
+Name:
+"Ahsan Mubarak"
+
+Professional Positioning:
+"Data Analyst"
+
+Long-term direction:
+Data Science and AI/ML
+
+The overall impression should be:
+
+Professional
+Clean
+Precise
+Minimalist
+Modern
+Structured
+Detail-oriented
+Premium
+
+Avoid:
+
+- Cyberpunk aesthetics
+- Gaming aesthetics
+- Excessive futuristic effects
+- Excessive gradients
+- Excessive glow
+- Neon-heavy styling
+- Agency-style positioning
+- Generic AI branding
+- Web designer positioning
+- AI Creator positioning
+
+The existing dark visual system should remain consistent throughout the entire website.
+
+==================================================
+2. FINAL HOMEPAGE STRUCTURE
+==================================================
+
+The homepage should follow this exact structure:
+
+Hero
+↓
+About Me
+↓
+Projects
+↓
+Experience
+↓
+Skills
+↓
+Contact
+↓
+Footer
+
+There should be NO additional template sections between these sections.
+
+Remove any remaining sections that belong to the original template and are not part of this structure.
+
+==================================================
+3. NAVIGATION BAR
+==================================================
+
+Update the existing navbar to represent my personal portfolio.
+
+Keep the existing navbar's visual design, spacing, proportions, borders, transparency, and overall styling.
+
+Do NOT redesign the navbar from scratch.
+
+--------------------------------------------------
+BRAND
+--------------------------------------------------
+
+Replace:
+
+"AP"
+"AdPlay"
+
+with:
+
+"AM"
+"Ahsan Mubarak"
+
+Use "AM" as the compact monogram.
+
+Keep the existing logo container styling.
+
+Do not add a tagline.
+
+--------------------------------------------------
+NAVIGATION
+--------------------------------------------------
+
+Replace the current navigation with exactly:
+
+About
+Projects
+Experience
+Skills
+Contact
+
+Order:
+
+About
+Projects
+Experience
+Skills
+Contact
+
+Each item should smoothly scroll to the corresponding homepage section.
+
+About → About Me
+Projects → Projects
+Experience → Experience
+Skills → Skills
+Contact → Contact
+
+Remove all template-specific navigation such as:
+
+Work
+Services
+
+--------------------------------------------------
+NAVBAR CTA
+--------------------------------------------------
+
+Replace:
+
+"Start a Project"
+
+with:
+
+"Download CV"
+
+The button must use the existing real CV download implementation.
+
+Do not create another CV file.
+
+Do not change the existing CV file unnecessarily.
+
+The button should download the actual PDF.
+
+Use a suitable download/file icon if appropriate.
+
+--------------------------------------------------
+NAVBAR RESPONSIVENESS
+--------------------------------------------------
+
+Desktop:
+
+Logo left
+Navigation centered
+Download CV right
+
+Mobile:
+
+Use the existing mobile navigation system if available.
+
+Navigation must contain:
+
+About
+Projects
+Experience
+Skills
+Contact
+
+Prevent horizontal overflow.
+
+==================================================
+4. HERO
+==================================================
+
+The Hero is already finalized.
+
+DO NOT unnecessarily modify the Hero.
+
+Keep the existing:
+
+Badge:
+"OPEN TO OPPORTUNITIES"
+
+Main heading:
+"Ahsan Mubarak."
+
+Secondary heading:
+"Data Analyst."
+
+Description:
+"Turning data into clear insights, meaningful decisions, and practical solutions. Building toward Data Science and AI/ML."
+
+Primary CTA:
+"View Portfolio →"
+
+Secondary CTA:
+"Download CV"
+
+The "View Portfolio" button should scroll to the Projects section.
+
+The "Download CV" button should use the existing real CV download functionality.
+
+The Hero already contains the social/contact icons in this exact order:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+Keep them.
+
+Links:
+
+WhatsApp:
+https://wa.link/f9tvwf
+
+LinkedIn:
+https://www.linkedin.com/in/ahsan-mubarak-854378314/
+
+Email:
+mailto:ahsanmubarak2729@gmail.com
+
+GitHub:
+https://github.com/ahsanmubarak27
+
+Kaggle:
+https://www.kaggle.com/ahsanmubarak
+
+Do not duplicate or redesign the Hero unnecessarily.
+
+==================================================
+5. ABOUT ME
+==================================================
+
+Keep the existing About Me section and its current visual design.
+
+The section should remain concise and portfolio-oriented.
+
+It should NOT become a CV-style biography.
+
+Do not add detailed:
+
+- GPA
+- Coursework
+- Certifications
+- Achievement lists
+- Full employment history
+
+Those details belong in the CV.
+
+Keep About Me focused on professional identity, analytical approach, and direction.
+
+Do not modify this section unnecessarily if it is already implemented correctly.
+
+==================================================
+6. PROJECTS
+==================================================
+
+Rename the section title:
+
+"Selected Projects"
+
+to:
+
+"Projects"
+
+Do NOT use:
+
+"Selected Projects"
+
+Do NOT use:
+
+"Selected Work"
+
+Use exactly:
+
+"Projects"
+
+Keep the existing project layout and visual system.
+
+The Projects section should function as a HOMEPAGE PREVIEW.
+
+It should showcase my main Data Analytics projects without displaying every technical detail directly on the homepage.
+
+The homepage project cards should remain concise.
+
+Detailed project information will later be available through project detail/case-study pages.
+
+Do not turn the homepage into a CV.
+
+The project content should focus on:
+
+- Project title
+- Short context/problem
+- Short analytical summary
+- Tools
+- Key insight/impact
+- View Project / Case Study CTA
+
+The exact project details can be connected later.
+
+Do not unnecessarily redesign the existing project layout.
+
+==================================================
+7. EXPERIENCE
+==================================================
+
+The homepage should contain ONLY ONE experience:
+
+"Event Division Leader"
+
+"Creative Night · Kampung Inggris"
+
+"August 2026"
+
+The Experience section must function as a HOMEPAGE PREVIEW, similar to Projects.
+
+It should NOT display the full case study on the homepage.
+
+--------------------------------------------------
+SECTION TITLE
+--------------------------------------------------
+
+Use:
+
+"Experience"
+
+Subtitle:
+
+"A leadership experience grounded in planning, coordination, initiative, and real-time execution."
+
+--------------------------------------------------
+EXPERIENCE DESCRIPTION
+--------------------------------------------------
+
+Use exactly:
+
+"Led the event division from planning to execution, coordinating team responsibilities, developing the event structure, and taking initiative to support additional operational needs."
+
+--------------------------------------------------
+HIGHLIGHTS
+--------------------------------------------------
+
+Display three subtle highlights:
+
+Leadership
+Planning
+Execution
+
+Use these similarly to small project tags.
+
+--------------------------------------------------
+CTA
+--------------------------------------------------
+
+Add:
+
+"View Experience →"
+
+This will later lead to a dedicated Experience detail page.
+
+For now, use an appropriate placeholder route if the detailed page does not yet exist.
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+Do NOT display the following directly on the homepage:
+
+- Event Map & Rules
+- Event Rundown
+- Assessment Format
+- Timekeeper Card
+- Detailed Leadership & Coordination section
+- Detailed Planning & Initiative section
+- Detailed Team & Execution section
+- Event photographs
+
+These should be reserved for the future Experience detail page.
+
+Do NOT delete their underlying data/assets if they are already implemented.
+
+Simply keep them out of the homepage presentation.
+
+--------------------------------------------------
+EXPERIENCE PURPOSE
+--------------------------------------------------
+
+The homepage should answer:
+
+"What relevant experience does Ahsan have?"
+
+It should NOT attempt to show the complete evidence/case study.
+
+==================================================
+8. SKILLS
+==================================================
+
+Replace the current:
+
+"Expertise & Stack"
+
+with:
+
+"Skills"
+
+Subtitle:
+
+"Tools and capabilities I use to turn data into practical insights."
+
+Remove the original template content:
+
+- AI Prompt Engineering
+- UI/UX Design
+- Frontend Stack
+- Claude / ChatGPT / Gemini percentages
+- Design System Prompting
+- Code Generation & QA
+- Figma
+- Framer
+- Next.js
+- Tailwind
+- Vercel
+- Git
+- TypeScript
+- Dev / Design filters
+
+Do NOT retain the "All / Dev / Design" filter.
+
+--------------------------------------------------
+TECHNICAL SKILLS
+--------------------------------------------------
+
+Category:
+
+"Technical Skills"
+
+Include:
+
+Python
+SQL
+Microsoft Excel
+Looker Studio
+Data Analysis
+Statistical Analysis
+Data Visualization
+Business KPI Analysis
+
+Do NOT use percentage-based skill bars.
+
+Do NOT show:
+
+Python — 95%
+SQL — 90%
+
+Skills should be presented using clean tags/pills or compact visual elements.
+
+--------------------------------------------------
+AI-ASSISTED DEVELOPMENT
+--------------------------------------------------
+
+Category:
+
+"AI-Assisted Development"
+
+Include:
+
+Replit
+AI Coding Workflows
+
+Do NOT call this:
+
+"Vibe Coding"
+
+Do NOT describe me as:
+
+AI Engineer
+AI Developer
+AI Specialist
+Software Engineer
+Frontend Developer
+
+AI-assisted development is a supporting capability.
+
+My primary positioning remains:
+
+Data Analyst
+
+--------------------------------------------------
+CORE SKILLS
+--------------------------------------------------
+
+Category:
+
+"Core Skills"
+
+Include:
+
+Problem Solving
+Critical Thinking
+Communication
+Attention to Detail
+Team Coordination
+Continuous Learning
+
+Use subtle tags/pills.
+
+--------------------------------------------------
+LANGUAGES
+--------------------------------------------------
+
+Category:
+
+"Languages"
+
+Include:
+
+Indonesian — Native
+English — Advanced
+Arabic — Basic
+
+Do not use percentage bars.
+
+Do not invent additional proficiency levels.
+
+--------------------------------------------------
+SKILLS VISUAL REFINEMENT
+--------------------------------------------------
+
+The current Skills section is too plain.
+
+Add a SMALL amount of visual character.
+
+Add ONE small, subtle icon beside each major category heading:
+
+Technical Skills
+AI-Assisted Development
+Core Skills
+Languages
+
+Use the existing icon library and visual language already used elsewhere on the website.
+
+Suggested icon concepts:
+
+Technical Skills:
+data / analytics / code
+
+AI-Assisted Development:
+sparkles / AI
+
+Core Skills:
+brain / target / people
+
+Languages:
+globe
+
+Use approximately 16–20px icons.
+
+Do NOT add icons to every individual skill pill.
+
+Do NOT use large decorative icons.
+
+Do NOT make every icon a different color.
+
+Use the existing accent color system.
+
+The result should sit between:
+
+Too plain
+and
+Too decorative.
+
+==================================================
+9. REMOVE ORIGINAL TEMPLATE TESTIMONIALS
+==================================================
+
+There is an original template section titled:
+
+"Words from Customers"
+
+REMOVE THIS ENTIRE SECTION.
+
+Remove:
+
+- Words from Customers heading
+- Customer testimonials
+- Customer quotes
+- Customer names
+- Customer job titles
+- Customer initials/avatars
+- Quote icons
+- Testimonial animations
+- Testimonial carousel
+- Placeholder testimonial data
+
+Do NOT replace it with anything.
+
+Do NOT create fictional testimonials.
+
+After Skills, the page should flow directly to:
+
+Skills
+↓
+Contact
+
+Make sure there is no excessive empty space after removing the testimonial section.
+
+==================================================
+10. CONTACT
+==================================================
+
+Create/refine the Contact section as the final CTA before the Footer.
+
+The Contact section should NOT be a traditional contact form.
+
+Do NOT duplicate the full five-icon social row from the Hero.
+
+The Hero already contains:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+--------------------------------------------------
+HEADING
+--------------------------------------------------
+
+Use:
+
+"Let's Connect"
+
+--------------------------------------------------
+DESCRIPTION
+--------------------------------------------------
+
+Use exactly:
+
+"Interested in working together or discussing a data analytics opportunity? I'd be happy to connect."
+
+--------------------------------------------------
+CLOSING CTA BLOCK
+--------------------------------------------------
+
+Create a visually substantial but minimalist CTA block.
+
+Include:
+
+"OPEN TO OPPORTUNITIES"
+
+Then:
+
+"Let's work with data."
+
+Then:
+
+"I'm currently open to data analytics opportunities and meaningful projects."
+
+--------------------------------------------------
+PRIMARY CTA
+--------------------------------------------------
+
+Button:
+
+"Get in Touch →"
+
+Link:
+
+mailto:ahsanmubarak2729@gmail.com
+
+The button should open the visitor's default email application.
+
+Make sure the text has sufficient contrast and is clearly readable.
+
+--------------------------------------------------
+CONTACT INFORMATION
+--------------------------------------------------
+
+Include subtly:
+
+ahsanmubarak2729@gmail.com
+
+Based in Bandung, Indonesia
+
+The email should be clickable.
+
+Optional:
+A small mail icon and location icon may be used.
+
+Do not add excessive icons.
+
+--------------------------------------------------
+CONTACT DESIGN
+--------------------------------------------------
+
+The current Contact section is too empty.
+
+It should feel like a deliberate closing section rather than:
+
+Heading
++
+Paragraph
++
+Button
++
+Empty space
+
+Use a clean editorial CTA composition.
+
+Do NOT add:
+
+- Contact form
+- Large social icon row
+- Large illustrations
+- Neon effects
+- Excessive gradients
+- Excessive glow
+- Cyberpunk elements
+- Decorative graphics
+
+The Contact section should feel:
+
+Calm
+Confident
+Professional
+Minimal
+Intentional
+
+==================================================
+11. FOOTER
+==================================================
+
+Create/refine a minimal professional footer.
+
+The Footer should contain:
+
+--------------------------------------------------
+IDENTITY
+--------------------------------------------------
+
+"Ahsan Mubarak."
+
+"Data Analyst."
+
+--------------------------------------------------
+NAVIGATION
+--------------------------------------------------
+
+About
+Projects
+Experience
+Skills
+Contact
+
+Each should link to the corresponding homepage section.
+
+--------------------------------------------------
+SOCIAL LINKS
+--------------------------------------------------
+
+Use small icon links for:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+Use the same links already established in the Hero.
+
+Keep these smaller and more subtle than the Hero social icons.
+
+--------------------------------------------------
+COPYRIGHT
+--------------------------------------------------
+
+Use:
+
+"© 2026 Ahsan Mubarak. All rights reserved."
+
+--------------------------------------------------
+FOOTER DESIGN
+--------------------------------------------------
+
+Keep the Footer minimal.
+
+Do NOT add:
+
+- Long biography
+- Skills list
+- Services
+- Newsletter
+- Pricing
+- Testimonials
+- Agency content
+- "Made with Replit"
+- Unnecessary legal sections
+- Large decorative elements
+
+The Footer should feel like a clean ending to the portfolio.
+
+==================================================
+12. REMOVE ALL REMAINING TEMPLATE CONTENT
+==================================================
+
+Perform a careful final scan of the homepage and remove any remaining content from the original template that conflicts with my personal portfolio identity.
+
+There must be NO remaining references to:
+
+AdPlay
+AI Creator
+AI Creative Studio
+AI-powered web templates
+AI Prompt Engineering as a primary specialization
+UI/UX Design as a primary specialization
+Frontend Stack
+Developer Portfolio
+Architecture Portfolio
+Stack — Developer Portfolio
+Blueprint — Architecture Portfolio
+Selected Templates
+Words from Customers
+Start a Project
+Services
+Work
+
+Do not leave placeholder copy anywhere on the homepage.
+
+==================================================
+13. RESPONSIVE DESIGN
+==================================================
+
+The entire homepage must remain fully responsive.
+
+Desktop:
+- Maintain the existing premium editorial composition.
+- Keep spacing balanced.
+- Preserve strong visual hierarchy.
+
+Tablet:
+- Adjust columns and spacing naturally.
+
+Mobile:
+- Stack sections naturally.
+- Maintain readable typography.
+- Keep buttons accessible.
+- Keep social icons usable.
+- Prevent horizontal overflow.
+- Ensure images are properly cropped.
+- Ensure navbar/mobile navigation works correctly.
+
+==================================================
+14. GLOBAL VISUAL CONSISTENCY
+==================================================
+
+Do NOT introduce a new visual language.
+
+Reuse the existing design system:
+
+- Dark background
+- Typography
+- Font hierarchy
+- Existing accent colors
+- Borders
+- Border radius
+- Cards
+- Spacing
+- Shadows
+- Hover states
+- Transitions
+- Animations
+
+The website should feel like ONE coherent personal portfolio.
+
+The visual progression should be:
+
+Hero
+↓
+About Me
+↓
+Projects
+↓
+Experience
+↓
+Skills
+↓
+Contact
+↓
+Footer
+
+==================================================
+15. IMPORTANT — DO NOT OVER-DESIGN
+==================================================
+
+This website should NOT look like:
+
+- A SaaS landing page
+- An agency website
+- A design studio
+- A developer template marketplace
+- An AI startup
+- A futuristic dashboard
+
+It should look like:
+
+A polished personal Data Analyst portfolio.
+
+The design philosophy is:
+
+Less, but intentional.
+
+Use visual details only where they improve hierarchy, clarity, or personality.
+
+==================================================
+16. IMPORTANT — PRESERVE COMPLETED WORK
+==================================================
+
+Do NOT unnecessarily modify sections that are already correct.
+
+Especially preserve:
+
+- Hero composition
+- Hero image
+- Hero typography
+- Hero social links
+- CV functionality
+- About Me content
+- Existing project visual system
+- Existing global theme
+
+Only modify them if required to remove obvious template remnants or to make navigation/functionality consistent.
+
+==================================================
+17. FINAL QUALITY CHECK
+==================================================
+
+Before finishing, perform a final consistency check.
+
+Verify:
+
+1. Navbar says:
+   Ahsan Mubarak
+
+2. Navbar navigation says:
+   About
+   Projects
+   Experience
+   Skills
+   Contact
+
+3. Navbar CTA says:
+   Download CV
+
+4. Hero says:
+   Ahsan Mubarak.
+   Data Analyst.
+
+5. "Selected Projects" has become:
+   Projects
+
+6. Experience shows only a concise preview.
+
+7. Skills no longer contains the original template's developer/design content.
+
+8. Skills contains:
+   Technical Skills
+   AI-Assisted Development
+   Core Skills
+   Languages
+
+9. Skills has subtle category icons but remains minimalist.
+
+10. "Words from Customers" has been completely removed.
+
+11. Contact is visually substantial but still minimalist.
+
+12. Footer contains:
+   Identity
+   Navigation
+   Social links
+   Copyright
+
+13. No original AdPlay/template placeholder content remains.
+
+14. No horizontal overflow exists on mobile.
+
+15. All internal navigation links work.
+
+16. The CV download still works.
+
+17. The email CTA uses:
+   mailto:ahsanmubarak2729@gmail.com
+
+18. All existing social links remain correct.
+
+19. The entire homepage feels like one coherent professional Data Analyst portfolio.
+
+==================================================
+FINAL OBJECTIVE
+==================================================
+
+The finished website should communicate within the first few seconds:
+
+"Ahsan Mubarak is a professional, structured, detail-oriented Data Analyst who can analyze data, communicate insights, take ownership of projects, and execute work professionally."
+
+Do not make the website feel like a CV.
+
+The CV provides detailed credentials.
+
+The portfolio provides:
+
+Identity
+↓
+Projects
+↓
+Experience
+↓
+Skills
+↓
+Professional contact
+
+Keep the result clean, intentional, credible, and premium.

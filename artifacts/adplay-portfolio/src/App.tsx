@@ -1,37 +1,15 @@
 import { type ReactNode, useState } from 'react';
 import {
-  ArrowDownRight, ArrowRight, BarChart3, Check, ExternalLink,
-  Globe2, Mail, MapPin, Menu, Play, Sparkles, Target, X, Zap,
+  ArrowRight, BarChart3, Globe2, Mail, MapPin, Menu,
+  Sparkles, Target, X, Zap,
 } from 'lucide-react';
 import { FaGithub, FaKaggle, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 import formalPortrait from '@assets/PP_formal_1788778556647.png';
 import eventTeamPhoto from '@assets/Cuplikan_layar_2026-09-07_212939_1789030482792.png';
 import eventExecutionPhoto from '@assets/Cuplikan_layar_2026-09-07_212958_1789030482790.png';
+import mastermindLogo from '@assets/The_Mastermind_Logo_1789035611349.png';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
-
-const templates = [
-  {
-    id: 'stack',
-    type: 'CREATIVE PORTFOLIO',
-    color: '#6194ff',
-    title: 'Stack — Developer Portfolio',
-    description: 'A glassmorphism-forward portfolio template for designers and developers. Engineered to guide AI toward a modern dark aesthetic with fluid animations and a powerful personal brand structure.',
-    tags: ['TAILWIND', 'GLASSMORPHISM', 'AI PROMPT'],
-    image: '/stack-template.png',
-    reverse: false,
-  },
-  {
-    id: 'blueprint',
-    type: 'ARCHITECTURE',
-    color: '#a264ef',
-    title: 'Blueprint — Architecture Portfolio',
-    description: 'An editorial, dark-mode portfolio prompt for architecture studios and spatial thinkers. Precise grids, material-led storytelling, and room for the work to breathe.',
-    tags: ['EDITORIAL', 'ARCHITECTURE', 'DARK MODE'],
-    image: '/architecture-template.svg',
-    reverse: true,
-  },
-];
 
 type ProjectVisual = 'sales' | 'ads' | 'coffee' | 'clv' | 'supply-chain';
 
@@ -169,7 +147,6 @@ function scrollToId(id: string) {
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dialog, setDialog] = useState<'project' | 'pricing' | 'preview' | null>(null);
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -178,27 +155,27 @@ function App() {
       <div className="shell">
         <nav className="glass sticky top-3 z-40 mt-3 flex h-14 items-center justify-between rounded-[18px] px-4 sm:px-5" data-testid="nav-main">
           <button onClick={() => scrollToId('top')} className="flex items-center gap-2.5" data-testid="button-logo">
-            <span className="grid size-7 place-items-center rounded-[7px] bg-[#f1f2f4] text-[11px] font-bold text-[#16171b]">AP</span>
-            <span className="font-display text-[14px] font-semibold tracking-[-.03em] text-[#e6e7eb]">AdPlay</span>
+            <span className="grid size-7 place-items-center rounded-[7px] bg-[#f1f2f4] text-[11px] font-bold text-[#16171b]">AM</span>
+            <span className="font-display text-[14px] font-semibold tracking-[-.03em] text-[#e6e7eb]">Ahsan Mubarak</span>
           </button>
           <div className="hidden items-center gap-8 text-[12px] text-[#8d8f9a] sm:flex">
             <a href="#about" className="transition-colors hover:text-white" data-testid="link-nav-about">About</a>
-            <a href="#expertise" className="transition-colors hover:text-white" data-testid="link-nav-skills">Skills</a>
-            <a href="#work" className="transition-colors hover:text-white" data-testid="link-nav-work">Work</a>
-            <a href="#contact" className="transition-colors hover:text-white" data-testid="link-nav-services">Services</a>
+            <a href="#projects" className="transition-colors hover:text-white" data-testid="link-nav-projects">Projects</a>
+            <a href="#experience" className="transition-colors hover:text-white" data-testid="link-nav-experience">Experience</a>
+            <a href="#skills" className="transition-colors hover:text-white" data-testid="link-nav-skills">Skills</a>
+            <a href="#contact" className="transition-colors hover:text-white" data-testid="link-nav-contact">Contact</a>
           </div>
-          <button onClick={() => setDialog('project')} className="hidden items-center gap-2 rounded-full border border-white/10 bg-white/[.07] px-4 py-2 text-[12px] font-semibold text-[#e6e7eb] transition-all hover:border-white/20 hover:bg-white/[.12] sm:flex" data-testid="button-start-project">
-            <Mail size={13} strokeWidth={1.8} /> Start a Project
-          </button>
-          <button onClick={() => setMenuOpen(!menuOpen)} className="grid size-9 place-items-center rounded-full border border-white/10 text-[#bfc1ca] sm:hidden" aria-label="Open menu" data-testid="button-mobile-menu">
-            {menuOpen ? <X size={17} /> : <Menu size={17} />}
-          </button>
+          <div className="flex items-center gap-2.5">
+            <img src={mastermindLogo} alt="" aria-hidden="true" className="size-8 rounded-lg object-cover opacity-90" data-testid="img-navbar-symbol" />
+            <button onClick={() => setMenuOpen(!menuOpen)} className="grid size-9 place-items-center rounded-full border border-white/10 text-[#bfc1ca] sm:hidden" aria-label="Open menu" data-testid="button-mobile-menu">
+              {menuOpen ? <X size={17} /> : <Menu size={17} />}
+            </button>
+          </div>
           {menuOpen && (
             <div className="absolute left-0 right-0 top-[calc(100%+8px)] rounded-2xl border border-white/10 bg-[#171920]/95 p-2 shadow-2xl backdrop-blur-xl sm:hidden" data-testid="menu-mobile">
-              {[['About', 'about'], ['Skills', 'expertise'], ['Work', 'work'], ['Services', 'contact']].map(([label, id]) => (
+              {[['About', 'about'], ['Projects', 'projects'], ['Experience', 'experience'], ['Skills', 'skills'], ['Contact', 'contact']].map(([label, id]) => (
                 <a key={id} href={`#${id}`} onClick={closeMenu} className="block rounded-xl px-4 py-3 text-sm text-[#c7c8cf] hover:bg-white/[.07]" data-testid={`link-mobile-${id}`}>{label}</a>
               ))}
-              <button onClick={() => { setDialog('project'); closeMenu(); }} className="mt-1 flex w-full items-center gap-2 rounded-xl bg-[#f1f2f4] px-4 py-3 text-sm font-semibold text-[#191a20]" data-testid="button-mobile-project"><Mail size={14} /> Start a Project</button>
             </div>
           )}
         </nav>
@@ -216,7 +193,7 @@ function App() {
               Turning data into clear insights, meaningful decisions, and practical solutions. Building toward Data Science and AI/ML.
             </p>
             <div className="reveal reveal-delay-3 mt-7 flex flex-wrap items-center gap-3">
-              <button onClick={() => scrollToId('work')} className="group inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-5 py-3 text-[12px] font-semibold text-[#17181d] transition-transform hover:-translate-y-0.5" data-testid="button-view-portfolio">View Portfolio <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></button>
+              <button onClick={() => scrollToId('projects')} className="group inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-5 py-3 text-[12px] font-semibold text-[#17181d] transition-transform hover:-translate-y-0.5" data-testid="button-view-portfolio">View Portfolio <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></button>
               <a href={cvHref} download="Ahsan-Mubarak-CV.pdf" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="link-download-cv">Download CV</a>
             </div>
             <div className="mt-7 flex items-center gap-5 border-t border-white/[.07] pt-5 text-[#858791]">
@@ -302,7 +279,7 @@ function App() {
           </article>
         </section>
 
-        <section id="expertise" className="section-rule scroll-mt-24 py-24 sm:py-28">
+        <section id="skills" className="section-rule scroll-mt-24 py-24 sm:py-28">
           <div>
             <SectionKicker>Skills</SectionKicker>
             <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">Tools and capabilities I use to turn data into practical insights.</p>
@@ -328,51 +305,48 @@ function App() {
           </div>
         </section>
 
-        <section id="work" className="section-rule scroll-mt-24 py-24 sm:py-28">
-          <div className="flex items-end justify-between"><SectionKicker>Selected Templates</SectionKicker><span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">02 / 04</span></div>
-          <div className="mt-9 space-y-6">
-            {templates.map((template) => <TemplateCard key={template.id} template={template} onGet={() => setDialog('project')} onPreview={() => setDialog('preview')} />)}
-          </div>
-          <div className="mt-9 flex justify-center"><button onClick={() => setDialog('preview')} className="group inline-flex items-center gap-2 text-[12px] font-semibold text-[#b8bac3] transition-colors hover:text-white" data-testid="button-view-all-templates">View all templates <ArrowDownRight size={14} className="transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5" /></button></div>
-        </section>
-
-        <section className="section-rule py-24 sm:py-28">
-          <div className="text-center"><SectionKicker>Words from Customers</SectionKicker></div>
-          <div className="mt-9 grid gap-5 lg:grid-cols-2">
-            <QuoteCard quote="I pasted the Stack prompt into Claude and had a fully designed, production-ready portfolio in 20 minutes. The level of polish it outputs is insane — nothing like what I got with generic prompts." name="Ryan Kim" role="FULL-STACK DEVELOPER" initials="RK" />
-            <QuoteCard quote="The Blueprint template saved me days. Instead of a generic boxy layout, my AI actually produced something with editorial hierarchy and real design intent. Worth every cent." name="Sofia Marchetti" role="INTERIOR DESIGNER" initials="SM" />
-          </div>
-        </section>
-
-        <section id="contact" className="section-rule scroll-mt-24 py-24 text-center sm:py-32">
-          <div className="mx-auto max-w-[680px]">
-            <h2 className="font-display text-[clamp(2.5rem,5vw,4.25rem)] font-medium leading-[1] tracking-[-.065em] text-[#eeeff2]" data-testid="heading-lets-connect">Let's Connect</h2>
-            <p className="mx-auto mt-5 max-w-[560px] text-[14px] leading-[1.6] text-[#91939d]" data-testid="text-contact-description">Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.</p>
-            <div className="glass mt-10 rounded-2xl p-6 text-left sm:p-8 lg:p-10" data-testid="card-contact-cta">
-              <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-12">
-                <div>
-                  <p className="font-mono text-[10px] tracking-[.16em] text-[#8589cf]" data-testid="text-contact-status">OPEN TO OPPORTUNITIES</p>
-                  <h3 className="mt-4 font-display text-[clamp(1.8rem,3vw,2.7rem)] font-medium leading-[1.05] tracking-[-.055em] text-[#eeeff2]" data-testid="heading-contact-cta">Let's work with data.</h3>
-                  <p className="mt-3 max-w-[430px] text-[13px] leading-[1.6] text-[#9597a1]" data-testid="text-contact-availability">I'm currently open to data analytics opportunities and meaningful projects.</p>
-                </div>
-                <div className="flex flex-col items-start gap-5 lg:items-end">
-                  <a href="mailto:ahsanmubarak2729@gmail.com" className="group inline-flex items-center gap-2 rounded-full bg-[#f4f5f7] px-6 py-3.5 text-[12px] font-semibold text-[#14151a] shadow-[0_8px_24px_rgba(0,0,0,.18)] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
-                  <div className="space-y-2 text-[11px] text-[#858792] lg:text-right">
-                    <a href="mailto:ahsanmubarak2729@gmail.com" className="flex items-center gap-2 transition-colors hover:text-[#d9dae0] lg:justify-end" data-testid="link-contact-email-detail"><Mail size={13} strokeWidth={1.5} /> ahsanmubarak2729@gmail.com</a>
-                    <p className="flex items-center gap-2 lg:justify-end" data-testid="text-contact-location"><MapPin size={13} strokeWidth={1.5} /> Bandung, Indonesia</p>
-                  </div>
-                </div>
+        <section id="contact" className="section-rule scroll-mt-24 pb-20 pt-12 sm:pb-24 sm:pt-14">
+          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-16">
+            <div>
+              <p className="font-mono text-[10px] tracking-[.16em] text-[#8589cf]" data-testid="text-contact-status">OPEN TO OPPORTUNITIES</p>
+              <h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,3.6rem)] font-medium leading-[1] tracking-[-.06em] text-[#eeeff2]" data-testid="heading-contact-cta">Let's work with data.</h2>
+              <p className="mt-4 max-w-[560px] text-[14px] leading-[1.6] text-[#91939d]" data-testid="text-contact-description">Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.</p>
+            </div>
+            <div className="flex flex-col items-start gap-5 lg:items-end">
+              <a href="mailto:ahsanmubarak2729@gmail.com" className="group inline-flex items-center gap-2 rounded-full bg-[#f4f5f7] px-6 py-3.5 text-[12px] font-semibold text-[#14151a] shadow-[0_8px_24px_rgba(0,0,0,.18)] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
+              <div className="space-y-2 text-[11px] text-[#858792] lg:text-right">
+                <a href="mailto:ahsanmubarak2729@gmail.com" className="flex items-center gap-2 transition-colors hover:text-[#d9dae0] lg:justify-end" data-testid="link-contact-email-detail"><Mail size={13} strokeWidth={1.5} /> ahsanmubarak2729@gmail.com</a>
+                <p className="flex items-center gap-2 lg:justify-end" data-testid="text-contact-location"><MapPin size={13} strokeWidth={1.5} /> Based in Bandung, Indonesia</p>
               </div>
             </div>
           </div>
         </section>
 
-        <footer className="flex flex-col gap-5 border-t border-white/[.07] py-8 text-[11px] text-[#6f727d] sm:flex-row sm:items-center sm:justify-between">
-          <p data-testid="text-footer-copyright">© 2024 AdPlay Media. Based in Indonesia.</p>
-          <div className="flex items-center gap-5"><a href="mailto:hello@adplay.studio" className="transition-colors hover:text-white" data-testid="link-footer-email">hello@adplay.studio</a><a href="#top" className="transition-colors hover:text-white" data-testid="link-footer-top">Back to top ↑</a></div>
+        <footer className="border-t border-white/[.07] py-8 text-[11px] text-[#6f727d]" data-testid="footer-main">
+          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="font-display text-[16px] font-semibold tracking-[-.035em] text-[#e5e6ea]" data-testid="text-footer-name">Ahsan Mubarak.</p>
+              <p className="mt-1 text-[11px] text-[#858792]" data-testid="text-footer-role">Data Analyst.</p>
+            </div>
+            <nav className="flex flex-wrap gap-x-5 gap-y-3 text-[11px]" aria-label="Footer navigation">
+              {[['About', 'about'], ['Projects', 'projects'], ['Experience', 'experience'], ['Skills', 'skills'], ['Contact', 'contact']].map(([label, id]) => (
+                <a key={id} href={`#${id}`} className="transition-colors hover:text-white" data-testid={`link-footer-${id}`}>{label}</a>
+              ))}
+            </nav>
+            <div className="flex items-center gap-4 text-[#777985]" aria-label="Social links">
+              <a href="https://wa.link/f9tvwf" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="WhatsApp" data-testid="link-footer-whatsapp"><FaWhatsapp size={13} /></a>
+              <a href="https://www.linkedin.com/in/ahsan-mubarak-854378314/" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="LinkedIn" data-testid="link-footer-linkedin"><FaLinkedinIn size={12} /></a>
+              <a href="mailto:ahsanmubarak2729@gmail.com" className="transition-colors hover:text-white" aria-label="Email" data-testid="link-footer-email"><Mail size={14} strokeWidth={1.5} /></a>
+              <a href="https://github.com/ahsanmubarak27" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="GitHub" data-testid="link-footer-github"><FaGithub size={13} /></a>
+              <a href="https://www.kaggle.com/ahsanmubarak" target="_blank" rel="noreferrer" className="transition-colors hover:text-white" aria-label="Kaggle" data-testid="link-footer-kaggle"><FaKaggle size={12} /></a>
+            </div>
+          </div>
+          <div className="mt-7 flex flex-col gap-2 border-t border-white/[.06] pt-5 sm:flex-row sm:items-center sm:justify-between">
+            <p data-testid="text-footer-copyright">© 2026 Ahsan Mubarak. All rights reserved.</p>
+            <a href="#top" className="transition-colors hover:text-white" data-testid="link-footer-top">Back to top ↑</a>
+          </div>
         </footer>
       </div>
-      {dialog && <Dialog type={dialog} onClose={() => setDialog(null)} />}
     </main>
   );
 }
@@ -523,41 +497,6 @@ function ProjectVisual({ project, featured }: { project: Project; featured: bool
       {project.visual === 'supply-chain' && <div className="flex items-center justify-between gap-2 py-10">
         {['Orders', 'Pick', 'Ship', 'Delivered'].map((label, index, items) => <div key={label} className="flex min-w-0 flex-1 items-center gap-2"><div className="min-w-0"><span className="mx-auto block size-3 rounded-full border-2" style={{ borderColor: project.accent }} /><p className="mt-3 truncate text-center text-[9px] text-[#858792]">{label}</p></div>{index < items.length - 1 && <span className="h-px flex-1 bg-white/[.12]" />}</div>)}
       </div>}
-    </div>
-  </div>;
-}
-
-function TemplateCard({ template, onGet, onPreview }: { template: typeof templates[number]; onGet: () => void; onPreview: () => void }) {
-  return <article className={`glass grid overflow-hidden rounded-2xl ${template.reverse ? 'lg:grid-cols-[.98fr_1.02fr]' : 'lg:grid-cols-[1.02fr_.98fr]'}`} data-testid={`card-template-${template.id}`}>
-    <div className={`flex min-h-[340px] flex-col justify-center p-7 sm:p-10 ${template.reverse ? 'lg:order-2' : ''}`}>
-      <p className="flex items-center gap-2 font-mono text-[10px] tracking-[.08em]" style={{ color: template.color }}><span className="size-1.5 rounded-full" style={{ backgroundColor: template.color }} /> {template.type}</p>
-      <h3 className="mt-4 max-w-[390px] font-display text-[20px] font-semibold tracking-[-.04em] text-[#ecedf0]">{template.title}</h3>
-      <p className="mt-3 max-w-[390px] text-[12px] leading-[1.62] text-[#9597a1]">{template.description}</p>
-      <div className="mt-5 flex flex-wrap gap-2">{template.tags.map((tag) => <span key={tag} className="rounded-md border border-white/[.08] px-2 py-1 font-mono text-[9px] tracking-[.04em] text-[#777985]">{tag}</span>)}</div>
-      <div className="mt-7 flex items-center gap-5 text-[11px] font-semibold"><button onClick={onGet} className="flex items-center gap-1.5 text-[#e7e7ea] hover:text-white" data-testid={`button-get-template-${template.id}`}>Get Template <ExternalLink size={12} /></button><button onClick={onPreview} className="flex items-center gap-1.5 text-[#777984] hover:text-[#d9dae0]" data-testid={`button-preview-template-${template.id}`}>Preview <Play size={11} /></button></div>
-    </div>
-    <div className={`relative min-h-[255px] overflow-hidden border-white/[.08] bg-[#171a27] ${template.reverse ? 'border-r lg:order-1' : 'border-l'}`}>
-      {template.id === 'stack' ? <img src={template.image} alt="Stack developer portfolio preview" className="h-full w-full object-cover opacity-80 transition-transform duration-500 hover:scale-105" data-testid="img-template-stack" /> : <ArchitectureVisual />}
-      <div className="absolute inset-0 bg-gradient-to-tr from-[#101117]/50 via-transparent to-[#6d6ca0]/10" />
-    </div>
-  </article>;
-}
-
-function ArchitectureVisual() {
-  return <div className="relative h-full min-h-[255px] overflow-hidden bg-[#22252e]"><div className="absolute inset-0 opacity-80" style={{ background: 'linear-gradient(137deg, transparent 30%, rgba(185,191,201,.35) 30.4%, transparent 31%), linear-gradient(35deg, transparent 42%, rgba(139,148,159,.3) 42.4%, transparent 43%), linear-gradient(120deg, #424751 0 10%, #252a34 10% 21%, #6a707b 21% 22%, #252a34 22% 44%, #81858b 44% 45%, #343944 45% 100%)' }} /><div className="absolute bottom-5 left-5 font-mono text-[10px] tracking-[.2em] text-white/45">02 / 04 — BLUEPRINT</div></div>;
-}
-
-function QuoteCard({ quote, name, role, initials }: { quote: string; name: string; role: string; initials: string }) {
-  return <article className="glass relative rounded-2xl p-7 sm:p-8" data-testid={`card-testimonial-${initials.toLowerCase()}`}><span className="absolute right-6 top-5 font-display text-5xl leading-none text-white/[.08]">”</span><p className="max-w-[480px] text-[13px] leading-[1.6] text-[#b7b8c0]">“{quote}”</p><div className="mt-6 flex items-center gap-3"><span className="grid size-7 place-items-center rounded-full bg-[#393b42] text-[10px] font-semibold text-[#dadbe0]">{initials}</span><div><p className="text-[11px] font-semibold text-[#dedfe4]">{name}</p><p className="mt-0.5 font-mono text-[8px] tracking-[.05em] text-[#70727c]">{role}</p></div></div></article>;
-}
-
-function Dialog({ type, onClose }: { type: 'project' | 'pricing' | 'preview'; onClose: () => void }) {
-  const isProject = type === 'project';
-  const isPricing = type === 'pricing';
-  return <div className="fixed inset-0 z-50 grid place-items-center bg-[#06070a]/75 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" data-testid="dialog-overlay">
-    <div className="glass w-full max-w-[470px] rounded-2xl p-6 sm:p-8" data-testid={`dialog-${type}`}>
-      <div className="flex items-start justify-between"><div><p className="font-mono text-[10px] tracking-[.15em] text-[#8589cf]">{isProject ? 'LET’S WORK TOGETHER' : isPricing ? 'TEMPLATE ACCESS' : 'ADPLAY LIBRARY'}</p><h2 className="mt-3 font-display text-2xl font-semibold tracking-[-.05em] text-[#eef0f2]">{isProject ? 'Start a project' : isPricing ? 'Simple, considered pricing.' : 'More is on the way.'}</h2></div><button onClick={onClose} className="grid size-8 place-items-center rounded-full bg-white/[.06] text-[#a6a8b0] hover:bg-white/[.1]" aria-label="Close dialog" data-testid="button-close-dialog"><X size={15} /></button></div>
-      {isProject ? <form onSubmit={(event) => { event.preventDefault(); onClose(); }} className="mt-7 space-y-4"><label className="block text-[11px] text-[#9799a4]">Your email<input required type="email" placeholder="you@company.com" className="mt-2 w-full rounded-xl border border-white/10 bg-white/[.05] px-4 py-3 text-sm text-white outline-none placeholder:text-[#5f616b] focus:border-[#777fff]" data-testid="input-project-email" /></label><label className="block text-[11px] text-[#9799a4]">A little about the project<textarea required placeholder="What are we making?" rows={3} className="mt-2 w-full resize-none rounded-xl border border-white/10 bg-white/[.05] px-4 py-3 text-sm text-white outline-none placeholder:text-[#5f616b] focus:border-[#777fff]" data-testid="input-project-message" /></label><button type="submit" className="mt-2 flex w-full items-center justify-center gap-2 rounded-xl bg-[#f1f2f4] py-3 text-[12px] font-semibold text-[#191a20]" data-testid="button-submit-project">Send inquiry <ArrowRight size={14} /></button></form> : <div className="mt-7"><div className="rounded-xl border border-white/10 bg-white/[.04] p-4"><p className="text-[12px] font-semibold text-[#e2e3e7]">{isPricing ? 'Template license' : 'New templates, monthly.'}</p><p className="mt-2 text-[12px] leading-relaxed text-[#92949f]">{isPricing ? 'Every prompt framework includes lifetime updates, commercial use, and the exact Design-DNA that makes AdPlay templates feel considered.' : 'We are shaping the next set of prompts for studios, makers, and teams who care about the last 10%.'}</p></div><button onClick={onClose} className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-[#f1f2f4] py-3 text-[12px] font-semibold text-[#191a20]" data-testid="button-dialog-continue"><Check size={14} /> {isPricing ? 'Got it' : 'Keep me posted'}</button></div>}
     </div>
   </div>;
 }

@@ -1,0 +1,221 @@
+Please make a focused refinement to ONLY the NAVBAR and CONTACT section of the homepage.
+
+IMPORTANT:
+The current website design is already very good. Do NOT redesign the website.
+
+Do NOT change:
+- Hero
+- About Me
+- Projects
+- Experience
+- Skills
+- Footer
+- Overall dark theme
+- Existing color palette
+- Typography system
+- Existing animations
+- General visual language
+
+Only modify the NAVBAR and CONTACT section according to the instructions below.
+
+==================================================
+1. NAVBAR
+==================================================
+
+The current navbar still contains template-related identity/content such as:
+- "AP"
+- "AdPlay"
+- About
+- Skills
+- Work
+- Services
+- Start a Project
+
+Replace the navbar content with the following structure:
+
+LEFT SIDE:
+
+Keep the existing "AM" monogram/logo on the left.
+
+Next to it, display:
+
+"Ahsan Mubarak"
+
+The "AM" monogram should remain the existing monogram design. Do not replace or redesign it.
+
+CENTER:
+
+Navigation links should be exactly:
+
+About
+Projects
+Experience
+Skills
+Contact
+
+Use smooth scrolling to the corresponding homepage sections.
+
+RIGHT SIDE:
+
+I will upload a specific personal logo image for this area.
+
+Use the uploaded logo asset exactly as the visual source.
+
+IMPORTANT:
+- Do NOT generate a new logo.
+- Do NOT redesign the uploaded logo.
+- Do NOT add text next to the logo.
+- Do NOT write "The Mastermind" anywhere.
+- Do NOT add letters, words, or initials inside/around the logo.
+- The logo should function ONLY as a small visual symbol representing intelligence, analytics, data, and AI.
+- Use the uploaded image as provided.
+- Only adjust its display size if necessary so it fits naturally into the navbar.
+- Keep it subtle and premium.
+- Do not use an oversized logo.
+- Do not add a strong glow, neon effect, rainbow effect, or flashy animation.
+- Keep the logo visually consistent with the existing website theme.
+
+Place this logo at the far right of the navbar.
+
+The navbar should therefore visually follow this structure:
+
+[AM] Ahsan Mubarak        About · Projects · Experience · Skills · Contact        [uploaded logo]
+
+Do NOT add "Download CV" to the navbar.
+
+The Download CV button already exists in the Hero and should remain there.
+
+Keep the navbar's existing responsive/mobile behavior working correctly.
+
+On mobile, preserve the existing mobile navigation behavior while using the new navigation labels.
+
+==================================================
+2. CONTACT SECTION
+==================================================
+
+The current Contact section feels too much like a template.
+
+Currently it has:
+- a very large "Let's Connect" heading
+- a description
+- a large bordered card
+- another large heading "Let's work with data."
+- CTA content inside the card
+
+Simplify this section significantly.
+
+REMOVE the large standalone heading:
+
+"Let's Connect"
+
+Do not replace it with another oversized heading.
+
+Instead, make Contact a clean, elegant closing CTA that naturally follows the Skills section.
+
+Use the following content exactly:
+
+LABEL:
+
+"OPEN TO OPPORTUNITIES"
+
+MAIN HEADING:
+
+"Let's work with data."
+
+DESCRIPTION:
+
+"Interested in working together or discussing a data analytics opportunity? I'd be happy to connect."
+
+PRIMARY CTA:
+
+"Get in Touch →"
+
+The CTA must open:
+
+mailto:ahsanmubarak2729@gmail.com
+
+SUPPORTING INFORMATION:
+
+Email:
+ahsanmubarak2729@gmail.com
+
+Location:
+Based in Bandung, Indonesia
+
+Small subtle email and location icons may be used if appropriate.
+
+==================================================
+CONTACT LAYOUT
+==================================================
+
+Do NOT create a contact form.
+
+Do NOT add another large social-media icon row because the social links already exist in the Hero.
+
+The Contact section should feel like a natural final CTA rather than a separate template block.
+
+Prefer a clean integrated layout rather than the current large outer card.
+
+The current large bordered Contact card can be removed if necessary.
+
+The section should have clear hierarchy:
+
+OPEN TO OPPORTUNITIES
+
+Let's work with data.
+
+Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.
+
+[Get in Touch →]
+
+ahsanmubarak2729@gmail.com
+Based in Bandung, Indonesia
+
+Keep the existing dark visual language, typography, accent color, subtle borders, and overall premium aesthetic.
+
+Do NOT introduce a new visual style.
+
+==================================================
+SPACING
+==================================================
+
+There is currently too much empty vertical space between the Skills section and Contact.
+
+Reduce this spacing noticeably.
+
+Contact should begin closer to the Skills section while still maintaining comfortable breathing room.
+
+Avoid excessive top padding/margin.
+
+The transition should feel approximately like:
+
+Skills
+↓
+comfortable spacing
+↓
+Contact CTA
+↓
+comfortable spacing
+↓
+Footer
+
+Do not create a large empty gap between Skills and Contact.
+
+==================================================
+IMPORTANT DESIGN RULE
+==================================================
+
+This is a REFINEMENT, NOT A REDESIGN.
+
+Preserve the existing visual quality and design system.
+
+Only:
+1. Update the navbar content and structure.
+2. Add/use the uploaded mastermind/intelligence logo as a small symbol on the right side of the navbar.
+3. Remove the oversized "Let's Connect" heading.
+4. Simplify the Contact section into a clean closing CTA.
+5. Reduce excessive spacing between Skills and Contact.
+
+Do not modify any other homepage section or functionality.
+Do not modify the Projects section yet.
+The Projects section will be revised separately in another prompt.
