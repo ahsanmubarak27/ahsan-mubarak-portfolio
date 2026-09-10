@@ -244,7 +244,7 @@ function App() {
         <section id="expertise" className="section-rule scroll-mt-24 py-24 sm:py-28">
           <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
             <div>
-              <SectionKicker>Selected Projects</SectionKicker>
+              <SectionKicker>Projects</SectionKicker>
               <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A selection of end-to-end data analytics projects, from data preparation and analysis to dashboards, insights, and recommendations.</p>
             </div>
             <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">01 / 05</span>
