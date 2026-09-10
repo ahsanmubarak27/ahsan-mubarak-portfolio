@@ -1,0 +1,160 @@
+SMALL FIX-ONLY UPDATE — CASE STUDY HEADERS & CONTACT CTA
+
+IMPORTANT:
+This is a small correction only.
+
+DO NOT redesign anything.
+DO NOT change layout, spacing, typography, colors, cards, animations, or page structure.
+DO NOT modify the project content or case study sections.
+
+==================================================
+1. FIX CONTACT / GMAIL CTA
+==================================================
+
+The "Get in Touch →" button in the Contact section is currently not clickable.
+
+Make sure the button is a fully functional mailto link:
+
+mailto:ahsanmubarak2729@gmail.com
+
+Behavior:
+- Clicking "Get in Touch →" should open the user's default email application.
+- Keep the existing button appearance, size, position, and styling exactly the same.
+- Do not create a contact form.
+- Do not open a new webpage.
+
+Also verify the email icon in the Hero social links uses:
+
+mailto:ahsanmubarak2729@gmail.com
+
+and is clickable.
+
+Do not change the other social links.
+
+==================================================
+2. REMOVE DATASET NAME FROM CASE STUDY HEADER METADATA
+==================================================
+
+The case study header currently displays metadata such as:
+
+Independent Project
+USA Coffeeshop Dataset
+Python
+Looker Studio
+
+The dataset name should NOT appear in the case study header.
+
+The case study header metadata should ONLY contain:
+
+Project Type / Context
++
+Actual Tools Used
+
+For example, Coffee Shop should display:
+
+Independent Project
+Python
+Looker Studio
+
+REMOVE:
+
+USA Coffeeshop Dataset
+
+Do NOT replace it with another dataset name.
+
+==================================================
+APPLY THIS TO ALL CASE STUDY PAGES
+==================================================
+
+Review all existing project case study headers.
+
+The header metadata should ONLY communicate:
+
+1. Project Type / Context
+2. Tools actually used
+
+Final expected pattern:
+
+PROJECT 01 — CPX SPORTWEAR
+Independent Project / Freelance
+Python
+Looker Studio
+
+PROJECT 02 — GOOGLE ADS
+Independent Project
+Python
+Looker Studio
+
+PROJECT 03 — COFFEE SHOP
+Independent Project
+Python
+Looker Studio
+
+PROJECT 04 — HIGH-CLV E-COMMERCE
+Independent Project
+Python
+Looker Studio
+
+PROJECT 05 — SUPPLY CHAIN
+Independent Project
+Python
+Looker Studio
+
+PROJECT 06 — AD HOC SALES & PROFITABILITY
+Independent Project
+SQL
+Excel
+
+IMPORTANT:
+Do NOT display dataset names in the case study header.
+
+Do NOT display Kaggle source names in the case study header.
+
+Do NOT display dataset filenames in the case study header.
+
+The dataset/source information should remain only in the appropriate "Data Source" or "Project Files" sections.
+
+==================================================
+IMPORTANT DISTINCTION
+==================================================
+
+REMOVE dataset metadata ONLY from the case study HEADER.
+
+Do NOT remove:
+
+- Dataset information from Overview
+- Kaggle Data Source links
+- Dataset files from Project Files
+- Dataset descriptions
+- Any actual project evidence
+
+Only remove the dataset name/chip from the top header metadata.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before finishing:
+
+1. Click "Get in Touch →" and verify it opens the default email application.
+2. Verify the Hero email icon opens:
+   mailto:ahsanmubarak2729@gmail.com
+3. Verify no dataset name appears in ANY case study header.
+4. Verify case study headers only show project context/type and actual tools.
+5. Verify Coffee Shop no longer shows:
+   USA Coffeeshop Dataset
+6. Verify Project 04 does not show a dataset name.
+7. Verify Project 05 does not show a dataset name.
+8. Verify Project 06 only shows:
+   Independent Project
+   SQL
+   Excel
+9. Verify Data Source sections and Project Files remain unchanged.
+10. Do NOT modify the existing design or layout.
+
+MOST IMPORTANT:
+
+THIS IS A FIX-ONLY UPDATE.
+
+DO NOT REDESIGN ANYTHING.
+ONLY FIX THE GMAIL CTA AND REMOVE DATASET NAMES FROM CASE STUDY HEADERS.

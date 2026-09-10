@@ -71,7 +71,7 @@ export default function CaseStudyCoffeeShop() {
               Coffee Shop Sales &amp; Profit Analysis
             </h1>
             <div className="mt-8 flex flex-wrap gap-4 text-[13px] text-[#91939d]">
-              {['Independent Project', 'USA Coffeeshop Dataset', 'Python', 'Looker Studio'].map((item) => (
+              {['Independent Project', 'Python', 'Looker Studio'].map((item) => (
                 <span key={item} className="rounded-full border border-white/10 bg-white/[.04] px-4 py-2">{item}</span>
               ))}
             </div>
