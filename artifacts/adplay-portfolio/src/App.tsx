@@ -1,4 +1,5 @@
-import { type ReactNode, useState } from 'react';
+import { type ReactNode, useState, useEffect } from 'react';
+import { Switch, Route, Link } from 'wouter';
 import {
   ArrowRight, BarChart3, Globe2, Mail, MapPin, Menu,
   Sparkles, Target, X, Zap,
@@ -8,6 +9,8 @@ import formalPortrait from '@assets/PP_formal_1788778556647.png';
 import eventTeamPhoto from '@assets/Cuplikan_layar_2026-09-07_212939_1789030482792.png';
 import eventExecutionPhoto from '@assets/Cuplikan_layar_2026-09-07_212958_1789030482790.png';
 import mastermindLogo from '@assets/The_Mastermind_Logo_1789035611349.png';
+import CaseStudySales from './pages/case-studies/sales-performance';
+import NotFound from './pages/not-found';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
 
@@ -145,10 +148,18 @@ function scrollToId(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-function App() {
+function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
+
+  useEffect(() => {
+    if (window.location.hash) {
+      setTimeout(() => {
+        scrollToId(window.location.hash.slice(1));
+      }, 100);
+    }
+  }, []);
 
   return (
     <main className="min-h-[100dvh] overflow-hidden">
@@ -451,9 +462,9 @@ function ProjectCard({ project, featured }: { project: Project; featured: boolea
       <div className="mt-5 flex flex-wrap gap-2">
         {project.tags.map((tag) => <span key={tag} className="rounded-md border border-white/[.08] px-2 py-1 font-mono text-[9px] tracking-[.04em] text-[#777985]">{tag}</span>)}
       </div>
-      <a href={`/case-studies/${project.slug}`} className="mt-7 inline-flex w-fit items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid={`link-case-study-${project.slug}`}>
+      <Link href={`/case-studies/${project.slug}`} className="mt-7 inline-flex w-fit items-center gap-2 text-[11px] font-semibold text-[#e7e7ea] transition-colors hover:text-white" data-testid={`link-case-study-${project.slug}`}>
         View Case Study <span aria-hidden="true">→</span>
-      </a>
+      </Link>
     </div>
   </article>;
 }
@@ -540,4 +551,12 @@ function ProjectVisual({ project, featured }: { project: Project; featured: bool
   </div>;
 }
 
-export default App;
+export default function App() {
+  return (
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/case-studies/sales-performance" component={CaseStudySales} />
+      <Route component={NotFound} />
+    </Switch>
+  );
+}

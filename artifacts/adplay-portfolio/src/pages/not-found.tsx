@@ -1,23 +1,17 @@
-import { Card, CardContent } from '@/components/ui/card';
-import { AlertCircle } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
+import { Link } from 'wouter';
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <Card className="w-full max-w-md mx-4">
-        <CardContent className="pt-6">
-          <div className="flex mb-4 gap-2">
-            <AlertCircle className="h-8 w-8 text-red-500" />
-            <h1 className="text-2xl font-bold text-gray-900">
-              404 Page Not Found
-            </h1>
-          </div>
-
-          <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
-          </p>
-        </CardContent>
-      </Card>
-    </div>
+    <main className="grid min-h-[100dvh] place-items-center px-6">
+      <section className="glass w-full max-w-lg rounded-2xl p-8 text-center sm:p-12">
+        <p className="font-mono text-[10px] tracking-[.16em] text-[#7b83ff]" data-testid="text-not-found-code">404</p>
+        <h1 className="mt-5 font-display text-[32px] font-semibold tracking-[-.05em] text-[#eceef2]" data-testid="heading-not-found">Page not found.</h1>
+        <p className="mx-auto mt-3 max-w-sm text-[13px] leading-[1.6] text-[#8d8f99]">The page you requested does not exist or may have moved.</p>
+        <Link href="/" className="mt-8 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[.06] px-5 py-3 text-[12px] font-semibold text-[#dedfe4] transition-colors hover:bg-white/[.11]" data-testid="link-not-found-home">
+          <ArrowLeft size={14} /> Return home
+        </Link>
+      </section>
+    </main>
   );
 }

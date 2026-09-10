@@ -1,0 +1,494 @@
+Please create the FIRST detailed Case Study page for the portfolio:
+
+SALES PERFORMANCE ANALYSIS — CPX SPORTWEAR
+
+IMPORTANT:
+This should be a new internal Case Study page linked from the existing CPX SPORTWEAR project card through:
+
+"View Case Study →"
+
+Do NOT redesign the existing homepage.
+
+Do NOT modify:
+- Navbar
+- Hero
+- About Me
+- Projects section
+- Experience
+- Skills
+- Contact
+- Footer
+
+Only create the new Case Study page and the necessary routing/link from the CPX SPORTWEAR project card.
+
+==================================================
+1. SOURCE MATERIALS
+==================================================
+
+Use the following materials as the SOURCE OF TRUTH for this Case Study:
+
+1. The uploaded CPX SPORTWEAR dataset:
+"Charmpernix_SKU.csv"
+
+2. The uploaded Python notebook:
+"Charmpernix.ipynb"
+
+3. The uploaded project presentation:
+"Charmpernix(2).pptx"
+
+4. The existing Looker Studio dashboard:
+https://datastudio.google.com/reporting/de945f07-6547-4d33-9aa8-464c4283ab93
+
+Use these materials to understand the actual:
+- dataset
+- data structure
+- cleaning process
+- analysis
+- calculations
+- findings
+- recommendations
+- project scope
+
+IMPORTANT:
+Do NOT invent project findings or statistics.
+
+If the uploaded materials contain a specific value or result, use the actual value.
+
+If something is not supported by the uploaded materials, do not fabricate it.
+
+==================================================
+2. DESIGN DIRECTION
+==================================================
+
+The existing homepage already has a strong dark, clean, premium, minimal, modern Data Analyst aesthetic.
+
+The Case Study page must use the SAME existing design system.
+
+Do NOT introduce a new template style.
+
+Keep consistent:
+- Dark background
+- Existing color palette
+- Existing accent color
+- Typography
+- Borders
+- Card style
+- Spacing system
+- Button style
+- Subtle animations
+- Overall visual language
+
+The Case Study should feel like a natural extension of the existing portfolio.
+
+Do NOT make it look like a generic SaaS template, blog, or corporate report.
+
+Keep the page clean, analytical, and professional.
+
+==================================================
+3. CASE STUDY HERO
+==================================================
+
+Display:
+
+"Sales Performance Analysis"
+
+Context:
+
+"CPX SPORTWEAR · Freelance · February 2026"
+
+Use this introduction:
+
+"An end-to-end sales analysis focused on understanding purchasing patterns, product performance, and category trends from Shopee transaction and product data."
+
+Include:
+
+"← Back to Projects"
+
+This should return to the homepage Projects section.
+
+==================================================
+4. 01 — OVERVIEW
+==================================================
+
+Section title:
+
+"01 — Overview"
+
+Use the following content:
+
+"CPX SPORTWEAR is a cycling-focused sports equipment store selling through Shopee.
+
+This project analyzes sales and product performance from January 2025 to January 2026 to identify purchasing patterns, understand product and category performance, and generate practical recommendations for sales strategy."
+
+Display the following project facts:
+
+"6,744"
+"Transaction Records"
+
+"11,307"
+"SKU Records"
+
+"January 2025 – January 2026"
+"Analysis Period"
+
+"Python"
+"Data Preparation & Analysis"
+
+Data Source:
+
+"Shopee transaction and product performance data"
+
+Keep this section concise.
+
+==================================================
+5. 02 — THE DATA CHALLENGE
+==================================================
+
+Section title:
+
+"02 — The Data Challenge"
+
+Use this content:
+
+"The raw product data was not immediately ready for analysis. A single product could appear under different names and advertisements, creating duplicate and inconsistent product records.
+
+The dataset also contained missing values, inconsistent formats, promotional and brand-related terms, and other naming inconsistencies. Before analyzing sales performance, the data needed to be cleaned, standardized, and validated using Python."
+
+Create a visual process:
+
+Raw Data
+→
+Cleaning
+→
+Product Standardization
+→
+Validation
+→
+Analysis-ready Data
+
+This section should emphasize that data preparation was an important part of the project.
+
+==================================================
+6. 03 — DATA PREPARATION
+==================================================
+
+Section title:
+
+"03 — Data Preparation"
+
+Use the uploaded Python notebook to accurately represent the actual cleaning and preprocessing workflow.
+
+The process included, where supported by the notebook:
+
+- Checking duplicate records
+- Checking missing values
+- Standardizing product names
+- Removing irrelevant promotional and brand-related terms
+- Handling inconsistent product naming
+- Converting data types
+- Cleaning transaction data
+- Filtering cancelled transactions
+- Handling dates
+- Creating useful date attributes
+- Validating the cleaned dataset
+
+Do NOT claim a cleaning step if it is not actually present in the uploaded notebook.
+
+Create a concise workflow visualization:
+
+Raw Data
+→
+Data Cleaning
+→
+Product Standardization
+→
+Transaction Preparation
+→
+Validation
+→
+Analysis
+
+Use the actual notebook as the technical reference.
+
+Do not display large blocks of code on the main Case Study page.
+
+A small optional "View Analysis / Code →" resource link can be provided later through GitHub.
+
+==================================================
+7. 04 — ANALYSIS & KEY FINDINGS
+==================================================
+
+Section title:
+
+"04 — Analysis & Key Findings"
+
+Use the actual results from the uploaded presentation, notebook, and dataset.
+
+The confirmed project performance figures include:
+
+"Rp661.34M"
+"Total Revenue"
+
+"5,664"
+"Successfully Processed Transactions"
+
+"9,054"
+"Products Sold"
+
+Then present the key findings:
+
+"Friday was the strongest sales day."
+
+"Sales tended to increase toward the weekend, with Friday identified as the strongest day."
+
+"Accessories drove sales volume."
+
+"Accessories dominated sales across most months and became the primary driver of sales volume."
+
+"Sales peaked at specific periods."
+
+"Sales were volatile throughout the period, with stronger performance during certain periods and a notable seasonal pattern."
+
+"Early-month purchasing was prominent."
+
+"Many of the highest-sales dates occurred around the beginning of the month, potentially reflecting customer cash-flow or payday patterns."
+
+"Product demand varied considerably."
+
+"Lower-priced products with simple and frequently needed functions tended to sell more, while some non-core products had lower demand."
+
+IMPORTANT:
+
+Cross-check the uploaded notebook and dataset when necessary.
+
+Do not invent numbers to make the Case Study look more impressive.
+
+If a chart or metric is included, it must be supported by the project materials.
+
+==================================================
+8. ANALYSIS VISUALIZATIONS
+==================================================
+
+Where appropriate, include selected visualizations based on the actual project analysis.
+
+Possible analysis areas include:
+
+- Sales by day
+- Sales by date
+- Sales by month
+- Top products
+- Category performance
+- Product sales volume
+
+Use actual data from the uploaded materials.
+
+Do NOT create fictional charts.
+
+Do NOT use placeholder values.
+
+Do NOT add decorative charts that do not represent a real analysis.
+
+Keep visualizations concise and consistent with the existing portfolio design.
+
+The purpose is to demonstrate the analytical reasoning, not to reproduce the entire dashboard.
+
+==================================================
+9. 05 — DASHBOARD
+==================================================
+
+Section title:
+
+"05 — Dashboard"
+
+Use:
+
+"Interactive Dashboard"
+
+Description:
+
+"Explore the interactive dashboard to view sales performance across time, products, and categories."
+
+Primary button:
+
+"Open Dashboard →"
+
+Link:
+
+https://datastudio.google.com/reporting/de945f07-6547-4d33-9aa8-464c4283ab93
+
+If possible, include a dashboard preview using the existing portfolio visual style.
+
+Do not fabricate dashboard content.
+
+==================================================
+10. 06 — RECOMMENDATIONS
+==================================================
+
+Section title:
+
+"06 — Recommendations"
+
+Use the actual recommendations from the project:
+
+"Optimize Friday–Saturday Campaigns"
+
+"Focus promotional campaigns around Friday and Saturday when purchasing activity is strongest."
+
+"Prioritize Accessories"
+
+"Maintain sufficient inventory for accessories as the primary driver of sales volume."
+
+"Maximize High-Season Opportunities"
+
+"Increase promotional activity and inventory readiness during stronger sales periods, particularly May–October."
+
+Do not add recommendations that are not supported by the project analysis.
+
+==================================================
+11. 07 — PROJECT EVIDENCE
+==================================================
+
+Section title:
+
+"07 — Project Evidence"
+
+Create a clean resource section for the project's supporting materials.
+
+Include these resource types:
+
+"GitHub →"
+"Code, analysis files, Excel, and project documentation."
+
+"Dashboard →"
+"Interactive Looker Studio dashboard."
+
+"Presentation →"
+"Project presentation and analytical findings."
+
+"Kaggle / Dataset Source →"
+"Dataset and/or public analysis source, if applicable."
+
+IMPORTANT:
+
+Do NOT invent GitHub or Kaggle URLs.
+
+If the actual URLs are not yet available, create the resource buttons as placeholders that can be updated later.
+
+The Dashboard link is already available and must use the exact URL provided above.
+
+==================================================
+12. DATASET HANDLING
+==================================================
+
+The uploaded CSV dataset may be used as a reference for understanding the project and validating analysis.
+
+Do NOT display the entire raw dataset on the Case Study page.
+
+Do NOT create a giant data table.
+
+Instead, use the dataset to support:
+- Accurate metrics
+- Accurate visualizations
+- Accurate descriptions
+- Accurate analysis
+
+The Case Study should present the meaningful results of the analysis rather than dumping the raw data.
+
+==================================================
+13. CASE STUDY NAVIGATION
+==================================================
+
+The existing CPX SPORTWEAR project card currently has:
+
+"View Case Study →"
+
+Make it navigate to this new Case Study page.
+
+The Case Study page must include:
+
+"← Back to Projects"
+
+which returns to the homepage Projects section.
+
+Do not break existing homepage navigation.
+
+==================================================
+14. RESPONSIVE DESIGN
+==================================================
+
+The Case Study must work properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain readable typography, spacing, charts, cards, and buttons on smaller screens.
+
+Do not create horizontal overflow.
+
+==================================================
+15. CONTENT ACCURACY
+==================================================
+
+This is a real Data Analyst project.
+
+Accuracy is more important than visual complexity.
+
+Use the uploaded:
+- CSV dataset
+- Python notebook
+- presentation
+
+as the primary sources.
+
+Do NOT invent:
+- Statistics
+- Percentages
+- Revenue figures
+- Customer counts
+- Analytical findings
+- Business results
+- Dataset characteristics
+- Recommendations
+- GitHub URLs
+- Kaggle URLs
+
+If the source materials do not support a specific claim, leave it out rather than guessing.
+
+==================================================
+16. FINAL DESIGN PRINCIPLE
+==================================================
+
+The goal is:
+
+EXISTING PORTFOLIO DESIGN
++
+REAL PROJECT DATA
++
+REAL ANALYTICAL PROCESS
++
+REAL FINDINGS
++
+CLEAR BUSINESS RECOMMENDATIONS
++
+PROJECT EVIDENCE
+
+The Case Study should communicate:
+
+Problem
+→
+Data
+→
+Cleaning
+→
+Analysis
+→
+Insights
+→
+Recommendations
+→
+Evidence
+
+Do NOT redesign the existing portfolio.
+
+Create a polished, concise, credible Data Analyst Case Study page that feels like a natural extension of the existing website.
