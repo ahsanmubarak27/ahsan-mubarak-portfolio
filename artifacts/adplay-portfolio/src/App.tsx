@@ -313,7 +313,7 @@ function App() {
               <p className="mt-4 max-w-[560px] text-[14px] leading-[1.6] text-[#91939d]" data-testid="text-contact-description">Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.</p>
             </div>
             <div className="flex flex-col items-start gap-5 lg:items-end">
-              <a href="mailto:ahsanmubarak2729@gmail.com" className="group inline-flex items-center gap-2 rounded-full bg-[#f4f5f7] px-6 py-3.5 text-[12px] font-semibold text-[#14151a] shadow-[0_8px_24px_rgba(0,0,0,.18)] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
+              <a href="mailto:ahsanmubarak2729@gmail.com" className="group inline-flex items-center gap-2 rounded-full border border-[#7782e8]/30 bg-[#29306a]/80 px-6 py-3.5 text-[12px] font-semibold text-[#f2f3f7] shadow-[0_8px_24px_rgba(0,0,0,.16)] transition-all hover:-translate-y-0.5 hover:border-[#8d96f0]/45 hover:bg-[#343c78]" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
               <div className="space-y-2 text-[11px] text-[#858792] lg:text-right">
                 <a href="mailto:ahsanmubarak2729@gmail.com" className="flex items-center gap-2 transition-colors hover:text-[#d9dae0] lg:justify-end" data-testid="link-contact-email-detail"><Mail size={13} strokeWidth={1.5} /> ahsanmubarak2729@gmail.com</a>
                 <p className="flex items-center gap-2 lg:justify-end" data-testid="text-contact-location"><MapPin size={13} strokeWidth={1.5} /> Based in Bandung, Indonesia</p>
