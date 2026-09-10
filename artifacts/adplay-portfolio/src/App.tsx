@@ -173,6 +173,7 @@ function Home() {
   const closeMenu = () => setMenuOpen(false);
 
   useEffect(() => {
+    document.title = 'Ahsan Mubarak Portfolio';
     if (window.location.hash) {
       setTimeout(() => {
         scrollToId(window.location.hash.slice(1));
