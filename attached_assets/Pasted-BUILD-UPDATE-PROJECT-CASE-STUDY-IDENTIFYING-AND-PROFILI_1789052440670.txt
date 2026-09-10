@@ -1,0 +1,568 @@
+BUILD / UPDATE PROJECT CASE STUDY — IDENTIFYING AND PROFILING HIGH-CLV CUSTOMERS IN E-COMMERCE
+
+Create the E-Commerce High-CLV project case study page as an internal case study page within the existing portfolio website.
+
+IMPORTANT:
+This case study must follow the exact same visual system as the existing portfolio and the established case-study pages.
+
+However, DO NOT force the CPX SPORTWEAR structure onto this project.
+
+This project does NOT need a "The Data Challenge" section.
+
+Use the actual project materials as the source of truth:
+- Identifying and Profiling High-CLV Customers in E-Commerce.pptx
+- identifying-and-profiling-high-clv-customers.ipynb
+- ecommerce_customers.csv
+
+Do not invent unsupported analysis steps, metrics, or findings.
+
+==================================================
+PROJECT INFORMATION
+==================================================
+
+Project Title:
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+Context:
+Independent Project
+
+Tools:
+Python, Looker Studio
+
+Project Focus:
+Identify and profile high-CLV customers by examining customer value, membership type, location, and satisfaction level to support more targeted retention, expansion, and customer segmentation strategies.
+
+==================================================
+CASE STUDY STRUCTURE
+==================================================
+
+Use exactly this structure:
+
+01 — Overview
+02 — Data Preparation
+03 — Analysis & Key Findings
+04 — Dashboard
+05 — Recommendations
+06 — Project Files
+
+IMPORTANT:
+Do NOT add:
+- The Data Challenge
+- Testimonials
+- Extra template sections
+- Services
+- Pricing
+- Contact forms
+- Unnecessary decorative sections
+
+Keep this case study concise and focused on customer value and profiling.
+
+==================================================
+01 — OVERVIEW
+==================================================
+
+Title:
+Overview
+
+PROJECT OBJECTIVE
+
+Use this project objective:
+
+This analysis aims to identify and profile high-CLV customers on e-commerce platforms. By gaining a deeper understanding of who these high-CLV customers are, companies can make more direct and informed decisions regarding sales strategies, pricing, and campaign segmentation.
+
+BUSINESS CONTEXT
+
+Use this context:
+
+In the highly competitive world of e-commerce, Customer Lifetime Value (CLV) is one of the most important KPIs for assessing customer performance. Customers with high-CLV have the potential to contribute significantly to long-term revenue. That’s why it’s crucial for companies to identify and profile high-CLV customers to create more targeted sales strategies.
+
+DATASET
+
+Dataset:
+E-commerce Customer Behavior
+
+Description:
+
+This dataset provides a detailed view of customer behavior on an e-commerce platform. Each row represents a unique customer, including their transaction history and interaction patterns.
+
+Key variables include:
+
+- Customer ID
+- Total Spend
+- Item Purchased
+- Membership Type
+- Satisfaction Level
+- City
+
+DATA SOURCE
+
+Add a compact Data Source area.
+
+Name:
+Kaggle — E-commerce Customer Behavior Dataset
+
+Button:
+View Dataset →
+
+Link:
+https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset
+
+Behavior:
+- Open the Kaggle link in a new browser tab.
+- Use the existing portfolio button/link styling.
+- Keep this area compact.
+- Do NOT place Kaggle under Project Files.
+- Do NOT duplicate the Kaggle link elsewhere on the page.
+
+==================================================
+02 — DATA PREPARATION
+==================================================
+
+Title:
+Data Preparation
+
+Keep this section concise.
+
+The analysis prepared customer-level data for CLV segmentation and profiling across key behavioral and customer attributes.
+
+Focus the preparation around:
+
+- Customer-level data
+- Total Spend
+- Membership Type
+- Satisfaction Level
+- City
+- CLV categorization
+- Customer profiling
+
+Workflow:
+
+Raw Customer Data → CLV Categorization → Customer Profiling → Segment Analysis → Insights
+
+Create concise analytical cards:
+
+CUSTOMER VALUE
+
+CLV category distribution and revenue contribution
+
+MEMBERSHIP
+
+CLV distribution by membership type
+
+LOCATION
+
+CLV distribution across cities
+
+SATISFACTION
+
+Customer satisfaction by CLV category
+
+IMPORTANT:
+Do NOT invent specific preprocessing or cleaning steps unless they are supported by the actual notebook/project materials.
+
+Do NOT describe a complex data-cleaning process simply to make the section look more technical.
+
+==================================================
+03 — ANALYSIS & KEY FINDINGS
+==================================================
+
+Title:
+Analysis & Key Findings
+
+Present the actual findings from the project.
+
+==================================================
+FINDING 1 — CLV CATEGORY DISTRIBUTION
+==================================================
+
+Title:
+CLV Category Distribution
+
+Insight:
+
+The CLV values are tightly clustered between 86 and 89, indicating limited variation across customers. This suggests segmentation based on small behavioral differences.
+
+Use a clean visual showing the distribution:
+
+- High: 89
+- Very Low: 88
+- Low: 87
+- Medium: 86
+
+Keep the visualization consistent with the existing case-study design.
+
+==================================================
+FINDING 2 — REVENUE DISTRIBUTION BY CLV CATEGORY
+==================================================
+
+Title:
+Revenue Distribution by CLV Category
+
+Show:
+
+- High-CLV: 41% of revenue, approximately $120,000
+- Medium-CLV: 26%, approximately $76,000
+- Low and Very Low: 32%, approximately $94,000
+
+Insight:
+
+High-CLV customers contributed the largest share of revenue at approximately 41%, highlighting their importance to overall customer value.
+
+IMPORTANT:
+Keep the values exactly as supported by the project materials.
+
+==================================================
+FINDING 3 — CLV CATEGORY BY MEMBERSHIP TYPE
+==================================================
+
+Title:
+CLV Category by Membership Type
+
+Insight:
+
+All High-CLV customers are Gold members, highlighting a strong link between membership tier and customer value.
+
+Among Medium-CLV customers, 76% hold Silver memberships, while 24% are in Gold.
+
+Use a clear visual comparison of CLV categories and membership types.
+
+==================================================
+FINDING 4 — LOCATION-BASED CLV DISTRIBUTION
+==================================================
+
+Title:
+Location-based CLV Distribution
+
+Present the actual findings:
+
+San Francisco:
+100% of customers are High-CLV.
+
+Los Angeles:
+91% Medium-CLV, only 9% High-CLV.
+
+New York:
+60% Medium-CLV, 40% High-CLV.
+
+Insight:
+
+San Francisco shows strong customer potential. New York and Los Angeles also present opportunities for targeted customer growth and retention strategies.
+
+==================================================
+FINDING 5 — CUSTOMER SATISFACTION BY CLV CATEGORY
+==================================================
+
+Title:
+Customer Satisfaction by CLV Category
+
+Present:
+
+High-CLV:
+100% satisfied.
+
+Medium-CLV:
+58% satisfied
+42% neutral
+
+Insight:
+
+Customer satisfaction plays an important role in customer value. Improving satisfaction could support stronger loyalty and long-term customer value.
+
+==================================================
+FINAL CUSTOMER PROFILE
+==================================================
+
+Add a concise final insight block at the end of the Analysis section.
+
+Title:
+Who Are the High-CLV Customers?
+
+Use:
+
+High-value customers tend to be:
+
+- Gold members
+- Satisfied with the service
+- Located in San Francisco
+
+This should act as the conclusion of the analytical story.
+
+Do NOT add unsupported customer characteristics.
+
+==================================================
+VISUAL STORYTELLING PRIORITY
+==================================================
+
+Prioritize these visuals:
+
+1. Revenue Distribution by CLV Category
+2. CLV Category by Membership Type
+3. Location-based CLV Distribution
+4. Customer Satisfaction by CLV Category
+5. CLV Category Distribution
+
+The strongest storytelling should communicate:
+
+CLV → Revenue Contribution → Membership → Location → Satisfaction → High-Value Customer Profile
+
+Do not overload the page with unnecessary charts.
+
+==================================================
+04 — DASHBOARD
+==================================================
+
+Title:
+Dashboard
+
+Section heading:
+Interactive Dashboard
+
+Description:
+
+Explore customer value, CLV segmentation, membership patterns, location-based customer profiles, and satisfaction across key customer segments.
+
+Primary Button:
+Open Dashboard →
+
+Dashboard Link:
+https://datastudio.google.com/reporting/425dc128-37db-451b-bc27-96a9714d274e
+
+Behavior:
+- Open the dashboard in a new browser tab.
+- Do NOT embed a large dashboard iframe.
+- Do NOT create a fake dashboard.
+- Do NOT add a dashboard screenshot unless specifically requested.
+- Keep this section compact.
+- The dashboard is an external interactive resource.
+- Do NOT place the dashboard link inside Project Files.
+
+==================================================
+05 — RECOMMENDATIONS
+==================================================
+
+Title:
+Recommendations
+
+Use the actual project recommendations.
+
+1. FOCUS ON KEY LOCATIONS
+
+Focus customer retention and expansion efforts on San Francisco, New York, and Los Angeles.
+
+2. PROMOTE GOLD MEMBERSHIP
+
+Use targeted campaigns to encourage customers to upgrade to Gold membership, given the strong relationship between Gold membership and High-CLV customers.
+
+3. IMPROVE CUSTOMER EXPERIENCE
+
+Enhance the overall customer experience to support higher satisfaction and long-term customer loyalty.
+
+4. MAXIMIZE CUSTOMER LIFETIME VALUE
+
+Use customer segmentation to develop more targeted sales and retention strategies for high-value and growth-potential segments.
+
+Keep recommendations practical and directly connected to the analysis.
+
+Do NOT add unsupported recommendations.
+
+==================================================
+06 — PROJECT FILES
+==================================================
+
+Title:
+Project Files
+
+Create clean resource cards/buttons for the actual project files.
+
+Include:
+
+DATASET
+
+File:
+ecommerce_customers.csv
+
+Description:
+Customer-level e-commerce dataset used for the analysis.
+
+ANALYSIS NOTEBOOK
+
+File:
+identifying-and-profiling-high-clv-customers.ipynb
+
+Description:
+Python notebook containing the analysis workflow.
+
+PRESENTATION
+
+File:
+Identifying and Profiling High-CLV Customers in E-Commerce.pptx
+
+Description:
+Project presentation covering customer profiling, key findings, and recommendations.
+
+IMPORTANT:
+
+Project Files should contain the actual project files only.
+
+DO NOT include:
+- Kaggle
+- Looker Studio Dashboard
+
+The distinction must remain:
+
+Kaggle = Data Source
+Looker Studio = Interactive Dashboard
+Project Files = Supporting Project Evidence
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+The E-Commerce High-CLV case study must visually feel like the same portfolio website and the same case-study system used for the other projects.
+
+Reuse the existing:
+
+- Dark background
+- Accent color
+- Typography
+- Font hierarchy
+- Card design
+- Borders
+- Border radius
+- Shadows
+- Spacing system
+- Buttons
+- Hover states
+- Animations
+- Page width
+- Responsive behavior
+
+Do NOT create a new visual identity for this project.
+
+Do NOT:
+- Add neon colors
+- Add cyberpunk styling
+- Add excessive gradients
+- Add glowing effects
+- Add oversized decorative elements
+- Add unnecessary animations
+- Change the global navbar
+- Change global typography
+- Change the homepage
+- Redesign other case studies
+- Add unnecessary sections
+
+The case study should feel like a natural part of the same portfolio.
+
+==================================================
+CONTENT PRINCIPLE
+==================================================
+
+Follow this hierarchy:
+
+Homepage
+→ Quick project overview
+
+Case Study
+→ Detailed project story and analytical proof
+
+External Resources
+→ Evidence and deeper exploration
+
+For this project:
+
+Kaggle
+→ Data Source
+
+Looker Studio
+→ Interactive Dashboard
+
+Dataset / Notebook / Presentation
+→ Project Files
+
+Do not duplicate the same resource in multiple sections.
+
+==================================================
+NAVIGATION
+==================================================
+
+Ensure the E-Commerce High-CLV project card on the homepage:
+
+View Case Study →
+
+correctly opens this case study page.
+
+Ensure the page can return to the main Projects section using the existing navigation system.
+
+Do NOT modify the global navbar.
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Make sure the page works properly on:
+
+- Desktop
+- Tablet
+- Mobile
+
+Maintain the same spacing, typography hierarchy, cards, buttons, and layout behavior used throughout the existing portfolio.
+
+Do not introduce horizontal scrolling.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only implement this E-Commerce High-CLV case study.
+
+Do NOT modify unrelated pages or components.
+
+If reusable case-study components already exist, reuse them instead of creating a separate visual system.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do NOT redesign the page.
+- Do NOT restructure unrelated components.
+- Make sure the project compiles successfully before finishing.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before finishing, verify:
+
+1. The E-Commerce High-CLV case study page compiles successfully.
+2. The View Case Study button works.
+3. The page navigation works.
+4. The Kaggle "View Dataset →" link works.
+5. The Kaggle link opens in a new browser tab.
+6. The Looker Studio "Open Dashboard →" link works.
+7. The dashboard opens in a new browser tab.
+8. All project file links point to the correct uploaded files/assets.
+9. Kaggle is NOT duplicated under Project Files.
+10. Dashboard is NOT duplicated under Project Files.
+11. The page does NOT contain a "The Data Challenge" section.
+12. The page uses the same visual system as the existing portfolio.
+13. No existing homepage sections are changed.
+14. No global navbar changes are made.
+15. The page is responsive on desktop and mobile.
+16. No unsupported data, metrics, preprocessing steps, or claims have been invented.
+17. The High-CLV customer profile is clearly presented as the conclusion of the analysis.
+
+MOST IMPORTANT:
+
+KEEP THE DESIGN.
+KEEP THE STRUCTURE.
+DO NOT ADD "THE DATA CHALLENGE".
+USE THE ACTUAL PROJECT DATA.
+KAGGLE = DATA SOURCE.
+LOOKER STUDIO = DASHBOARD.
+PROJECT FILES = SUPPORTING EVIDENCE.
+ONLY IMPLEMENT THE E-COMMERCE HIGH-CLV CASE STUDY.
