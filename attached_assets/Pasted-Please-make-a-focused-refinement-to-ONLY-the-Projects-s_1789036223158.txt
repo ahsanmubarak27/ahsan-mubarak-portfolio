@@ -1,0 +1,372 @@
+Please make a focused refinement to ONLY the Projects section of the homepage.
+
+IMPORTANT — THIS IS NOT A REDESIGN:
+
+The current Projects section already has a very good visual design. KEEP THE EXISTING DESIGN.
+
+Do NOT change:
+- Project card layout
+- Card dimensions
+- Card positioning
+- Dark theme
+- Existing color palette
+- Typography
+- Font sizes
+- Borders
+- Backgrounds
+- Spacing system
+- Padding
+- Existing visual hierarchy
+- Animations
+- Hover effects
+- "View Case Study →" interaction
+- Overall visual language
+
+The main purpose of this update is to replace the CURRENT PLACEHOLDER/FICTITIOUS CHART DATA with the REAL DATA from the four uploaded project images.
+
+In short:
+
+KEEP THE DESIGN.
+CHANGE THE DATA/CONTENT.
+
+Do NOT redesign the project cards.
+
+==================================================
+1. PROJECTS SECTION INTRODUCTION
+==================================================
+
+Keep the section title exactly:
+
+"Projects"
+
+Replace the current description underneath it with exactly:
+
+"End-to-end data analytics work, from data preparation and analysis to dashboards and actionable insights."
+
+Do NOT use wording such as:
+- "Selected Projects"
+- "A selection of projects"
+- "Featured Projects"
+
+The section should simply be called:
+
+"Projects"
+
+==================================================
+2. UPLOADED IMAGE ORDER
+==================================================
+
+I will upload FOUR project chart images.
+
+Use them in this exact order:
+
+IMAGE 1:
+Sales Performance Analysis — CPX SPORTWEAR
+
+IMAGE 2:
+Google Ads Campaign Performance Analysis
+
+IMAGE 3:
+Coffee Shop Sales & Profit Analysis
+
+IMAGE 4:
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+Each image is the SOURCE OF TRUTH for the corresponding project's chart/data.
+
+Do not mix the images between projects.
+
+==================================================
+3. PROJECT 1
+==================================================
+
+Project title:
+
+"Sales Performance Analysis"
+
+Context:
+
+"CPX SPORTWEAR · Freelance"
+
+Use IMAGE 1 as the source of truth.
+
+The chart represents:
+
+"Total Pembayaran"
+
+Use these exact values:
+
+- Jumat — 136.6M
+- Sabtu — 97.9M
+- Selasa — 88.8M
+- Minggu — 87.9M
+- Kamis — 86.8M
+- Senin — 86.1M
+- Rabu — 77.3M
+
+IMPORTANT:
+
+Use the real values above.
+
+Do NOT use the current placeholder/fictitious chart data.
+
+Do NOT use the previous fake:
+
+"+24.8%"
+
+Remove that fake metric completely.
+
+Do not invent:
+- growth percentages
+- revenue changes
+- additional KPIs
+- additional statistics
+- fake labels
+
+The existing project-card design must remain unchanged.
+
+Only update the chart's internal data/content so that it represents the real data above.
+
+The chart can be recreated as a clean chart component rather than displaying the uploaded screenshot directly.
+
+==================================================
+4. PROJECT 2
+==================================================
+
+Project title:
+
+"Google Ads Campaign Performance Analysis"
+
+Context:
+
+"Independent Project"
+
+Use IMAGE 2 as the source of truth.
+
+This project uses a funnel visualization.
+
+Use these exact real values:
+
+- Impressions — 11.8M (100%)
+- Clicks — 361.2K (3.07%)
+- Leads — 52K (14.4%)
+- Conversions — 16.9K (32.51%)
+
+The visualization should clearly communicate:
+
+Impressions → Clicks → Leads → Conversions
+
+IMPORTANT:
+
+Keep these exact values and percentages.
+
+Do NOT invent additional metrics.
+
+Do NOT create fake growth numbers.
+
+Do NOT use placeholder values.
+
+The existing project-card container, layout, typography, spacing, colors, and styling must remain unchanged.
+
+ONLY change the internal chart visualization/data necessary to accurately represent the real Google Ads funnel.
+
+The funnel may use a different chart structure from the current placeholder chart because the REAL project visualization is a funnel.
+
+However, this must NOT affect the surrounding project-card design.
+
+==================================================
+5. PROJECT 3
+==================================================
+
+Project title:
+
+"Coffee Shop Sales & Profit Analysis"
+
+Context:
+
+"Independent Project"
+
+Use IMAGE 3 as the source of truth.
+
+The chart represents:
+
+Profit Margin
+
+Use these exact values:
+
+- Decaf Espresso — 36.9
+- Darjeeling — 35.2
+- Columbian — 33.9
+- Chamomile — 32.6
+- Caffe Latte — 30.0
+
+IMPORTANT:
+
+Use the exact real values above.
+
+Do NOT invent:
+- growth percentages
+- additional KPIs
+- revenue numbers
+- fake performance metrics
+- additional statistics
+
+Keep the existing project-card design exactly as it currently appears.
+
+Only replace the chart's placeholder data/content with the real project data.
+
+The chart should remain clean and readable within the existing project-card dimensions.
+
+==================================================
+6. PROJECT 4
+==================================================
+
+Change the project title from:
+
+"Customer Lifetime Value Analysis"
+
+to exactly:
+
+"Identifying and Profiling High-CLV Customers in E-Commerce"
+
+Context:
+
+"Independent Project"
+
+Use IMAGE 4 as the source of truth.
+
+The visualization represents the distribution of CLV categories.
+
+Use these exact values:
+
+- High — 89
+- Very Low — 88
+- Low — 87
+- Medium — 86
+
+IMPORTANT:
+
+Keep the existing general bar-chart concept.
+
+Only replace the placeholder numbers/data with:
+
+High — 89
+Very Low — 88
+Low — 87
+Medium — 86
+
+Do NOT invent any additional data.
+
+Do NOT add fake percentages or other metrics.
+
+The project title must be changed exactly as specified above.
+
+Keep the existing card layout and visual design unchanged.
+
+==================================================
+7. PROJECT CARD CONTENT
+==================================================
+
+The homepage Projects section is a PREVIEW of the work.
+
+Do NOT turn these cards into full case studies.
+
+Keep the current structure containing:
+
+- Project category/context
+- Project title
+- Concise project description
+- Tools
+- "View Case Study →"
+
+Do NOT add:
+- Full datasets
+- Long explanations
+- Full analysis
+- Full recommendations
+- Excessive KPIs
+- Fake statistics
+- Fictional business results
+- Additional placeholder metrics
+
+The homepage should remain clean and concise.
+
+Detailed analysis will be shown later on the individual Case Study pages.
+
+==================================================
+8. CHART IMPLEMENTATION RULE
+==================================================
+
+This is very important:
+
+Do NOT simply display the uploaded screenshots as raw images if that makes them visually inconsistent with the existing portfolio.
+
+Instead, use the uploaded images as the SOURCE OF TRUTH for:
+- Data
+- Values
+- Labels
+- Chart type/structure
+- Information being communicated
+
+Then recreate the visualization INSIDE THE EXISTING PROJECT CARD DESIGN.
+
+However:
+
+DO NOT redesign the surrounding project card.
+
+The project card's:
+- dimensions
+- layout
+- background
+- borders
+- typography
+- spacing
+- positioning
+- visual hierarchy
+- theme
+
+must remain consistent with the current implementation.
+
+The chart itself should visually fit the existing card.
+
+==================================================
+9. NO FABRICATED DATA
+==================================================
+
+This portfolio is for a Data Analyst.
+
+Therefore, data accuracy is more important than making the chart look impressive.
+
+NEVER generate plausible-looking numbers just to fill the visualization.
+
+If a value is not provided in the uploaded image/instructions, do NOT invent it.
+
+Use only the actual project information provided.
+
+==================================================
+10. SCOPE CONTROL
+==================================================
+
+ONLY modify the Projects section.
+
+Do NOT modify:
+
+- Navbar
+- Hero
+- About Me
+- Experience
+- Skills
+- Contact
+- Footer
+
+Do NOT modify the fifth project.
+
+Do NOT modify any other homepage functionality.
+
+Do NOT redesign the website.
+
+The goal is simply:
+
+CURRENT DESIGN + REAL PROJECT DATA
+
+The final result should look visually almost identical to the current Projects section, but with accurate project-specific visualizations and the corrected Projects description/title.

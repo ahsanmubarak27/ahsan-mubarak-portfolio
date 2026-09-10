@@ -68,7 +68,7 @@ const projects: Project[] = [
   {
     slug: 'customer-lifetime-value',
     number: '04',
-    title: 'Customer Lifetime Value Analysis',
+    title: 'Identifying and Profiling High-CLV Customers in E-Commerce',
     context: 'Independent Project',
     description: 'Identified and profiled high-value customers to uncover opportunities for targeted retention and customer growth strategies.',
     tags: ['Python', 'SQL', 'Looker Studio'],
@@ -246,7 +246,7 @@ function App() {
           <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
             <div>
               <SectionKicker>Projects</SectionKicker>
-              <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">A selection of end-to-end data analytics projects, from data preparation and analysis to dashboards, insights, and recommendations.</p>
+              <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">End-to-end data analytics work, from data preparation and analysis to dashboards and actionable insights.</p>
             </div>
             <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">01 / 05</span>
           </div>
@@ -459,7 +459,35 @@ function ProjectCard({ project, featured }: { project: Project; featured: boolea
 }
 
 function ProjectVisual({ project, featured }: { project: Project; featured: boolean }) {
-  const chartBars = [38, 56, 44, 72, 61, 86, 67, 94];
+  const salesData = [
+    ['Jumat', 136.6],
+    ['Sabtu', 97.9],
+    ['Selasa', 88.8],
+    ['Minggu', 87.9],
+    ['Kamis', 86.8],
+    ['Senin', 86.1],
+    ['Rabu', 77.3],
+  ] as const;
+  const adsData = [
+    ['Impressions', '11.8M', '100%', 100],
+    ['Clicks', '361.2K', '3.07%', 78],
+    ['Leads', '52K', '14.4%', 56],
+    ['Conversions', '16.9K', '32.51%', 34],
+  ] as const;
+  const coffeeData = [
+    ['Decaf Espresso', 36.9],
+    ['Darjeeling', 35.2],
+    ['Columbian', 33.9],
+    ['Chamomile', 32.6],
+    ['Caffe Latte', 30.0],
+  ] as const;
+  const clvData = [
+    ['High', 89],
+    ['Very Low', 88],
+    ['Low', 87],
+    ['Medium', 86],
+  ] as const;
+
   return <div className={`relative overflow-hidden border-b border-white/[.08] bg-[#171a27] p-6 sm:p-8 lg:border-b-0 ${project.reverse ? 'lg:order-last lg:border-l' : 'lg:border-r'} ${featured ? 'min-h-[330px]' : 'min-h-[245px]'}`}>
     <div className="absolute -right-16 -top-20 size-56 rounded-full blur-3xl" style={{ backgroundColor: `${project.accent}18` }} />
     <div className="relative flex items-center justify-between">
@@ -468,31 +496,42 @@ function ProjectVisual({ project, featured }: { project: Project; featured: bool
     </div>
     <div className="relative mt-6 rounded-[14px] border border-white/[.08] bg-[#11131a]/75 p-4 shadow-[0_18px_45px_rgba(0,0,0,.18)]">
       {project.visual === 'sales' && <div className="h-[185px]">
-        <div className="flex items-end justify-between gap-2 border-b border-white/[.08] pb-3">
-          {chartBars.map((height, index) => <span key={index} className="w-full rounded-t-[3px] opacity-80" style={{ height: `${height}px`, backgroundColor: project.accent }} />)}
+        <div className="flex h-[148px] items-end justify-between gap-1.5 border-b border-white/[.08] pb-1">
+          {salesData.map(([day, value]) => <div key={day} className="flex h-full min-w-0 flex-1 flex-col justify-end text-center">
+            <span className="mb-1 font-mono text-[7px] text-[#b8bac4]">{value.toFixed(1)}M</span>
+            <span className="mx-auto w-full max-w-8 rounded-t-[3px] opacity-80" style={{ height: `${(value / 136.6) * 108}px`, backgroundColor: project.accent }} />
+          </div>)}
         </div>
-        <div className="mt-4 flex items-center justify-between text-[9px] text-[#777985]"><span>Monthly revenue</span><span className="font-mono text-[#a7a9b3]">+24.8%</span></div>
-      </div>}
-      {project.visual === 'ads' && <div className="space-y-3 py-4">
-        {[
-          ['Impressions', '100%', 'bg-white/20'],
-          ['Clicks', '68%', 'bg-[#6194ff]'],
-          ['Conversions', '34%', 'bg-[#7b83ff]'],
-          ['Revenue', '18%', 'bg-white/60'],
-        ].map(([label, width, color]) => <div key={label}><div className="mb-1 flex justify-between text-[9px] text-[#858792]"><span>{label}</span><span className="font-mono">{width}</span></div><div className="h-2 rounded-full bg-white/[.06]"><div className={`h-full rounded-full ${color}`} style={{ width }} /></div></div>)}
-      </div>}
-      {project.visual === 'coffee' && <div className="h-[185px]">
-        <div className="grid h-[145px] grid-cols-7 items-end gap-2 border-b border-white/[.08]">
-          {[48, 72, 57, 92, 65, 78, 52].map((height, index) => <span key={index} className="rounded-t-[3px] bg-[#a264ef]/75" style={{ height: `${height}%` }} />)}
+        <div className="mt-2 grid grid-cols-7 gap-1 text-center text-[7px] text-[#777985]">
+          {salesData.map(([day]) => <span key={day} className="truncate">{day}</span>)}
         </div>
-        <div className="mt-4 flex items-center justify-between text-[9px] text-[#777985]"><span>Product margin</span><span className="font-mono text-[#a7a9b3]">Top 12%</span></div>
+      </div>}
+      {project.visual === 'ads' && <div className="space-y-1.5 py-1">
+        {adsData.map(([label, value, percentage, width], index) => <div key={label} className="relative mx-auto flex h-9 items-center justify-center overflow-hidden" style={{ width: `${width}%`, clipPath: 'polygon(4% 0, 96% 0, 88% 100%, 12% 100%)', backgroundColor: `${project.accent}${index === 0 ? 'b8' : index === 1 ? '96' : index === 2 ? '78' : '5c'}` }}>
+          <span className="truncate px-3 text-center text-[8px] font-medium text-white/90">{label} <span className="font-mono">{value} ({percentage})</span></span>
+        </div>)}
+      </div>}
+      {project.visual === 'coffee' && <div className="h-[185px] space-y-2 py-1">
+        {coffeeData.map(([label, value]) => <div key={label} className="grid grid-cols-[82px_1fr_28px] items-center gap-2">
+          <span className="truncate text-[8px] text-[#858792]">{label}</span>
+          <div className="h-4 rounded-r-[3px] bg-white/[.05]">
+            <div className="h-full rounded-r-[3px] bg-[#a264ef]/75" style={{ width: `${(value / 40) * 100}%` }} />
+          </div>
+          <span className="font-mono text-[8px] text-[#b8bac4]">{value.toFixed(1)}</span>
+        </div>)}
+        <div className="grid grid-cols-[82px_1fr_28px] gap-2 pt-1">
+          <span />
+          <div className="flex justify-between border-t border-white/[.08] pt-2 font-mono text-[7px] text-[#656873]"><span>0</span><span>20</span><span>40</span></div>
+        </div>
       </div>}
       {project.visual === 'clv' && <div className="space-y-3 py-2">
-        {[
-          ['High value', '84%', '#7b83ff'],
-          ['Growing', '61%', '#6194ff'],
-          ['At risk', '29%', '#a264ef'],
-        ].map(([label, width, color]) => <div key={label} className="flex items-center gap-3 rounded-lg border border-white/[.06] bg-white/[.025] px-3 py-2.5"><span className="size-2 rounded-full" style={{ backgroundColor: color }} /><span className="flex-1 text-[10px] text-[#9b9da7]">{label}</span><span className="font-mono text-[10px] text-[#c2c3c9]">{width}</span></div>)}
+        {clvData.map(([label, value]) => <div key={label} className="grid grid-cols-[48px_1fr_24px] items-center gap-2">
+          <span className="text-[9px] text-[#9b9da7]">{label}</span>
+          <div className="h-7 rounded-r-[3px] bg-white/[.05]">
+            <div className="h-full rounded-r-[3px] opacity-80" style={{ width: `${value}%`, backgroundColor: project.accent }} />
+          </div>
+          <span className="font-mono text-[9px] text-[#c2c3c9]">{value}</span>
+        </div>)}
       </div>}
       {project.visual === 'supply-chain' && <div className="flex items-center justify-between gap-2 py-10">
         {['Orders', 'Pick', 'Ship', 'Delivered'].map((label, index, items) => <div key={label} className="flex min-w-0 flex-1 items-center gap-2"><div className="min-w-0"><span className="mx-auto block size-3 rounded-full border-2" style={{ borderColor: project.accent }} /><p className="mt-3 truncate text-center text-[9px] text-[#858792]">{label}</p></div>{index < items.length - 1 && <span className="h-px flex-1 bg-white/[.12]" />}</div>)}
