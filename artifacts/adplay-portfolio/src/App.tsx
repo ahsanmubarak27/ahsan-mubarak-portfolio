@@ -344,12 +344,12 @@ function App() {
           </div>
         </section>
 
-        <section id="contact" className="relative scroll-mt-24 overflow-hidden border-t border-white/[.07] py-28 text-center sm:py-36">
-          <div className="pointer-events-none absolute left-1/2 top-16 size-80 -translate-x-1/2 rounded-full bg-[#473f98]/[.1] blur-[100px]" />
-          <div className="relative">
-            <p className="font-mono text-[10px] tracking-[.18em] text-[#8589cf]">HAVE A PROJECT IN MIND?</p>
-            <h2 className="mx-auto mt-5 max-w-[700px] font-display text-[clamp(2.5rem,5vw,4.5rem)] font-medium leading-[.98] tracking-[-.065em] text-[#eeeff2]">Let’s make something<br /><span className="text-[#777982]">remarkable.</span></h2>
-            <button onClick={() => setDialog('project')} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-6 py-3.5 text-[12px] font-semibold text-[#191a20] transition-transform hover:-translate-y-0.5" data-testid="button-contact-project">Start a Project <ArrowRight size={14} /></button>
+        <section id="contact" className="section-rule scroll-mt-24 py-24 text-center sm:py-32">
+          <div className="mx-auto max-w-[680px]">
+            <h2 className="font-display text-[clamp(2.5rem,5vw,4.25rem)] font-medium leading-[1] tracking-[-.065em] text-[#eeeff2]" data-testid="heading-lets-connect">Let's Connect</h2>
+            <p className="mx-auto mt-5 max-w-[560px] text-[14px] leading-[1.6] text-[#91939d]" data-testid="text-contact-description">Interested in working together or discussing a data analytics opportunity? I'd be happy to connect.</p>
+            <a href="mailto:ahsanmubarak2729@gmail.com" className="group mt-8 inline-flex items-center gap-2 rounded-full bg-[#f1f2f4] px-6 py-3.5 text-[12px] font-semibold text-[#191a20] transition-transform hover:-translate-y-0.5" data-testid="link-contact-email">Get in Touch <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" /></a>
+            <p className="mt-5 text-[11px] text-[#6f727d]" data-testid="text-contact-location">Based in Bandung, Indonesia</p>
           </div>
         </section>
 

@@ -1,0 +1,224 @@
+Please create and implement the final CONTACT section of my portfolio website.
+
+IMPORTANT:
+- This is a personal Data Analyst portfolio.
+- The Contact section should function as the final call-to-action of the homepage.
+- Keep it minimal, elegant, professional, and visually consistent with the entire website.
+- Do NOT make it look like a traditional contact form.
+- Do NOT repeat the full social/contact icon row from the Hero.
+- The Hero already contains WhatsApp, LinkedIn, Email, GitHub, and Kaggle icons, so the Contact section should have a different purpose.
+
+==================================================
+1. SECTION TITLE
+==================================================
+
+Use:
+
+"Let's Connect"
+
+This should be the primary heading of the section.
+
+==================================================
+2. DESCRIPTION
+==================================================
+
+Use exactly:
+
+"Interested in working together or discussing a data analytics opportunity? I'd be happy to connect."
+
+Keep this concise and readable.
+
+Do not add unnecessary paragraphs.
+
+==================================================
+3. PRIMARY CTA
+==================================================
+
+Add one prominent CTA button:
+
+"Get in Touch →"
+
+The button should link to:
+
+mailto:ahsanmubarak2729@gmail.com
+
+Use the mailto link directly.
+
+The button should open the visitor's default email application.
+
+Do not create a contact form.
+
+Do not require the visitor to enter their name, email, or message through the website.
+
+==================================================
+4. LOCATION
+==================================================
+
+Add a subtle supporting line:
+
+"Based in Bandung, Indonesia"
+
+Keep this visually secondary to the main CTA.
+
+Do not display a full address.
+
+==================================================
+5. SOCIAL LINKS
+==================================================
+
+Do NOT recreate the full five-icon social row from the Hero.
+
+The following social/contact links already exist in the Hero:
+
+WhatsApp
+LinkedIn
+Email
+GitHub
+Kaggle
+
+Do not duplicate them as another large icon row.
+
+If a small secondary link is needed, keep it extremely subtle and minimal.
+
+The main purpose of this section is the "Get in Touch" CTA.
+
+==================================================
+6. VISUAL STRUCTURE
+==================================================
+
+Create a clean closing section with strong visual hierarchy.
+
+Recommended structure:
+
+                LET'S CONNECT
+
+        Interested in working together or
+        discussing a data analytics opportunity?
+        I'd be happy to connect.
+
+                [ Get in Touch → ]
+
+              Based in Bandung, Indonesia
+
+The layout should feel spacious and intentional.
+
+Do not create unnecessary cards or multiple columns.
+
+==================================================
+7. DESIGN LANGUAGE
+==================================================
+
+The Contact section MUST look like a natural continuation of the existing website.
+
+Use the existing:
+
+- Dark background
+- Typography system
+- Font hierarchy
+- Accent color
+- Borders
+- Border radius
+- Spacing system
+- Button styling
+- Subtle animations
+- Hover states
+- Transitions
+
+The Hero, About Me, Projects, Experience, and Skills sections are the primary visual reference.
+
+Do NOT introduce a new design language.
+
+Do NOT introduce:
+
+- Cyberpunk effects
+- Excessive gradients
+- Large glowing elements
+- Neon colors
+- Decorative illustrations
+- Glassmorphism that is not already part of the design
+- Large social media icons
+- Contact forms
+
+==================================================
+8. VISUAL EMPHASIS
+==================================================
+
+The "Let's Connect" heading should be visually strong.
+
+The description should be secondary.
+
+The "Get in Touch →" button should be the primary interactive element.
+
+"Based in Bandung, Indonesia" should be subtle.
+
+The overall section should feel like a calm and confident ending to the portfolio.
+
+==================================================
+9. RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+- Keep the content centered and spacious.
+- Maintain a strong visual hierarchy.
+
+Tablet:
+- Adjust spacing naturally.
+
+Mobile:
+- Keep the heading readable.
+- Keep the CTA button comfortably clickable.
+- Keep the description within a readable width.
+- Prevent horizontal overflow.
+
+==================================================
+10. HOMEPAGE ROLE
+==================================================
+
+The Contact section should feel like the final step of the portfolio:
+
+Hero
+↓
+About Me
+↓
+Projects
+↓
+Experience
+↓
+Skills
+↓
+Let's Connect
+
+The visitor should feel:
+
+"I've seen his work, experience, and capabilities. Now I know how to contact him."
+
+==================================================
+11. IMPORTANT — DO NOT MODIFY OTHER SECTIONS
+==================================================
+
+Do NOT modify:
+
+- Hero
+- About Me
+- Projects
+- Experience
+- Skills
+- Navigation
+- Footer
+- Existing social links
+- CV functionality
+- Global theme
+
+Only create/update the Contact section.
+
+The final result should be:
+
+Minimal
+Professional
+Clean
+Precise
+Modern
+Premium
+Confident
+
+Avoid unnecessary content or visual clutter.
