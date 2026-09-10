@@ -14,11 +14,12 @@ import CaseStudyGoogleAds from './pages/case-studies/google-ads-campaign-perform
 import CaseStudyCoffeeShop from './pages/case-studies/coffee-shop-sales-profit';
 import CaseStudyCustomerLifetimeValue from './pages/case-studies/customer-lifetime-value';
 import CaseStudySupplyChainFulfillment from './pages/case-studies/supply-chain-fulfillment';
+import CaseStudyAdHocSales from './pages/case-studies/ad-hoc-sales-profitability';
 import NotFound from './pages/not-found';
 
 const cvHref = '/Ahsan-Mubarak-CV.pdf';
 
-type ProjectVisual = 'sales' | 'ads' | 'coffee' | 'clv' | 'supply-chain';
+type ProjectVisual = 'sales' | 'ads' | 'coffee' | 'clv' | 'supply-chain' | 'ad-hoc';
 
 type Project = {
   slug: string;
@@ -41,7 +42,7 @@ const projects: Project[] = [
     title: 'Sales Performance Analysis',
     context: 'CPX SPORTWEAR · Freelance',
     description: 'Analyzed 6,744 transactions and 11,307 SKU records to uncover sales patterns, product performance, and purchasing behavior.',
-    tags: ['Python', 'SQL', 'Excel', 'Looker Studio'],
+    tags: ['Python', 'Looker Studio'],
     category: 'SALES · BUSINESS ANALYTICS',
     visual: 'sales',
     visualLabel: 'SALES OVERVIEW',
@@ -53,7 +54,7 @@ const projects: Project[] = [
     title: 'Google Ads Campaign Performance Analysis',
     context: 'Independent Project',
     description: 'Evaluated advertising performance across CTR, conversion rate, ROI, and funnel stages to identify conversion bottlenecks and optimization opportunities.',
-    tags: ['Python', 'SQL', 'Excel', 'Looker Studio'],
+    tags: ['Python', 'Looker Studio'],
     category: 'MARKETING · PERFORMANCE ANALYTICS',
     visual: 'ads',
     visualLabel: 'CAMPAIGN FUNNEL',
@@ -66,7 +67,7 @@ const projects: Project[] = [
     title: 'Coffee Shop Sales & Profit Analysis',
     context: 'Independent Project',
     description: 'Analyzed sales and profit data to identify high-performing products, profitable markets, and opportunities to improve overall business performance.',
-    tags: ['Python', 'SQL', 'Looker Studio'],
+    tags: ['Python', 'Looker Studio'],
     category: 'PROFITABILITY · BUSINESS ANALYTICS',
     visual: 'coffee',
     visualLabel: 'PROFITABILITY VIEW',
@@ -78,7 +79,7 @@ const projects: Project[] = [
     title: 'Identifying and Profiling High-CLV Customers in E-Commerce',
     context: 'Independent Project',
     description: 'Identified and profiled high-value customers to uncover opportunities for targeted retention and customer growth strategies.',
-    tags: ['Python', 'SQL', 'Looker Studio'],
+    tags: ['Python', 'Looker Studio'],
     category: 'CUSTOMER ANALYTICS · RETENTION',
     visual: 'clv',
     visualLabel: 'CUSTOMER SEGMENTS',
@@ -91,11 +92,24 @@ const projects: Project[] = [
     title: 'Supply Chain Fulfillment Analysis',
     context: 'Independent Project',
     description: 'Investigated fulfillment performance to identify potential operational bottlenecks and understand the factors affecting order fulfillment.',
-    tags: ['Python', 'SQL', 'Looker Studio'],
+    tags: ['Python', 'Looker Studio'],
     category: 'OPERATIONS · SUPPLY CHAIN ANALYTICS',
     visual: 'supply-chain',
-    visualLabel: 'FULFILLMENT FLOW',
+    visualLabel: 'FULFILLMENT ANALYSIS',
     accent: '#6194ff',
+  },
+  {
+    slug: 'ad-hoc-sales-profitability',
+    number: '06',
+    title: 'Ad Hoc Sales & Profitability Analysis',
+    context: 'Independent Project',
+    description: 'Analyzed sales, profit, expenses, product categories, and customer segments using SQL and Excel to provide practical financial insights for pricing, marketing, and budget allocation decisions.',
+    tags: ['SQL', 'Excel'],
+    category: 'BUSINESS ANALYTICS · REPORTING',
+    visual: 'ad-hoc',
+    visualLabel: 'AD HOC REPORT',
+    accent: '#a264ef',
+    reverse: true,
   },
 ];
 
@@ -263,7 +277,7 @@ function Home() {
               <SectionKicker>Projects</SectionKicker>
               <p className="mt-2 max-w-[640px] text-[13px] text-[#80828c]">End-to-end data analytics work, from data preparation and analysis to dashboards and actionable insights.</p>
             </div>
-            <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">01 / 05</span>
+            <span className="hidden font-mono text-[10px] tracking-[.14em] text-[#5f626e] sm:block">01 / 06</span>
           </div>
           <div className="mt-8 space-y-5">
             {projects.map((project, index) => <ProjectCard key={project.slug} project={project} featured={index === 0} />)}
@@ -548,8 +562,25 @@ function ProjectVisual({ project, featured }: { project: Project; featured: bool
           <span className="font-mono text-[9px] text-[#c2c3c9]">{value}</span>
         </div>)}
       </div>}
-      {project.visual === 'supply-chain' && <div className="flex items-center justify-between gap-2 py-10">
-        {['Orders', 'Pick', 'Ship', 'Delivered'].map((label, index, items) => <div key={label} className="flex min-w-0 flex-1 items-center gap-2"><div className="min-w-0"><span className="mx-auto block size-3 rounded-full border-2" style={{ borderColor: project.accent }} /><p className="mt-3 truncate text-center text-[9px] text-[#858792]">{label}</p></div>{index < items.length - 1 && <span className="h-px flex-1 bg-white/[.12]" />}</div>)}
+      {project.visual === 'supply-chain' && <div className="py-2">
+        <div className="flex items-end justify-between border-b border-white/[.08] pb-4">
+          <div><p className="font-mono text-[8px] tracking-[.1em] text-[#777985]">FULFILLMENT RATE</p><p className="mt-1 font-display text-[38px] font-semibold tracking-[-.06em] text-[#ecedf0]">73.65%</p></div>
+          <span className="rounded-full border border-[#6194ff]/20 bg-[#6194ff]/10 px-3 py-1.5 font-mono text-[7px] text-[#8cb0ff]">INVESTIGATION</span>
+        </div>
+        <div className="mt-4 grid grid-cols-3 gap-2">
+          {['Stock Level', 'Lead Time', 'Shipping Time'].map((label) => <div key={label} className="rounded-lg border border-white/[.07] bg-white/[.025] px-2 py-3 text-center"><div className="mx-auto mb-2 h-5 w-px rotate-[38deg] bg-[#6194ff]/60" /><p className="text-[8px] text-[#9698a2]">{label}</p></div>)}
+        </div>
+        <p className="mt-4 text-center font-mono text-[8px] tracking-[.08em] text-[#777985]">NO STRONG RELATIONSHIP FOUND</p>
+      </div>}
+      {project.visual === 'ad-hoc' && <div className="py-1">
+        <div className="rounded-lg border border-white/[.07] bg-white/[.02] p-3 font-mono">
+          <p className="text-[7px] text-[#a264ef]">SELECT category, SUM(sales), SUM(profit)</p>
+          <p className="mt-1 text-[7px] text-[#656873]">FROM orders · GROUP BY category</p>
+        </div>
+        <div className="mt-3 grid grid-cols-3 gap-2">
+          {[['Sales', '357K'], ['Profit', '125K'], ['Expenses', '2.91M']].map(([label, value]) => <div key={label} className="rounded-lg border border-white/[.07] bg-white/[.025] p-3"><p className="font-display text-[16px] font-semibold text-[#dedfe4]">{value}</p><p className="mt-1 text-[7px] text-[#777985]">{label}</p></div>)}
+        </div>
+        <div className="mt-3 flex items-center gap-2 font-mono text-[8px] text-[#858792]"><span className="text-[#a264ef]">SQL ANALYSIS</span><span>→</span><span>BUSINESS METRICS</span><span>→</span><span>EXCEL REPORT</span></div>
       </div>}
     </div>
   </div>;
@@ -564,6 +595,7 @@ export default function App() {
       <Route path="/case-studies/coffee-shop-sales-profit" component={CaseStudyCoffeeShop} />
       <Route path="/case-studies/customer-lifetime-value" component={CaseStudyCustomerLifetimeValue} />
       <Route path="/case-studies/supply-chain-fulfillment" component={CaseStudySupplyChainFulfillment} />
+      <Route path="/case-studies/ad-hoc-sales-profitability" component={CaseStudyAdHocSales} />
       <Route component={NotFound} />
     </Switch>
   );

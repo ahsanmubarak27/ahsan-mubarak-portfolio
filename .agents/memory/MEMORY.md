@@ -1,0 +1,1 @@
+- [Ad hoc report category conflict](ad-hoc-report-category-conflict.md) — category commentary conflicts with workbook values; use the numeric table as source of truth.

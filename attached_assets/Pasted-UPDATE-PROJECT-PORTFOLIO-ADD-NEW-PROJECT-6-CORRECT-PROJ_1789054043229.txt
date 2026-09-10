@@ -1,0 +1,813 @@
+UPDATE PROJECT PORTFOLIO + ADD NEW PROJECT #6 + CORRECT PROJECT #4/#5 DISPLAY
+
+IMPORTANT:
+Make the following updates carefully.
+
+This is primarily a CONTENT, PROJECT CARD, AND PROJECT METADATA UPDATE.
+
+DO NOT redesign the portfolio.
+
+Keep the existing visual design, layout, typography, spacing, cards, borders, colors, animations, and overall visual identity exactly as they are.
+
+==================================================
+PART 1 — ADD NEW PROJECT #6 TO THE HOMEPAGE
+==================================================
+
+Add a new project card to the existing Projects section on the homepage.
+
+Project number:
+06
+
+Project Title:
+Ad Hoc Sales & Profitability Analysis
+
+Category label:
+BUSINESS ANALYTICS · REPORTING
+
+Context:
+Independent Project
+
+Description:
+
+Analyzed sales, profit, expenses, product categories, and customer segments using SQL and Excel to provide practical financial insights for pricing, marketing, and budget allocation decisions.
+
+Technology / Tools:
+
+SQL
+Excel
+
+IMPORTANT:
+Display ONLY:
+
+SQL
+Excel
+
+Do NOT display:
+Python
+Looker Studio
+Looker
+Any other technology that was not used in this project.
+
+CTA:
+
+View Case Study →
+
+The CTA must open the internal case study page for this project.
+
+==================================================
+PART 2 — NEW PROJECT #6 VISUAL
+==================================================
+
+Create a visual preview for Project #6 that communicates SQL + Excel business reporting.
+
+Do NOT create a fake dashboard.
+
+The visual can use a clean analytical/reporting representation such as:
+
+- SQL query / database-inspired analytical visual
+- Small financial KPI summary
+- Sales / profit / expense comparison
+- Excel-style business report preview
+
+The visual should communicate:
+
+SQL Analysis → Business Metrics → Excel Report
+
+Keep it visually consistent with the existing project cards.
+
+Do NOT introduce:
+- Neon
+- Cyberpunk
+- Excessive glow
+- Fake 3D graphics
+- Generic stock illustrations
+- Unrelated icons
+- Overly colorful charts
+
+The visual should feel like a real Data Analyst project.
+
+==================================================
+PART 3 — CORRECT PROJECT TOOL LABELS ON HOMEPAGE
+==================================================
+
+IMPORTANT:
+
+Review ALL existing project cards on the homepage.
+
+The current tool labels are incorrect on some projects.
+
+Use the following EXACT tool labels:
+
+PROJECT 01
+Sales Performance Analysis — CPX SPORTWEAR
+
+Tools:
+Python
+Looker Studio
+
+Display:
+Python · Looker Studio
+
+Do NOT display SQL.
+
+--------------------------------------------------
+
+PROJECT 02
+Google Ads Campaign Performance Analysis
+
+Tools:
+Python
+Looker Studio
+
+Display:
+Python · Looker Studio
+
+Do NOT display SQL.
+
+--------------------------------------------------
+
+PROJECT 03
+Coffee Shop Sales & Profit Analysis
+
+Tools:
+Python
+Looker Studio
+
+Display:
+Python · Looker Studio
+
+Do NOT display SQL.
+
+--------------------------------------------------
+
+PROJECT 04
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+Tools:
+Python
+Looker Studio
+
+Display:
+Python · Looker Studio
+
+IMPORTANT:
+The current homepage incorrectly shows SQL for this project.
+
+REMOVE SQL.
+
+Do NOT display:
+SQL
+
+The correct tools are ONLY:
+
+Python
+Looker Studio
+
+--------------------------------------------------
+
+PROJECT 05
+Supply Chain Fulfillment Analysis
+
+Tools:
+Python
+Looker Studio
+
+Display:
+Python · Looker Studio
+
+IMPORTANT:
+The current homepage incorrectly shows SQL for this project.
+
+REMOVE SQL.
+
+Do NOT display:
+SQL
+
+The correct tools are ONLY:
+
+Python
+Looker Studio
+
+--------------------------------------------------
+
+PROJECT 06
+Ad Hoc Sales & Profitability Analysis
+
+Tools:
+SQL
+Excel
+
+Display:
+SQL · Excel
+
+Do NOT display:
+Python
+Looker Studio
+
+==================================================
+PART 4 — CORRECT PROJECT #5 VISUAL
+==================================================
+
+IMPORTANT:
+
+The current Project #5 visual is NOT representative of the actual project.
+
+Current visual:
+Orders → Pick → Ship → Delivered
+
+REMOVE this visual concept.
+
+It does NOT reflect the actual analysis.
+
+The real project is:
+
+Fulfillment Rate Analysis for Supply Chain Optimization
+
+The project investigates potential drivers behind a 73.65% fulfillment rate.
+
+The actual analysis examines:
+
+1. Fulfillment vs Lead Time
+2. Fulfillment vs Stock Level
+3. Fulfillment vs Shipping Time
+
+The project found:
+
+- No clear relationship between lead time and fulfillment.
+- High stock levels do not guarantee high fulfillment.
+- Shipping time also does not show a strong relationship with fulfillment.
+- Lead time and shipping time correlations are below 1%.
+- A possible contributing factor could be warehouse or order-processing utilization, but this could not be tested because of data limitations.
+
+Source of truth:
+Use the actual uploaded Supply Chain project materials.
+
+Do NOT invent another operational process flow.
+
+==================================================
+PROJECT #5 VISUAL DIRECTION
+==================================================
+
+Replace the current "Orders → Pick → Ship → Delivered" visual with a visual that represents analytical investigation.
+
+Preferred visual concept:
+
+FULFILLMENT RATE
+
+73.65%
+
+Then show three compact analytical factors:
+
+Stock Level
+Lead Time
+Shipping Time
+
+with subtle visual indicators suggesting that the analysis found:
+
+No Strong Relationship
+
+The visual should communicate:
+
+73.65% Fulfillment
+↓
+Investigating Potential Drivers
+↓
+Stock Level | Lead Time | Shipping Time
+↓
+No Strong Relationship Found
+
+This is an analytical investigation, NOT a physical supply-chain process diagram.
+
+Alternative visual implementation is acceptable if it communicates the same concept more accurately.
+
+The visual must remain simple and consistent with the existing project card design.
+
+IMPORTANT:
+Do not overcrowd the card.
+
+Do not put the full project findings inside the homepage card.
+
+The homepage card remains a preview only.
+
+==================================================
+PART 5 — PROJECT #5 CARD CONTENT
+==================================================
+
+Keep the existing project title:
+
+Supply Chain Fulfillment Analysis
+
+Category:
+
+OPERATIONS · SUPPLY CHAIN ANALYTICS
+
+Context:
+
+Independent Project
+
+Description:
+
+Investigated fulfillment performance to identify potential operational bottlenecks and understand the factors affecting order fulfillment.
+
+Tools:
+
+Python
+Looker Studio
+
+CTA:
+
+View Case Study →
+
+Keep the existing card structure and dimensions.
+
+Only improve the visual preview and incorrect tool labels.
+
+==================================================
+PART 6 — PROJECT ORDER
+==================================================
+
+The homepage Projects section must now contain:
+
+01
+Sales Performance Analysis — CPX SPORTWEAR
+
+02
+Google Ads Campaign Performance Analysis
+
+03
+Coffee Shop Sales & Profit Analysis
+
+04
+Identifying and Profiling High-CLV Customers in E-Commerce
+
+05
+Supply Chain Fulfillment Analysis
+
+06
+Ad Hoc Sales & Profitability Analysis
+
+Do NOT reorder Projects 01–05.
+
+Add Project 06 after Project 05.
+
+==================================================
+PART 7 — PROJECT #6 CASE STUDY PAGE
+==================================================
+
+Create an internal case study page for:
+
+Ad Hoc Sales & Profitability Analysis
+
+Use exactly this structure:
+
+01 — Overview
+02 — Business Questions
+03 — SQL Analysis
+04 — Key Findings
+05 — Excel Report
+06 — Recommendations
+07 — Project Files
+
+This project is intentionally different from the Python + Looker Studio case studies.
+
+Do NOT add:
+- The Data Challenge
+- Dashboard section
+- Kaggle section
+- Fake interactive dashboard
+
+This is an SQL + Excel ad hoc business reporting project.
+
+==================================================
+01 — OVERVIEW
+==================================================
+
+Title:
+Overview
+
+Description:
+
+Analyze sales, profit, expenses, product categories, and customer segments to provide practical financial insights for pricing, marketing, and budget allocation decisions.
+
+Context:
+
+Independent Project · SQL & Excel
+
+Tools:
+
+SQL
+Microsoft Excel
+
+Analysis Areas:
+
+Sales
+Profitability
+Expenses
+Product Performance
+Customer Segments
+
+Keep this section concise.
+
+==================================================
+02 — BUSINESS QUESTIONS
+==================================================
+
+Title:
+Business Questions
+
+Use the following business questions:
+
+1. How is overall financial performance?
+
+Analyze total sales, total profit, and average profit margin.
+
+2. Which product categories perform best?
+
+Compare sales and profit across product categories.
+
+3. How does profitability vary by customer segment?
+
+Compare profitability and average profit margin across customer segments.
+
+4. How do sales, expenses, and net profit change over time?
+
+Analyze monthly financial performance.
+
+5. Which areas require management attention?
+
+Identify weaker-performing areas and periods with negative profit status.
+
+Present these as business questions rather than technical SQL tasks.
+
+==================================================
+03 — SQL ANALYSIS
+==================================================
+
+Title:
+SQL Analysis
+
+Introduce the section with:
+
+SQL was used to query, join, aggregate, and analyze business data across orders, products, customers, regions, and expenses.
+
+Create a concise SQL workflow:
+
+Database Structure
+→ SQL Queries
+→ Joins & Aggregations
+→ Business Metrics
+→ Analysis-ready Results
+
+Show the actual SQL techniques used in the project:
+
+JOIN
+GROUP BY
+Aggregation
+CASE WHEN
+DATE_FORMAT
+Window Function / RANK
+
+Do NOT claim SQL techniques that are not present in the actual SQL file.
+
+Use the uploaded:
+Analysis Queries.sql
+
+as the source of truth.
+
+The SQL analysis covers areas including:
+
+- Overall sales and profit
+- Profit margin
+- Product category performance
+- Monthly sales and profit
+- Expenses and net profit
+- Customer segment performance
+- Regional performance
+- Product category ranking
+- Profit margin by customer segment
+- Monthly profit status
+
+Do not display the entire SQL file on the case study page.
+
+Keep the presentation visual and concise.
+
+==================================================
+04 — KEY FINDINGS
+==================================================
+
+Title:
+Key Findings
+
+Use the actual outputs from the project.
+
+Organize the findings into:
+
+FINANCIAL PERFORMANCE
+
+Sales, profit, expenses, and net profit over time.
+
+PRODUCT PERFORMANCE
+
+Sales and profit by product category.
+
+CUSTOMER SEGMENTS
+
+Profitability and profit margin by customer segment.
+
+MONTHLY PERFORMANCE
+
+Sales, profit, expenses, net profit, and profit status by month.
+
+IMPORTANT:
+
+Use the actual values from the uploaded Excel report.
+
+Do NOT invent numbers.
+
+Do NOT create fake business conclusions.
+
+The Excel file:
+Ad Hoc Report.xlsx
+
+is the source of truth for the final reported results.
+
+==================================================
+05 — EXCEL REPORT
+==================================================
+
+Title:
+Excel Report
+
+Description:
+
+The analysis results were organized into an Excel-based ad hoc report to make the findings easier to review and use for business decision-making.
+
+Highlight the three main report outputs:
+
+1. Monthly Sales vs Expenses
+
+2. Top Product Categories
+
+3. Profit Margin by Segment
+
+Add a primary button:
+
+Open Excel Report →
+
+The button should open or download the actual Excel report:
+
+Ad Hoc Report.xlsx
+
+Do NOT create a fake dashboard.
+
+Do NOT call this an interactive dashboard.
+
+This is an Excel-based ad hoc business report.
+
+==================================================
+06 — RECOMMENDATIONS
+==================================================
+
+Title:
+Recommendations
+
+Create recommendations based directly on the actual findings.
+
+Focus on:
+
+1. Product and Pricing Strategy
+
+Use product-level sales and profitability performance to identify categories that deserve stronger focus or pricing review.
+
+2. Marketing Allocation
+
+Prioritize customer segments and product categories with stronger profitability when allocating marketing resources.
+
+3. Expense Monitoring
+
+Monitor periods where expenses significantly reduce or exceed generated profit.
+
+4. Financial Performance Tracking
+
+Continue monitoring monthly sales, profit, expenses, net profit, and profit status to identify periods requiring management attention.
+
+IMPORTANT:
+Recommendations must be based on the actual project findings.
+
+Do not invent specific business actions unless supported by the results.
+
+==================================================
+07 — PROJECT FILES
+==================================================
+
+Title:
+Project Files
+
+Include:
+
+SQL ANALYSIS
+
+File:
+Analysis Queries.sql
+
+Description:
+SQL queries used to analyze the business data.
+
+EXCEL REPORT
+
+File:
+Ad Hoc Report.xlsx
+
+Description:
+Excel-based ad hoc report containing the analysis outputs.
+
+There is no separate dataset card unless an actual dataset file is available and intended to be shared.
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+CRITICAL:
+
+KEEP THE EXISTING WEBSITE DESIGN.
+
+Do NOT redesign the portfolio.
+
+The new project and updated cards must use the same:
+
+- Dark background
+- Accent color
+- Typography
+- Card style
+- Borders
+- Border radius
+- Shadows
+- Spacing
+- Buttons
+- Hover states
+- Animations
+- Page width
+- Responsive behavior
+
+Do NOT introduce a new visual identity for the SQL + Excel project.
+
+The project may communicate a slightly more business-reporting-oriented feel through its content and visual preview, but it must still belong to the same portfolio.
+
+==================================================
+IMPORTANT HOMEPAGE PRINCIPLE
+==================================================
+
+The homepage is a PROJECT PREVIEW.
+
+Do not place:
+- Full SQL queries
+- Full Excel tables
+- Full project findings
+- Full dashboard content
+- Long descriptions
+
+inside the project cards.
+
+Keep cards concise.
+
+Use:
+Title
+Context
+Short description
+Tools
+Visual preview
+View Case Study →
+
+==================================================
+TECH STACK CONSISTENCY
+==================================================
+
+Final homepage tool mapping MUST be:
+
+Project 01:
+Python · Looker Studio
+
+Project 02:
+Python · Looker Studio
+
+Project 03:
+Python · Looker Studio
+
+Project 04:
+Python · Looker Studio
+
+Project 05:
+Python · Looker Studio
+
+Project 06:
+SQL · Excel
+
+This is important because the portfolio should accurately communicate the tools actually used in each project.
+
+==================================================
+IMPLEMENTATION SAFETY
+==================================================
+
+IMPORTANT:
+
+Only make the requested updates.
+
+Do NOT:
+- Redesign the homepage
+- Change the global navbar
+- Change typography
+- Change colors
+- Change unrelated case studies
+- Change existing project titles
+- Remove existing projects
+- Reorder Projects 01–05
+- Modify global components unnecessarily
+
+Reuse existing project card and case-study components whenever possible.
+
+If an implementation error occurs:
+- Fix only the relevant issue.
+- Do not redesign the page.
+- Do not restructure unrelated components.
+
+==================================================
+FINAL VERIFICATION
+==================================================
+
+Before finishing, verify:
+
+HOMEPAGE:
+
+1. Project 06 appears after Project 05.
+2. Project 06 title is:
+   Ad Hoc Sales & Profitability Analysis
+3. Project 06 shows:
+   SQL · Excel
+4. Project 01 shows:
+   Python · Looker Studio
+5. Project 02 shows:
+   Python · Looker Studio
+6. Project 03 shows:
+   Python · Looker Studio
+7. Project 04 shows:
+   Python · Looker Studio
+8. Project 05 shows:
+   Python · Looker Studio
+9. SQL is removed from Project 04.
+10. SQL is removed from Project 05.
+11. The Project 05 visual no longer shows:
+    Orders → Pick → Ship → Delivered
+12. Project 05 visual accurately communicates:
+    Fulfillment Rate 73.65%
+    + investigation of Stock Level, Lead Time, and Shipping Time.
+13. Project 06 has a working:
+    View Case Study →
+
+PROJECT #6:
+
+14. The case study page compiles successfully.
+15. The structure is:
+    Overview
+    Business Questions
+    SQL Analysis
+    Key Findings
+    Excel Report
+    Recommendations
+    Project Files
+16. The project is clearly positioned as SQL + Excel.
+17. No fake dashboard is created.
+18. The Excel report link works.
+19. The SQL file link works.
+20. All findings are based on the actual uploaded project materials.
+
+MOST IMPORTANT:
+
+KEEP THE EXISTING DESIGN.
+
+DO NOT REDESIGN THE PORTFOLIO.
+
+ADD PROJECT #6.
+
+PROJECT #1–#5:
+Python · Looker Studio
+
+PROJECT #6:
+SQL · Excel
+
+FIX PROJECT #4 TOOL LABEL:
+REMOVE SQL.
+
+FIX PROJECT #5 TOOL LABEL:
+REMOVE SQL.
+
+FIX PROJECT #5 VISUAL:
+REMOVE THE FAKE "ORDERS → PICK → SHIP → DELIVERED" FLOW.
+
+MAKE PROJECT #5 VISUALLY REPRESENT THE ACTUAL ANALYSIS:
+73.65% FULFILLMENT
+→ STOCK LEVEL
+→ LEAD TIME
+→ SHIPPING TIME
+→ NO STRONG RELATIONSHIP FOUND
+
+USE THE ACTUAL PROJECT MATERIALS AS THE SOURCE OF TRUTH.
